@@ -1,0 +1,100 @@
+openapi: '3.0.2'
+info:
+  title: Electrician Service
+  version: '1.0'
+servers:
+  - url: https://localhost/v1
+
+paths:
+  /quote:
+    post:
+      description: "submit a new request for quotation"
+      operationId: "submitRfQ"
+      requestBody:
+        required: true
+        content: 
+          'application/json':
+            schema:
+              $ref: '#/components/schemas/RequestForQuote'
+      responses:
+        '202':
+          description: "id of the quote"
+          content:
+            'application/json':
+              schema:
+                type: integer 
+  /quote/{id}:
+    get:
+      description: "request quotation details"
+      operationId: "getQuoteById"
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+           type: integer          
+      responses:
+        '200':
+          description: 'the quote is ready'
+          content:
+            'application/json':
+              schema:
+                $ref: '#/components/schemas/Quote'       
+        '202':
+          description: 'the quote id is under definition'
+        '404':
+          description: 'the quote id is does not exist'
+
+
+
+components:
+  schemas:
+    Quote:
+      type: object
+      properties:
+        id:
+          type: integer
+          minimum: 0
+        title:
+          type: string 
+        description: 
+          type: string
+        quotation:
+          type: integer
+          minimum: 0
+        currency:
+          type: string
+          enum: 
+            - EUR
+            - USD
+      required:
+        - "id"
+        - "title"
+        - "quotation"
+      example:
+        id: 1
+        title: "a quote"
+        description: "optional description"
+        quotation: 10000
+        currency: "eur"
+    RequestForQuote:
+      type: object
+      properties:
+        requester:
+          type: string
+        request:
+          type: string
+        maxcost: 
+          type: integer
+      required:
+        - "requester"
+        - "request"
+      example:
+        requester: "whoAmI"
+        request: "this is what I want"
+        maxcost: 1000
+
+
+  
+
+      
