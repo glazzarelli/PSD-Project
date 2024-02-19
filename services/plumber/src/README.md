@@ -1,1 +1,1 @@
-this folder contains the source code of plumber service
+this folder contains the source code of a pedagogical service

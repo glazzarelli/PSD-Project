@@ -6,6 +6,6 @@ This folder containts the BPMN source files of the
 * executable process diagram (filename must be executable.bpmi)
 * petri net (filename must be petrinet.tpn)
 
-for each of them a png|gif|pdf image must be included 
+for each of them a png|gif|pdf image must be included, too
 
-The executable process diagram will be downloaded and deployed on Camunda. Add here instructions if needed
+The executable process diagram will be downloaded and deployed on Camunda. Add please add here instructions if needed
