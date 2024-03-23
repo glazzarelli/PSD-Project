@@ -1,12 +1,12 @@
 # Babies360
 (this is a sample text. Revise according to your process)
-We want to model the service offered by a house renovation company to its clients. The house renovation company service relies on the services offered by a set of plumbers, electrician, constructors
-Based on the requests of the client (the householder) contact them and select the best ones
+We want to model the service offered by an agency specialized in providing services to new parents. The company relies on the services offered by internal and external professional such as babysitters, pedagogical consultants and event organizers.sp
+Based on the requests of the client (the parents) the agency contacts them and provides assistance to the fullfilment of the parents needs.
 
 ## Members:
 * member A (Firstname, Lastname, Person Code) 
 * member B (Firstname, Lastname, Person Code)
-* member C (Firstname, Lastname, Person Code)
+* member C (Gabriele, Lazzarelli, 10623766)
 
 ## Choreographed process
 Short description of the choreographed process
