@@ -1,7 +1,7 @@
 # Babies360
 
-We want to model the service offered by an agency specialized in providing services to new parents. The company relies on the services offered by internal and external professional such as babysitters, pedagogical consultants and event organizers.sp
-Based on the requests of the client (the parents) the agency contacts them and provides assistance to the fullfilment of the parents needs.
+We want to model the service offered by an agency specialized in providing services to new parents. The company relies on the services offered by professional such as babysitters, pedagogical consultants and event organizers.
+Based on the requests of the parents the agency help them by coordinating the communication with other service providers.
 
 ## Members:
 * member A (Firstname, Lastname, Person Code) 
