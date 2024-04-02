@@ -18,11 +18,11 @@ Each service provision differs from one another:
 - for the consultant service babies360 acts only as a professional search portal, in this case the value is gained from the consultants which pay a fee for each appointment they make thanks to the babies360 platform.
 
 
-![BPMN choreography of babies360](processes/BMPN-choreography-babies360.svg)
+![BPMN choreography of babies360](processes/choreography-babies360.svg)
 
 ## Collaboration Diagram
 
-place here an image of the BPMN Collaboration diagram, where the only white box is for the Babies360, the others will be black-boxes
+![BPMN collaboration of babies360](processes/collaboration-babies360.svg)
 
 # Third party services
 * baby sitters
