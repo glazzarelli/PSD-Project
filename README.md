@@ -13,9 +13,9 @@ In our design, the parents query babies360 for the available service, then if in
 Each service request has different parameters based on the type of service requested, e.g. the `date` and `time` and for how many `hours` in case of the babysitter request.
 
 Each service provision differs from one another:
-- the babysitting provision takes place in the babies360 from start to finish, the parents decide which babysitter they know from the available ones, the payment has to take place before the service in order to deliver it.
-- in the party planner provision the parents decides only which type of services (among "party services") they will need, then a party planner will search the best solution and will report back to babies360, the payment will be deducted after the party.
-- for the consultant service babies360 acts only as a professional search portal, in this case the value is gained from the consultant which pay a fee for each appointment they make thanks to the babies360 platform.
+- the babysitting provision takes place in the babies360 platform from start to finish, the parents decide which babysitter they know from the available ones, the payment has to take place before the service in order to deliver it.
+- in the party planner provision the parents decides only which type of services (among "party services", e.g., catering) they will need, then a party planner will search the best solution for each category and will report back to babies360, then babies360 will send a proposal to the parents. If the proposal is accepted the plan is confirmed, the payment will be deducted after the party.
+- for the consultant service babies360 acts only as a professional search portal, in this case the value is gained from the consultants which pay a fee for each appointment they make thanks to the babies360 platform.
 
 
 place here an image of the BPMN Choreography diagram
