@@ -1,0 +1,63 @@
+openapi: 3.0.2
+info:
+  title: Pedagogical Consultant Service API
+  version: "1.0"
+servers:
+  - url: http://api.babies360.com/v1
+    description: production server
+  - url: http://localhost:9090/
+    description: dev server
+paths:
+  /consultants:
+    get:
+      summary: Retrieve list of consultants in a specific zone
+      parameters:
+        - in: query
+          name: zone
+          schema:
+            type: string
+          required: true
+          description: Zone of interest
+      responses:
+        "200":
+          description: A list of consultants
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Consultant"
+  /consultants/{id}:
+    get:
+      summary: Retrieve a consultant's profile
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: Consultant ID
+      responses:
+        "200":
+          description: Consultant profile
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Consultant"
+
+components:
+  schemas:
+    Consultant:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        specialties:
+          type: array
+          items:
+            type: string
+        ratings:
+          type: number
+          format: float

@@ -1,0 +1,87 @@
+openapi: "3.0.2"
+info:
+  title: party Service API
+  version: "1.0"
+servers:
+  - url: http://api.babies360.com/v1
+    description: production server
+  - url: http://localhost:9090/
+    description: dev server
+paths:
+  /party-plan:
+    get:
+      summary: "retrieve party offers"
+      responses:
+        "200":
+          description: the list of offers
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+        "400":
+          description: Bad request, parameters are missing or invalid
+  /party-requirements:
+    post:
+      summary: "Specify party service requirements"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                catering:
+                  type: boolean
+                balloons:
+                  type: boolean
+                entertainment:
+                  type: boolean
+                dj:
+                  type: boolean
+                bus_service:
+                  type: boolean
+      responses:
+        "200":
+          description: "Confirmation of received requirements and initiation of vendor search."
+        "400":
+          description: Bad request, parameters are missing or invalid
+  /proposal:
+    get:
+      summary: "View proposal for party services"
+      responses:
+        "200":
+          description: "Detailed proposal with options for each service category."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  catering:
+                    type: object
+                  balloons:
+                    type: object
+                  entertainment:
+                    type: object
+                  dj:
+                    type: object
+                  bus_service:
+                    type: object
+
+  /proposal-selection:
+    post:
+      summary: "Select one proposal per category"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: object
+      responses:
+        "200":
+          description: "Confirmation of selection and scheduling of services"
+        "400":
+          description: "Bad request, parameters are missing or invalid"

@@ -1,0 +1,70 @@
+openapi: "3.0.2"
+info:
+  title: Babysitting Service API
+  version: "1.0"
+servers:
+  - url: http://api.babies360.com/v1
+    description: production server
+  - url: http://localhost:9090/
+    description: dev server
+paths:
+  /babysitters:
+    get:
+      summary: Query available babysitters for a specific date and time
+      parameters:
+        - name: date
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date
+        - name: time
+          in: query
+          required: true
+          schema:
+            type: string
+            format: time
+      responses:
+        "200":
+          description: List of available babysitters with profiles and availability
+        "400":
+          description: Bad request, parameters are missing or invalid
+  /babysitters/{id}:
+    get:
+      summary: View babysitter profile and ratings
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Detailed profile of the babysitter including ratings and reviews
+        "400":
+          description: Bad request, parameters are missing or invalid
+        "404":
+        description: Babysitter not found
+  /booking:
+    post:
+      summary: Select a babysitter and proceed to payment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                babysitterId:
+                  type: string
+                date:
+                  type: string
+                time:
+                  type: string
+      responses:
+        "200":
+          description: Payment portal and confirmation of booking upon successful payment
+        "400":
+          description: Bad request, parameters are missing or invalid
+        "404":
+          description: Babysitter not found
