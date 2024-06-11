@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "text": "{{ babysitterResponse }}",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0f2i853",
+        "columns": null
+      },
+      "id": "Field_0fzawd1"
+    }
+  ],
+  "type": "default",
+  "id": "babysitter_registration_result",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

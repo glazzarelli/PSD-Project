@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# You're all set!",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1bvzrq2",
+        "columns": null
+      },
+      "id": "Field_0v4mo7l"
+    },
+    {
+      "text": "### Your appointment is confirmed.\n### You can now proceed with the payment.",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1q8wcqb",
+        "columns": null
+      },
+      "id": "Field_1t4omav"
+    }
+  ],
+  "type": "default",
+  "id": "babysitter_payment",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

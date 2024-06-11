@@ -1,0 +1,50 @@
+{
+  "components": [
+    {
+      "text": "# Select babysitter\n\nChoose the babysitter you prefer among the following ones, or leave the form empty if you do not want to proceed anymore.",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1drhkmc",
+        "columns": null
+      },
+      "id": "Field_1us3wsr"
+    },
+    {
+      "text": "=availableBbsResponse",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_16r7ipo",
+        "columns": null
+      },
+      "id": "Field_1clskmp"
+    },
+    {
+      "label": "Available babysitters",
+      "type": "radio",
+      "layout": {
+        "row": "Row_16vt5xj",
+        "columns": null
+      },
+      "id": "Field_0qubj39",
+      "key": "babysitter_chosen",
+      "validate": {
+        "required": false
+      },
+      "valuesExpression": "=for bb in availableBabysitters return\n  { \"label\": bb.name + \" \" + bb.surname + \", total price: \" + bb.price,\n    \"value\": bb.email\n  }",
+      "conditional": {
+        "hide": "=availableBabysitters = null"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "select_babysitter",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

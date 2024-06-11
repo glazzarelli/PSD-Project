@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "text": "# Insert here the details of your request",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_156gw41",
+        "columns": null
+      },
+      "id": "Field_1hnks37"
+    },
+    {
+      "components": [
+        {
+          "text": "## When",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_0dxdv4a",
+            "columns": null
+          },
+          "id": "Field_1yrcgwc"
+        },
+        {
+          "values": [
+            {
+              "label": "Monday",
+              "value": "1"
+            },
+            {
+              "label": "Tuesday",
+              "value": "2"
+            },
+            {
+              "label": "Wednesday",
+              "value": "3"
+            },
+            {
+              "label": "Thursday",
+              "value": "4"
+            },
+            {
+              "label": "Friday",
+              "value": "5"
+            },
+            {
+              "label": "Saturday",
+              "value": "6"
+            },
+            {
+              "label": "Sunday",
+              "value": "7"
+            }
+          ],
+          "label": "Select day of the week",
+          "type": "select",
+          "layout": {
+            "row": "Row_0dxdv4a",
+            "columns": null
+          },
+          "id": "Field_0wx04dh",
+          "key": "day",
+          "validate": {
+            "required": true
+          },
+          "searchable": false
+        },
+        {
+          "text": "## Starting time",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_0cz1cld",
+            "columns": null
+          },
+          "id": "Field_1jnw35l"
+        },
+        {
+          "subtype": "time",
+          "dateLabel": "Date",
+          "label": "Date time",
+          "type": "datetime",
+          "layout": {
+            "row": "Row_0cz1cld",
+            "columns": null
+          },
+          "id": "Field_1q2ayzd",
+          "key": "time",
+          "timeLabel": "Time",
+          "timeSerializingFormat": "utc_offset",
+          "timeInterval": 60,
+          "use24h": true,
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "Date & time",
+      "type": "group",
+      "layout": {
+        "row": "Row_0ratkiu",
+        "columns": null
+      },
+      "id": "Field_0y5tvnx"
+    },
+    {
+      "components": [
+        {
+          "text": "## In which city",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_0t3yntq",
+            "columns": null
+          },
+          "id": "Field_0kugbdd"
+        },
+        {
+          "values": [
+            {
+              "label": "Rome",
+              "value": "Rome"
+            },
+            {
+              "label": "Milan",
+              "value": "Milan"
+            },
+            {
+              "label": "Naples",
+              "value": "Naples"
+            },
+            {
+              "label": "Florence",
+              "value": "Florence"
+            },
+            {
+              "label": "Venice",
+              "value": "Venice"
+            }
+          ],
+          "label": "Select city",
+          "type": "select",
+          "layout": {
+            "row": "Row_0t3yntq",
+            "columns": null
+          },
+          "id": "Field_1jjtq2n",
+          "key": "city",
+          "searchable": true,
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "City",
+      "type": "group",
+      "layout": {
+        "row": "Row_19c2nvj",
+        "columns": null
+      },
+      "id": "Field_0vvw4hp"
+    },
+    {
+      "components": [
+        {
+          "text": "## How many children",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_091x0yf",
+            "columns": null
+          },
+          "id": "Field_0149h0b"
+        },
+        {
+          "label": "Number of children",
+          "type": "number",
+          "layout": {
+            "row": "Row_091x0yf",
+            "columns": null
+          },
+          "id": "Field_14hss2n",
+          "key": "children",
+          "increment": "1",
+          "validate": {
+            "required": true,
+            "min": 1,
+            "max": 10
+          },
+          "serializeToString": false
+        },
+        {
+          "text": "## How many hours",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_0fgyo61",
+            "columns": null
+          },
+          "id": "Field_0uv1qlo"
+        },
+        {
+          "label": "How many hours",
+          "type": "number",
+          "layout": {
+            "row": "Row_0fgyo61",
+            "columns": null
+          },
+          "id": "Field_063c9zb",
+          "key": "hours",
+          "defaultValue": 1,
+          "increment": "1",
+          "validate": {
+            "required": true,
+            "min": 1,
+            "max": 24
+          }
+        },
+        {
+          "text": "## Type of service",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_04qkqfq",
+            "columns": null
+          },
+          "id": "Field_015z8hy"
+        },
+        {
+          "values": [
+            {
+              "label": "Homework help",
+              "value": "homework_help"
+            },
+            {
+              "label": "Pick up",
+              "value": "pick_up"
+            },
+            {
+              "label": "Keep company",
+              "value": "keep_company"
+            },
+            {
+              "label": "Play",
+              "value": "play"
+            }
+          ],
+          "label": "Select service",
+          "type": "checklist",
+          "layout": {
+            "row": "Row_04qkqfq",
+            "columns": null
+          },
+          "id": "Field_14tris0",
+          "key": "babysitter_services",
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "Service",
+      "type": "group",
+      "layout": {
+        "row": "Row_04qgfe1",
+        "columns": null
+      },
+      "id": "Field_0n5g1j0"
+    }
+  ],
+  "type": "default",
+  "id": "babysitter_details_form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

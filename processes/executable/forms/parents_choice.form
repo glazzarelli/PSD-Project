@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "text": "# Which service do you need?",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_15jrip2",
+        "columns": null
+      },
+      "id": "Field_1qnzrnv"
+    },
+    {
+      "values": [
+        {
+          "label": "Babysitter",
+          "value": "babysitter"
+        },
+        {
+          "label": "Party organizer",
+          "value": "party_organizer"
+        },
+        {
+          "label": "Pedagogical consultant",
+          "value": "pedagogical_consultant"
+        }
+      ],
+      "label": "Insert your choice",
+      "type": "radio",
+      "layout": {
+        "row": "Row_0htwm0m",
+        "columns": null
+      },
+      "id": "Field_1ahcfm3",
+      "key": "choice",
+      "validate": {
+        "required": true
+      },
+      "properties": {}
+    }
+  ],
+  "type": "default",
+  "id": "parents_choice",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

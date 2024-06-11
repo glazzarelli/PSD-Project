@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "text": "# Insert the details of your request",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1hk4mpy",
+        "columns": null
+      },
+      "id": "Field_1a8b0il"
+    },
+    {
+      "components": [
+        {
+          "text": "## In which city",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_0op1x6h",
+            "columns": null
+          },
+          "id": "Field_0qjpot5"
+        },
+        {
+          "values": [
+            {
+              "label": "Rome",
+              "value": "Rome"
+            },
+            {
+              "label": "Milan",
+              "value": "Milan"
+            },
+            {
+              "label": "Florence",
+              "value": "Florence"
+            },
+            {
+              "label": "Venice",
+              "value": "Venice"
+            },
+            {
+              "label": "Naples",
+              "value": "Naples"
+            }
+          ],
+          "label": "City",
+          "type": "select",
+          "layout": {
+            "row": "Row_0op1x6h",
+            "columns": null
+          },
+          "id": "Field_1xf5vy5",
+          "key": "city",
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "City",
+      "type": "group",
+      "layout": {
+        "row": "Row_0muphcs",
+        "columns": null
+      },
+      "id": "Field_1xprq6v"
+    }
+  ],
+  "type": "default",
+  "id": "pedagogical_consultant_details",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

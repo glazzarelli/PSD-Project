@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "text": "# Insert here the details of your request",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_16zto64",
+        "columns": null
+      },
+      "id": "Field_1dm57p6"
+    },
+    {
+      "components": [
+        {
+          "text": "## When",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_1s242vi",
+            "columns": null
+          },
+          "id": "Field_0vldxle"
+        },
+        {
+          "values": [
+            {
+              "label": "Monday",
+              "value": "1"
+            },
+            {
+              "label": "Tuesday",
+              "value": "2"
+            },
+            {
+              "label": "Wednesday",
+              "value": "3"
+            },
+            {
+              "label": "Thursday",
+              "value": "4"
+            },
+            {
+              "label": "Friday",
+              "value": "5"
+            },
+            {
+              "label": "Saturday",
+              "value": "6"
+            },
+            {
+              "label": "Sunday",
+              "value": "7"
+            }
+          ],
+          "label": "Select date",
+          "type": "select",
+          "layout": {
+            "row": "Row_1s242vi",
+            "columns": null
+          },
+          "id": "Field_07pc5bg",
+          "key": "day",
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "Date",
+      "type": "group",
+      "layout": {
+        "row": "Row_1houkfx",
+        "columns": null
+      },
+      "id": "Field_12i8kvw"
+    },
+    {
+      "components": [
+        {
+          "text": "## In which city",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_1k5uhxp",
+            "columns": null
+          },
+          "id": "Field_0qzsyr0"
+        },
+        {
+          "values": [
+            {
+              "label": "Rome",
+              "value": "Rome"
+            },
+            {
+              "label": "Milan",
+              "value": "Milan"
+            },
+            {
+              "label": "Florence",
+              "value": "Florence"
+            },
+            {
+              "label": "Naples",
+              "value": "Naples"
+            },
+            {
+              "label": "Venice",
+              "value": "Venice"
+            }
+          ],
+          "label": "City",
+          "type": "select",
+          "layout": {
+            "row": "Row_1k5uhxp",
+            "columns": null
+          },
+          "id": "Field_16srdyz",
+          "key": "city",
+          "searchable": true,
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "City",
+      "type": "group",
+      "layout": {
+        "row": "Row_1eqzveu",
+        "columns": null
+      },
+      "id": "Field_04ptliq"
+    },
+    {
+      "components": [
+        {
+          "text": "## Which options",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_1vepagn",
+            "columns": null
+          },
+          "id": "Field_1tbyyoj"
+        },
+        {
+          "values": [
+            {
+              "label": "Balloons",
+              "value": "balloons"
+            },
+            {
+              "label": "Catering",
+              "value": "catering"
+            },
+            {
+              "label": "Entertainment",
+              "value": "entertainment"
+            },
+            {
+              "label": "DJ",
+              "value": "dj"
+            },
+            {
+              "label": "Bus service",
+              "value": "bus_service"
+            }
+          ],
+          "label": "Party options",
+          "type": "checklist",
+          "layout": {
+            "row": "Row_1vepagn",
+            "columns": null
+          },
+          "id": "Field_09i46id",
+          "key": "party_options",
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "Options",
+      "type": "group",
+      "layout": {
+        "row": "Row_0dej5t6",
+        "columns": null
+      },
+      "id": "Field_1mi6p5t"
+    },
+    {
+      "components": [
+        {
+          "text": "## Insert your budget",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_0l98rog",
+            "columns": null
+          },
+          "id": "Field_0lx68aq"
+        },
+        {
+          "values": [
+            {
+              "label": "Low",
+              "value": "1"
+            },
+            {
+              "label": "Medium",
+              "value": "2"
+            },
+            {
+              "label": "High",
+              "value": "3"
+            }
+          ],
+          "label": "Budget",
+          "type": "select",
+          "layout": {
+            "row": "Row_0l98rog",
+            "columns": null
+          },
+          "id": "Field_1l6gv1k",
+          "key": "budget",
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "Budget",
+      "type": "group",
+      "layout": {
+        "row": "Row_1240swd",
+        "columns": null
+      },
+      "id": "Field_09g7zr6"
+    }
+  ],
+  "type": "default",
+  "id": "party_organizer_details",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "text": "# Compile your weekly schedule",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_15bwa2w",
+        "columns": null
+      },
+      "id": "Field_1aodjoz"
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ulqfmh",
+        "columns": null
+      },
+      "id": "Field_0ghuuah",
+      "key": "email",
+      "validate": {
+        "required": true,
+        "validationType": "email"
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Monday",
+          "value": "1"
+        },
+        {
+          "label": "Tuesday",
+          "value": "2"
+        },
+        {
+          "label": "Wednesday",
+          "value": "3"
+        },
+        {
+          "label": "Thursday",
+          "value": "4"
+        },
+        {
+          "label": "Friday",
+          "value": "5"
+        },
+        {
+          "label": "Saturday",
+          "value": "6"
+        },
+        {
+          "label": "Sunday",
+          "value": "7"
+        }
+      ],
+      "label": "Tick the days in which you are available",
+      "type": "checklist",
+      "layout": {
+        "row": "Row_0s7xhty",
+        "columns": null
+      },
+      "id": "Field_0l1cfbo",
+      "key": "weekly_availabilities",
+      "properties": {}
+    }
+  ],
+  "type": "default",
+  "id": "babysitter_availabilities",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

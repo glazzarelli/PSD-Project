@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "text": "# Here are the results",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_03unlfz",
+        "columns": null
+      },
+      "id": "Field_05l5h5f"
+    },
+    {
+      "text": "### {{consultantsResponse}} in {{ city }}.",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0p62cmr",
+        "columns": null
+      },
+      "id": "Field_0x67w2x"
+    },
+    {
+      "label": "Consultants",
+      "type": "table",
+      "layout": {
+        "row": "Row_1ubpc48",
+        "columns": null
+      },
+      "dataSource": "=for pc in consultants return\n  {\"name\": pc.name,\n   \"surname\": pc.surname,\n   \"email\": pc.email,\n   \"phone\": pc.phone,\n   \"address\": pc.address}\n",
+      "conditional": {
+        "hide": "=consultants = null"
+      },
+      "rowCount": 10,
+      "id": "Field_0jpc8jg",
+      "columns": [
+        {
+          "label": "Name",
+          "key": "name"
+        },
+        {
+          "label": "Surname",
+          "key": "surname"
+        },
+        {
+          "key": "email",
+          "label": "Email"
+        },
+        {
+          "label": "Phone",
+          "key": "phone"
+        },
+        {
+          "label": "Address",
+          "key": "address"
+        }
+      ]
+    }
+  ],
+  "type": "default",
+  "id": "pedagogical_consultant_display",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

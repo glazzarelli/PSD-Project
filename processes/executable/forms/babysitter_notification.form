@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# You have been hired!",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0bahkpn",
+        "columns": null
+      },
+      "id": "Field_1b6tc18"
+    },
+    {
+      "text": "## Job details:\n{{\"On \" + day+ \" at \" + time + \".\"}}",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1oxqkq4",
+        "columns": null
+      },
+      "id": "Field_0vg7lvw"
+    },
+    {
+      "text": "## {{ updateResult }}",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_17l48j4",
+        "columns": null
+      },
+      "id": "Field_0sz10nt"
+    }
+  ],
+  "type": "default",
+  "id": "babysitter_notification",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

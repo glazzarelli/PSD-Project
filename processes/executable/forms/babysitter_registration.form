@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "text": "# Create a new profile",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_09fnjs9",
+        "columns": null
+      },
+      "id": "Field_07j61vo"
+    },
+    {
+      "components": [
+        {
+          "label": "Name",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_07alspv",
+            "columns": null
+          },
+          "id": "Field_0kgw1fa",
+          "key": "name",
+          "validate": {
+            "required": true,
+            "minLength": 1,
+            "pattern": "^[a-zA-Z ,.'-]+$"
+          }
+        },
+        {
+          "label": "Surname",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_07alspv",
+            "columns": null
+          },
+          "id": "Field_0b65mqv",
+          "key": "surname",
+          "validate": {
+            "required": true,
+            "pattern": "^[a-zA-Z ,.'-]+$",
+            "minLength": 1
+          }
+        },
+        {
+          "label": "City",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_00zesy2",
+            "columns": 11
+          },
+          "id": "Field_0841pl8",
+          "key": "city",
+          "validate": {
+            "required": true,
+            "pattern": "^[a-zA-Z ,.'-]+$"
+          }
+        },
+        {
+          "label": "Postal code",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_00zesy2",
+            "columns": null
+          },
+          "id": "Field_091939d",
+          "key": "postal_code",
+          "validate": {
+            "required": true,
+            "pattern": "^[0-9]*$",
+            "minLength": 1
+          },
+          "properties": {}
+        }
+      ],
+      "showOutline": true,
+      "label": "",
+      "type": "group",
+      "layout": {
+        "row": "Row_04djtau",
+        "columns": null
+      },
+      "id": "Field_0vr5ofd"
+    },
+    {
+      "components": [
+        {
+          "label": "Phone number",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_10wtrux",
+            "columns": null
+          },
+          "id": "Field_0na1lxq",
+          "key": "phone",
+          "validate": {
+            "required": true,
+            "validationType": "phone"
+          }
+        },
+        {
+          "label": "Email",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_0gksvja",
+            "columns": null
+          },
+          "id": "Field_04e4hw7",
+          "key": "email",
+          "validate": {
+            "required": true,
+            "validationType": "email"
+          },
+          "description": "example@mail.com"
+        }
+      ],
+      "showOutline": true,
+      "label": "Contacts",
+      "type": "group",
+      "layout": {
+        "row": "Row_0jecuyl",
+        "columns": null
+      },
+      "id": "Field_0migjwa"
+    },
+    {
+      "components": [
+        {
+          "text": "Tick the task(s) you can do",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_0hczqlq",
+            "columns": null
+          },
+          "id": "Field_17ww364"
+        },
+        {
+          "values": [
+            {
+              "label": "Homework help",
+              "value": "homework_help"
+            },
+            {
+              "label": "Pick up",
+              "value": "pick_up"
+            },
+            {
+              "label": "Keep company",
+              "value": "keep_company"
+            },
+            {
+              "label": "Play",
+              "value": "play"
+            }
+          ],
+          "label": "Services",
+          "type": "checklist",
+          "layout": {
+            "row": "Row_0hczqlq",
+            "columns": null
+          },
+          "id": "Field_1s1xpwd",
+          "key": "babysitter_services",
+          "validate": {
+            "required": true
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "Services",
+      "type": "group",
+      "layout": {
+        "row": "Row_0mrdy6g",
+        "columns": null
+      },
+      "id": "Field_0rs35c5"
+    },
+    {
+      "components": [
+        {
+          "text": "Insert here the salary you'd like to receive for an hour of work with one kid",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_12d43dq",
+            "columns": null
+          },
+          "id": "Field_1fhe8oz"
+        },
+        {
+          "label": "Hourly salary",
+          "type": "number",
+          "layout": {
+            "row": "Row_12d43dq",
+            "columns": null
+          },
+          "id": "Field_1rs3qdi",
+          "key": "hourly_salary",
+          "decimalDigits": 1,
+          "increment": "1",
+          "appearance": {
+            "prefixAdorner": "€"
+          },
+          "validate": {
+            "required": true,
+            "min": 0
+          }
+        }
+      ],
+      "showOutline": true,
+      "label": "Salary",
+      "type": "group",
+      "layout": {
+        "row": "Row_0czsbj4",
+        "columns": null
+      },
+      "id": "Field_0nxgi62"
+    }
+  ],
+  "type": "default",
+  "id": "babysitter_registration",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}
