@@ -11,7 +11,7 @@
       "id": "Field_1b6tc18"
     },
     {
-      "text": "## Job details:\n{{\"On \" + day+ \" at \" + time + \".\"}}",
+      "text": "## Job details:\n{{\"On \" + day + \" at \" + time + \".\"}}",
       "label": "Text view",
       "type": "text",
       "layout": {
