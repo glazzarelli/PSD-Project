@@ -25,12 +25,14 @@ module.exports.funcbabysittersupdateavailabilities = function funcbabysittersupd
                 message: 'Babysitter availability updated successfully!'
             });
         } else {
-            res.status(404).send({
+            // should be res.status(404) but if we put it this way, camunda process will fail
+            res.send({
                 message: 'Babysitter not found.'
             });
         }
     } catch (error) {
-        res.status(500).send({
+        // should be res.status(500) but if we put it this way, camunda process will fail
+        res.send({
             message: 'An error occurred while updating the babysitter availability.'
         });
     }

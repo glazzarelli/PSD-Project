@@ -36,12 +36,14 @@ module.exports.funcbabysittersbooking = function funcbabysittersbooking(req, res
 
     } catch (e) {
         // if there is an error, send an error message
-        res.status(500).send({
+        // should be res.status(500) but if we put it this way, camunda process will fail
+        res.send({
             message: 'An error occurred while booking the babysitter.'
         });
     }
 
-    res.status(404).send({ 
+    // should be res.status(404) but if we put it this way, camunda process will fail
+    res.send({ 
         message: 'Babysitter not found.' 
     });
 }

@@ -16,7 +16,8 @@ module.exports.funcbabysittersregister = function funcregister(req, res) {
 
         if (existingBabysitter) {
             // if the babysitter already exists, send an error message
-            res.status(400).send({
+            // should be res.status(400) but if we put it this way, camunda process will fail
+            res.send({
                 message: 'A babysitter with this email already exists.'
             });
         } else {
@@ -32,7 +33,8 @@ module.exports.funcbabysittersregister = function funcregister(req, res) {
         }
     } catch (error) {
         // if there is an error, send an error message
-        res.status(500).send({
+        // should be res.status(500) but if we put it this way, camunda process will fail
+        res.send({
             message: 'An error occurred while registering the babysitter.'
         });
     }

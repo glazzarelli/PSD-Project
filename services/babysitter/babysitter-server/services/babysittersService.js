@@ -7,10 +7,7 @@ module.exports.funcbabysitters = function babysitters(req, res) {
     const requestedCity = req.query.city;
     const numOfChildren = req.query.numofchildren;
     const requestedHours = req.query.numofhours;
-    const requestedServices = JSON.parse(req.query.requestedservices);
-
-    console.log(requestedDay, requestedCity, numOfChildren, requestedHours, requestedServices);
-    console.log(typeof requestedDay, typeof requestedCity, typeof numOfChildren, typeof requestedHours, typeof requestedServices);
+    const requestedServices = req.query.requestedservices.split(',');
 
     let availableBabysitters = [];
 
@@ -20,23 +17,15 @@ module.exports.funcbabysitters = function babysitters(req, res) {
 
         for (let babysitter of babysitters) {
             let flag = true;
-            
-            console.log(babysitter.surname)
 
-            console.log(babysitter.city === requestedCity)
-            console.log(babysitter.city == requestedCity)
             if (babysitter.city === requestedCity) {
-                console.log('matching city')
                 for (let reqService of requestedServices) {
                     if (!babysitter.services.includes(reqService)) {
-                        console.log('service not provided')
                         // if the babysitter does not provide the requested service, set the flag to false
                         flag = false;
                         break;
                     }
                 }
-
-                console.log('flag1: ', flag);
 
                 for (let day of babysitter.availabilities) {
                     if (requestedDay === day.day && day.is_available !== "true") {
@@ -46,11 +35,9 @@ module.exports.funcbabysitters = function babysitters(req, res) {
                     }
                 }
 
-                console.log('flag2: ', flag);
-
                 if (flag) {
                     // if the babysitter satisfies all the criteria, calculate the price she requests and add it to the list
-                    babysitter.price = numOfChildren * babysitter.hourly_salary * requestedHours;
+                    babysitter.price = (numOfChildren * babysitter.hourly_salary * requestedHours).toString();
                     availableBabysitters.push(babysitter);
                 }
             }
@@ -62,9 +49,9 @@ module.exports.funcbabysitters = function babysitters(req, res) {
         });
 
     } catch (e) {
-        console.error(e);
-        res.status(500).send({
-            message: 'An error occurred while retrieving the babysitters.'
+        // should be res.status(500) but if we put it this way, camunda process will fail
+        res.send({
+            message: "An error occurred while retrieving the babysitters."
         });
     }
 }

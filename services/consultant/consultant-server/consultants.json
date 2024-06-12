@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Bianca",
+    "surname": "Rossi",
+    "address": "Via Roma 1",
+    "phone": "+3934567890",
+    "email": "b.rossi@mail.it",
+    "city": "Rome"
+  },
+  {
+    "name": "Matteo",
+    "surname": "Fiore",
+    "address": "Via Milano 2",
+    "phone": "+3934567890",
+    "email": "matteo@mail.it",
+    "city": "Rome"
+  },
+  {
+    "name": "Federica",
+    "surname": "Rossi",
+    "address": "Via Roma 1",
+    "phone": "+393456789012",
+    "email": "fede@mail.it",
+    "city": "Milan"
+  },
+  {
+    "name": "Sara",
+    "surname": "Conti",
+    "address": "Via Venezia 3",
+    "phone": "+393494567890",
+    "email": "saraconti@mail.it",
+    "city": "Milan"
+  },
+  {
+    "name": "Alessandro",
+    "surname": "Moretti",
+    "address": "Via Torino 14",
+    "phone": "+393495678901",
+    "email": "alessandromoretti@mail.it",
+    "city": "Milan"
+  },
+  {
+    "name": "Giovanni",
+    "surname": "Rossi",
+    "address": "Via Roma 1",
+    "phone": "+393924567890",
+    "email": "gio.rossi@mail.it",
+    "city": "Naples"
+  },
+  {
+    "name": "Giulia",
+    "surname": "Martino",
+    "address": "Via Mazzini 18",
+    "phone": "+393336789012",
+    "email": "giumartino@mail.it",
+    "city": "Naples"
+  },
+  {
+    "name": "Ilaria",
+    "surname": "Russo",
+    "address": "Via Firenze 6",
+    "phone": "+39348987654",
+    "email": "ilariarusso@mail.it",
+    "city": "Naples"
+  },
+  {
+    "name": "Martina",
+    "surname": "Ricci",
+    "address": "Via Palermo 10",
+    "phone": "+393498901234",
+    "email": "martinaricci@mail.it",
+    "city": "Naples"
+  },
+  {
+    "name": "Andrea",
+    "surname": "Marini",
+    "address": "Via Bari 5",
+    "phone": "+393499012345",
+    "email": "andreamarini@mail.it",
+    "city": "Naples"
+  },
+  {
+    "name": "Elena",
+    "surname": "Rossi",
+    "address": "Via Bologna 9",
+    "phone": "+393496789012",
+    "email": "elenarossi@mail.it",
+    "city": "Venice"
+  },
+  {
+    "name": "Davide",
+    "surname": "Esposito",
+    "address": "Via Genova 7",
+    "phone": "+393497890123",
+    "email": "davideesposito@mail.it",
+    "city": "Venice"
+  },
+  {
+    "name": "Federica",
+    "surname": "Galli",
+    "address": "Via Trieste 15",
+    "phone": "+393400123456",
+    "email": "federicagalli@mail.it",
+    "city": "Venice"
+  },
+  {
+    "name": "Marco",
+    "surname": "Bianchi",
+    "address": "Via Milano 12",
+    "phone": "+393491234567",
+    "email": "marcobianchi@mail.it",
+    "city": "Florence"
+  },
+  {
+    "name": "Giulia",
+    "surname": "Ferrari",
+    "address": "Via Roma 20",
+    "phone": "+393492345678",
+    "email": "giuliaferrari@mail.it",
+    "city": "Florence"
+  },
+  {
+    "name": "Luca",
+    "surname": "Verdi",
+    "address": "Via Napoli 8",
+    "phone": "+393493456789",
+    "email": "lucaverdi@mail.it",
+    "city": "Florence"
+  }
+]

@@ -19,13 +19,15 @@ module.exports.funcbabysittersid = function funcbabysittersid(req, res) {
             res.send(babysitter);
         } else {
             // if the babysitter is not found, send a 404 status code with a message
-            res.status(404).send({
+            // should be res.status(400) but if we put it this way, camunda process will fail
+            res.send({
                 message: 'Babysitter not found.'
             });
         }
     } catch (error) {
         // if there is an error, send a 500 status code with a message
-        res.status(500).send({
+        // should be res.status(500) but if we put it this way, camunda process will fail
+        res.send({
             message: 'An error occurred while retrieving the babysitter.'
         });
     }
