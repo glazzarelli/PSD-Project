@@ -24,7 +24,7 @@ paths:
             type: string
           required: true
         - in: query
-          name: requestedservices
+          name: options
           schema:
             type: array
             items:

@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Decorations Galore",
+        "price": 1,
+        "city": "Rome",
+        "category": "decorations"
+    },
+    {
+        "name": "Party decorations",
+        "price": 2,
+        "city": "Milan",
+        "category": "decorations"
+    },
+    {
+        "name": "Celebration Supplies",
+        "price": 3,
+        "city": "Naples",
+        "category": "decorations"
+    },
+
+    {
+        "name": "Catering for You",
+        "price": 1,
+        "city": "Rome",
+        "category": "catering"
+    },
+    {
+        "name": "Party Platters",
+        "price": 2,
+        "city": "Milan",
+        "category": "catering"
+    },
+    
+    {
+        "name": "Entertainment Galore",
+        "price": 1,
+        "city": "Rome",
+        "category": "entertainment"
+    },
+    
+    {
+        "name": "DJ Galore",
+        "price": 1,
+        "city": "Rome",
+        "category": "dj"
+    },
+
+    {
+        "name": "DJ 102.5",
+        "price": 1,
+        "city": "Milan",
+        "category": "dj"
+    },
+    
+    {
+        "name": "Bus Galore",
+        "price": 1,
+        "city": "Rome",
+        "category": "bus_service"
+    }
+]

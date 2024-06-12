@@ -11,37 +11,27 @@
       "id": "Field_16b2ndf"
     },
     {
-      "text": "=if (flag != true)\nthen \"We're sorry, but there are no vendors available for any of the categories you chose :(\"\nelse \"Please express your preferences\"",
-      "label": "Text view",
-      "type": "text",
-      "layout": {
-        "row": "Row_0cz5tac",
-        "columns": null
-      },
-      "id": "Field_1bm3idz"
-    },
-    {
       "components": [
         {
-          "label": "Balloons vendors",
+          "label": "Decorations vendors",
           "type": "radio",
           "layout": {
             "row": "Row_1467rzb",
             "columns": null
           },
           "id": "Field_1suznoq",
-          "key": "balloons_vendor_chosen",
+          "key": "decorations_vendor_chosen",
           "validate": {
             "required": false
           },
-          "valuesExpression": "=for vendor in availableBalloons return\n    {\n      \"label\": vendor.name,\n      \"value\": vendor.name\n    }",
+          "valuesExpression": "=for vendor in availableDecorations return\n    {\n      \"label\": vendor.name,\n      \"value\": vendor.name\n    }",
           "conditional": {
-            "hide": "=not(\"balloons\" in party_options)"
+            "hide": "=not(\"decorations\" in party_options)"
           }
         }
       ],
       "showOutline": true,
-      "label": "Balloons",
+      "label": "Decorations",
       "type": "group",
       "layout": {
         "row": "Row_0qej12k",
@@ -49,7 +39,7 @@
       },
       "id": "Field_0fj9gp7",
       "conditional": {
-        "hide": "=not(\"balloons\" in party_options)"
+        "hide": "=not(\"decorations\" in party_options)"
       }
     },
     {
