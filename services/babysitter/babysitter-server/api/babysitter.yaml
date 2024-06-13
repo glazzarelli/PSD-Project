@@ -11,7 +11,7 @@ servers:
 paths:
   /babysitters:
     get:
-      summary: Query available babysitters for a specific date and time
+      summary: Fetch the babysitters available for specific parameters
       parameters:
         - name: date
           in: query
@@ -19,27 +19,39 @@ paths:
           schema:
             type: string
             format: date
+          description: Date in which the babysitter is needed
+          example: "1" # for now we use a single digit for the day of the week
         - name: starttime
           in: query
           required: true
           schema:
             type: string
             format: time
+          description: Start time of the babysitting service
+          example: "9:00"
         - name: numofhours
           in: query
           required: true
           schema:
             type: integer
+            minimum: 1
+          description: Number of hours of the babysitting service
+          example: 3
         - name: city
           in: query
           required: true
           schema:
             type: string
+          description: City where the babysitter is needed
+          example: Milan
         - name: numofchildren
           in: query
           required: true
           schema:
             type: integer
+            minimum: 1
+          description: Number of children to babysit
+          example: 2
         - name: requestedservices
           in: query
           required: true
@@ -47,6 +59,8 @@ paths:
             type: array
             items:
               type: string
+          description: Services requested by the parents
+          example: ["homework_help", "pick_up", "keep_company", "play"]
       responses:
         "200":
           description: List of available babysitters with profiles and availability
@@ -55,20 +69,22 @@ paths:
   
   /babysitters/{id}:
     get:
-      summary: View babysitter profile and ratings
+      summary: View babysitter profile
       parameters:
         - name: id
           in: path
           required: true
           schema:
             type: string
+          description: Babysitter email
+          example: bianca@mail.it
       responses:
         "200":
-          description: Detailed profile of the babysitter including ratings and reviews
+          description: Detailed profile of the babysitter
         "400":
           description: Bad request, parameters are missing or invalid
         "404":
-          description: Babysitter not found
+          description: Babysitter profile not found
   
   /babysitters/booking:
     post:
@@ -86,6 +102,10 @@ paths:
                   type: string
                 time:
                   type: string
+              example:
+                babysitterId: bianca@mail.it
+                date: "1"
+                time: "9:00"
       responses:
         "200":
           description: Payment portal and confirmation of booking upon successful payment
@@ -102,31 +122,7 @@ paths:
         content:
           application/json:
             schema:
-              type: object
-              properties:
-                name:
-                  type: string
-                surname:
-                  type: string
-                email:
-                  type: string
-                  format: email
-                city:
-                  type: string
-                postal_code:
-                  type: string
-                phone:
-                  type: string
-                services:
-                  type: array
-                  items:
-                    type: string
-                hourly_salary:
-                  type: number
-                availabilities:
-                  type: array
-                  items:
-                    type: object
+              $ref: '#/components/schemas/Babysitter'
       responses:
         "200":
           description: Registration successful
@@ -136,7 +132,6 @@ paths:
           description: Internal server error
 
   /babysitters/update-availabilities:
-    # update babysitter availabilities
     put:
       summary: Update babysitter availabilities
       requestBody:
@@ -152,6 +147,38 @@ paths:
                   type: array
                   items:
                     type: object
+              example:
+                babysitter_email: bianca@mail.it
+                availabilities: [
+                  {
+                    "day": "1",
+                    "is_available": "false",
+                  },
+                  {
+                    "day": "2",
+                    "is_available": "true",
+                  },
+                  {
+                    "day": "3",
+                    "is_available": "false",
+                  },
+                  {
+                    "day": "4",
+                    "is_available": "true",
+                  },
+                  {
+                    "day": "5",
+                    "is_available": "true",
+                  },
+                  {
+                    "day": "6",
+                    "is_available": "false",
+                  },
+                  {
+                    "day": "7",
+                    "is_available": "false",
+                  }
+                ]
       responses:
         "200":
           description: Availabilities updated successfully
@@ -161,3 +188,41 @@ paths:
           description: Babysitter not found
         "500":
           description: Internal server error
+
+components:
+  schemas:
+    Babysitter:
+      type: object
+      properties:
+        name:
+          type: string
+        surname:
+          type: string
+        email:
+          type: string
+          format: email
+        city:
+          type: string
+        postal_code:
+          type: string
+        phone:
+          type: string
+        services:
+          type: array
+          items:
+            type: string
+        hourly_salary:
+          type: number
+        availabilities:
+          type: array
+          items:
+            type: object
+      example:
+        name: Bianca
+        surname: Rossi
+        email: bianca@mail.it
+        city: Milan
+        postal_code: "20133"
+        phone: "+4930664040900"
+        services: ["homework_help", "pick_up"]
+        hourly_salary: 10

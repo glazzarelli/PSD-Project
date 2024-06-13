@@ -18,6 +18,7 @@ paths:
             type: string
           required: true
           description: Zone of interest
+          example: Naples
       responses:
         "200":
           description: The list of consultants in the requested zone
@@ -43,6 +44,7 @@ paths:
             type: string
           required: true
           description: Consultant's email
+          example: b.rossi@mail.it
       responses:
         "200":
           description: Consultant's profile
@@ -68,3 +70,10 @@ components:
           type: string
         city:
           type: string
+      example:
+        name: Bianca
+        surname: Rossi
+        address: Via Roma 1
+        phone: "+3934567890"
+        email: b.rossi@mail.it
+        city: Rome

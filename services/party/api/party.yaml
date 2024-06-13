@@ -1,6 +1,6 @@
 openapi: "3.0.2"
 info:
-  title: party Service API
+  title: Party Organizer Service API
   version: "1.0"
 servers:
   - url: http://api.babies360.com/v1
@@ -13,56 +13,39 @@ paths:
     get:
       summary: Get proposal for party services based on user preferences
       parameters:
-        - in: query
-          name: date
+        - name: date
+          in: query
           schema:
             type: string
           required: true
-        - in: query
-          name: location
+          example: "3" # for now we use a single digit for the day of the week
+        - name: location
+          in: query
           schema:
             type: string
           required: true
-        - in: query
-          name: options
+          example: Milan
+        - name: requestedservices
+          in: query
           schema:
             type: array
             items:
               type: string
           required: true
-        - in: query
-          name: budget
+          example: ["decorations", "catering", "entertainment", "dj", "bus_service"]
+        - name: budget
+          in: query
           schema:
             type: string
           required: true
+          example: "3" # for now we use the digits 1-3 to map to low, medium and high budget
       responses:
         "200":
-          description: Available vendor for each specified party option
+          description: Available vendor/s for each specified party option
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  catering:
-                    type: array
-                    items:
-                      type: string
-                  balloons:
-                    type: array
-                    items:
-                      type: string
-                  entertainment:
-                    type: array
-                    items:
-                      type: string
-                  dj:
-                    type: array
-                    items:
-                      type: string
-                  bus_service:
-                    type: array
-                    items:
-                      type: string
+                $ref: '#/components/schemas/VendorsProposals'
 
   /proposal-selection:
     post:
@@ -78,3 +61,29 @@ paths:
           description: "Confirmation of selection and scheduling of services"
         "400":
           description: "Bad request, parameters are missing or invalid"
+
+components:
+  schemas:
+    VendorsProposals:
+      type: object
+      properties:
+        catering:
+          type: array
+          items:
+            type: string
+        decorrations:
+          type: array
+          items:
+            type: string
+        entertainment:
+          type: array
+          items:
+            type: string
+        dj:
+          type: array
+          items:
+            type: string
+        bus_service:
+          type: array
+          items:
+            type: string
