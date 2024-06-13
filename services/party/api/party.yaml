@@ -5,7 +5,7 @@ info:
 servers:
   - url: http://api.babies360.com/v1
     description: production server
-  - url: http://localhost:9090/
+  - url: http://localhost:9092/
     description: dev server
 paths:
   
@@ -24,7 +24,7 @@ paths:
             type: string
           required: true
         - in: query
-          name: requestedservices
+          name: options
           schema:
             type: array
             items:

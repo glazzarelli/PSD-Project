@@ -3,7 +3,7 @@ const express = require("express");
 const { initialize } = require('@oas-tools/core');
 
 
-const serverPort = 9090;
+const serverPort = 9092;
 const app = express();
 app.use(express.json({limit: '50mb'}));
 

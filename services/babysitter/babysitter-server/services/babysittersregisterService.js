@@ -4,7 +4,7 @@ const path = require('path');
 module.exports.funcbabysittersregister = function funcregister(req, res) {
     // parse the babysitters.json file
     let babysitters = JSON.parse(fs.readFileSync(path.join(__dirname, '../babysitters.json'), 'utf8'));
- 
+
     // Convert babysitters object to array if it's not one
     if (!Array.isArray(babysitters)) {
         babysitters = Object.values(babysitters);

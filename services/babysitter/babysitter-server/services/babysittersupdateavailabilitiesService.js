@@ -9,7 +9,7 @@ module.exports.funcbabysittersupdateavailabilities = function funcbabysittersupd
     if (!Array.isArray(babysitters)) {
         babysitters = Object.values(babysitters);
     }
-    
+
     try {
         // find the babysitter with the provided email
         let babysitter = babysitters.find(bbs => bbs.email === req.body.email);

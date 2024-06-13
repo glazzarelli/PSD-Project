@@ -31,7 +31,7 @@ module.exports.funcconsultants = function funcconsultants(req, res) {
 
     } catch (e) {
         // should be res.status(500) but if we put it this way, camunda process will fail
-        res.send({ 
+        res.send({
             message: "An error occurred while processing your request"
         });
     }

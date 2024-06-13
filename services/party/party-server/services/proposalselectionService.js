@@ -11,6 +11,7 @@ module.exports.funcproposalselection = function funcproposalselection(req, res) 
             message: 'Party successfully organized.'
         });
     } catch (error) {
+        // should be res.status(500) but if we put it this way, camunda process will fail
         res.send({
             message: 'An error occurred while organizing the party.'
         });

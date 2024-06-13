@@ -314,7 +314,7 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <zeebe:ioMapping>
           <zeebe:input source="noAuth" target="authentication.type" />
           <zeebe:input source="POST" target="method" />
-          <zeebe:input source="https://4496-131-175-127-25.ngrok-free.app/babysitters/register" target="url" />
+          <zeebe:input source="http://host.docker.internal:9090/babysitters/register" target="url" />
           <zeebe:input source="20" target="connectionTimeoutInSeconds" />
           <zeebe:input source="20" target="readTimeoutInSeconds" />
           <zeebe:input source="0" target="writeTimeoutInSeconds" />
@@ -335,7 +335,7 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <zeebe:ioMapping>
           <zeebe:input source="noAuth" target="authentication.type" />
           <zeebe:input source="PUT" target="method" />
-          <zeebe:input source="https://4496-131-175-127-25.ngrok-free.app/babysitters/update-availabilities" target="url" />
+          <zeebe:input source="http://host.docker.internal:9090/babysitters/update-availabilities" target="url" />
           <zeebe:input source="20" target="connectionTimeoutInSeconds" />
           <zeebe:input source="20" target="readTimeoutInSeconds" />
           <zeebe:input source="0" target="writeTimeoutInSeconds" />
@@ -356,7 +356,7 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <zeebe:ioMapping>
           <zeebe:input source="noAuth" target="authentication.type" />
           <zeebe:input source="POST" target="method" />
-          <zeebe:input source="https://4496-131-175-127-25.ngrok-free.app/babysitters/booking" target="url" />
+          <zeebe:input source="http://host.docker.internal:9090/babysitters/booking" target="url" />
           <zeebe:input source="20" target="connectionTimeoutInSeconds" />
           <zeebe:input source="20" target="readTimeoutInSeconds" />
           <zeebe:input source="0" target="writeTimeoutInSeconds" />
@@ -380,7 +380,7 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <zeebe:ioMapping>
           <zeebe:input source="noAuth" target="authentication.type" />
           <zeebe:input source="GET" target="method" />
-          <zeebe:input source="https://4496-131-175-127-25.ngrok-free.app/babysitters" target="url" />
+          <zeebe:input source="http://host.docker.internal:9090/babysitters" target="url" />
           <zeebe:input source="={&#10;  &#34;date&#34;: day,&#10;  &#34;city&#34;: city,&#10;  &#34;numofchildren&#34;: children,&#10;  &#34;numofhours&#34;: hours,&#10;  &#34;requestedservices&#34;: &#10;  (if &#34;homework_help&#34; in babysitter_services then &#34;homework_help&#34; else &#34;&#34;) + &#10;  (if &#34;pick_up&#34; in babysitter_services then &#34;,&#34;+&#34;pick_up&#34; else &#34;&#34;) + &#10;  (if &#34;keep_company&#34; in babysitter_services then &#34;,&#34;+&#34;keep_company&#34; else &#34;&#34;) +&#10;  (if &#34;play&#34; in babysitter_services then &#34;,&#34;+&#34;play&#34; else &#34;&#34;),&#10;  &#34;starttime&#34;: time&#10;}" target="queryParameters" />
           <zeebe:input source="20" target="connectionTimeoutInSeconds" />
           <zeebe:input source="20" target="readTimeoutInSeconds" />
@@ -400,7 +400,7 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <zeebe:ioMapping>
           <zeebe:input source="noAuth" target="authentication.type" />
           <zeebe:input source="GET" target="method" />
-          <zeebe:input source="https://1fd2-131-175-127-25.ngrok-free.app/consultants" target="url" />
+          <zeebe:input source="http://host.docker.internal:9091/consultants" target="url" />
           <zeebe:input source="={&#10;  &#34;zone&#34;: city&#10;}" target="queryParameters" />
           <zeebe:input source="20" target="connectionTimeoutInSeconds" />
           <zeebe:input source="20" target="readTimeoutInSeconds" />
@@ -420,7 +420,7 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <zeebe:ioMapping>
           <zeebe:input source="noAuth" target="authentication.type" />
           <zeebe:input source="GET" target="method" />
-          <zeebe:input source="https://fa7e-131-175-127-25.ngrok-free.app/party-plan" target="url" />
+          <zeebe:input source="http://host.docker.internal:9092/party-plan" target="url" />
           <zeebe:input source="={&#10;  &#34;date&#34;: day,&#10;  &#34;location&#34;: city, &#10;  &#34;budget&#34;: budget,&#10;  &#34;requestedservices&#34;:&#10;  (if &#34;decorations&#34; in party_options then &#34;decorations&#34; else &#34;&#34;) + &#10;  (if &#34;catering&#34; in party_options then &#34;,&#34;+&#34;catering&#34; else &#34;&#34;) + &#10;  (if &#34;entertainment&#34; in party_options then &#34;,&#34;+ &#34;entertainment&#34; else &#34;&#34;) +&#10;  (if &#34;dj&#34; in party_options then &#34;,&#34;+&#34;dj&#34; else &#34;&#34;) + &#10;  (if &#34;bus_service&#34; in party_options then &#34;,&#34;+&#34;bus_service&#34; else &#34;&#34;)  &#10;}" target="queryParameters" />
           <zeebe:input source="20" target="connectionTimeoutInSeconds" />
           <zeebe:input source="20" target="readTimeoutInSeconds" />
@@ -440,7 +440,7 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <zeebe:ioMapping>
           <zeebe:input source="noAuth" target="authentication.type" />
           <zeebe:input source="POST" target="method" />
-          <zeebe:input source="https://fa7e-131-175-127-25.ngrok-free.app/proposal-selection" target="url" />
+          <zeebe:input source="http://host.docker.internal:9092/proposal-selection" target="url" />
           <zeebe:input source="20" target="connectionTimeoutInSeconds" />
           <zeebe:input source="20" target="readTimeoutInSeconds" />
           <zeebe:input source="0" target="writeTimeoutInSeconds" />

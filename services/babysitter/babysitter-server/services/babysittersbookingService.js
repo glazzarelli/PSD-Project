@@ -43,8 +43,8 @@ module.exports.funcbabysittersbooking = function funcbabysittersbooking(req, res
     }
 
     // should be res.status(404) but if we put it this way, camunda process will fail
-    res.send({ 
-        message: 'Babysitter not found.' 
+    res.send({
+        message: 'Babysitter not found.'
     });
 }
 
