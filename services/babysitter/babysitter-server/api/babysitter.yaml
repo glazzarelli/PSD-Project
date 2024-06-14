@@ -20,7 +20,7 @@ paths:
             type: string
             format: date
           description: Date in which the babysitter is needed
-          example: "1" # for now we use a single digit for the day of the week
+          example: "Monday"
         - name: starttime
           in: query
           required: true
@@ -104,7 +104,7 @@ paths:
                   type: string
               example:
                 babysitterId: bianca@mail.it
-                date: "1"
+                date: "Monday"
                 time: "9:00"
       responses:
         "200":
@@ -151,31 +151,31 @@ paths:
                 babysitter_email: bianca@mail.it
                 availabilities: [
                   {
-                    "day": "1",
+                    "day": "Monday",
                     "is_available": "false",
                   },
                   {
-                    "day": "2",
+                    "day": "Tuesday",
                     "is_available": "true",
                   },
                   {
-                    "day": "3",
+                    "day": "Wednesday",
                     "is_available": "false",
                   },
                   {
-                    "day": "4",
+                    "day": "Thursday",
                     "is_available": "true",
                   },
                   {
-                    "day": "5",
+                    "day": "Friday",
                     "is_available": "true",
                   },
                   {
-                    "day": "6",
+                    "day": "Saturday",
                     "is_available": "false",
                   },
                   {
-                    "day": "7",
+                    "day": "Sunday",
                     "is_available": "false",
                   }
                 ]

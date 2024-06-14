@@ -18,7 +18,7 @@ paths:
           schema:
             type: string
           required: true
-          example: "3" # for now we use a single digit for the day of the week
+          example: "Wednesday"
         - name: location
           in: query
           schema:
@@ -38,7 +38,7 @@ paths:
           schema:
             type: string
           required: true
-          example: "3" # for now we use the digits 1-3 to map to low, medium and high budget
+          example: "Wednesday"
       responses:
         "200":
           description: Available vendor/s for each specified party option

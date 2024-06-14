@@ -1,42 +1,42 @@
 {
   "components": [
     {
-      "text": "# Welcome to Babies360\n## Who are you?",
+      "text": "# Do you need something else?",
       "label": "Text view",
       "type": "text",
       "layout": {
-        "row": "Row_00nzsjw",
+        "row": "Row_0wz0vlk",
         "columns": null
       },
-      "id": "Field_0i5u5t1"
+      "id": "Field_1wgju31"
     },
     {
       "values": [
         {
-          "label": "Proceed as babysitter",
-          "value": "babysitter"
+          "label": "Yes",
+          "value": "yes"
         },
         {
-          "label": "Proceed as parent",
-          "value": "parents"
+          "label": "No",
+          "value": "no"
         }
       ],
       "label": "Options",
       "type": "radio",
       "layout": {
-        "row": "Row_1m174z3",
+        "row": "Row_0l9m5br",
         "columns": null
       },
-      "id": "Field_0gzocqj",
-      "key": "start",
+      "id": "Field_0cd0jti",
+      "key": "continue",
+      "defaultValue": "value",
       "validate": {
         "required": true
-      },
-      "defaultValue": "parents_choice"
+      }
     }
   ],
   "type": "default",
-  "id": "start_form",
+  "id": "continue",
   "executionPlatform": "Camunda Cloud",
   "executionPlatformVersion": "8.5.0",
   "exporter": {

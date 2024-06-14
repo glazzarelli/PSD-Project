@@ -7,7 +7,7 @@ module.exports.funcbabysitters = function babysitters(req, res) {
     const requestedCity = req.query.city;
     const numOfChildren = req.query.numofchildren;
     const requestedHours = req.query.numofhours;
-    const requestedServices = req.query.requestedservices.split(',');
+    const requestedServices = req.query.requestedservices.split(',').filter(item => item != '');
 
     let availableBabysitters = [];
 

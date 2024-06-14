@@ -26,31 +26,31 @@
           "values": [
             {
               "label": "Monday",
-              "value": "1"
+              "value": "Monday"
             },
             {
               "label": "Tuesday",
-              "value": "2"
+              "value": "Tuesday"
             },
             {
               "label": "Wednesday",
-              "value": "3"
+              "value": "Wednesday"
             },
             {
               "label": "Thursday",
-              "value": "4"
+              "value": "Thursday"
             },
             {
               "label": "Friday",
-              "value": "5"
+              "value": "Friday"
             },
             {
               "label": "Saturday",
-              "value": "6"
+              "value": "Saturday"
             },
             {
               "label": "Sunday",
-              "value": "7"
+              "value": "Sunday"
             }
           ],
           "label": "Select date",

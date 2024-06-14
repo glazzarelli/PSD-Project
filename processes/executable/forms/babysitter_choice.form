@@ -1,42 +1,41 @@
 {
   "components": [
     {
-      "text": "# Welcome to Babies360\n## Who are you?",
+      "text": "# What do you want to do?",
       "label": "Text view",
       "type": "text",
       "layout": {
-        "row": "Row_00nzsjw",
+        "row": "Row_0lgr5jw",
         "columns": null
       },
-      "id": "Field_0i5u5t1"
+      "id": "Field_1nwjl3w"
     },
     {
       "values": [
         {
-          "label": "Proceed as babysitter",
-          "value": "babysitter"
+          "label": "Create a profile",
+          "value": "babysitter_registration"
         },
         {
-          "label": "Proceed as parent",
-          "value": "parents"
+          "label": "Update weekly availabilities",
+          "value": "babysitter_availabilities"
         }
       ],
       "label": "Options",
       "type": "radio",
       "layout": {
-        "row": "Row_1m174z3",
+        "row": "Row_1v6rkdy",
         "columns": null
       },
-      "id": "Field_0gzocqj",
-      "key": "start",
+      "id": "Field_1p80zzl",
+      "key": "choice",
       "validate": {
         "required": true
-      },
-      "defaultValue": "parents_choice"
+      }
     }
   ],
   "type": "default",
-  "id": "start_form",
+  "id": "babysitter_choice",
   "executionPlatform": "Camunda Cloud",
   "executionPlatformVersion": "8.5.0",
   "exporter": {
