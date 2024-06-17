@@ -1,0 +1,443 @@
+{
+	"info": {
+		"_postman_id": "5cba546c-8029-4502-9f4f-112901117b3c",
+		"name": "Babies360",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33242147",
+		"_collection_link": "https://psd777.postman.co/workspace/PSD-Workspace~ed4ec181-7cca-452a-ab15-e7638e905f95/collection/33242147-5cba546c-8029-4502-9f4f-112901117b3c?action=share&source=collection_link&creator=33242147"
+	},
+	"item": [
+		{
+			"name": "Babysitter",
+			"item": [
+				{
+					"name": "Search for a babysitter (available)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:9090/babysitters?date=Sunday&city=Milan&numofchildren=2&numofhours=2&requestedservices=pick_up,homework_help&starttime=9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"babysitters"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "Sunday"
+								},
+								{
+									"key": "city",
+									"value": "Milan"
+								},
+								{
+									"key": "numofchildren",
+									"value": "2"
+								},
+								{
+									"key": "numofhours",
+									"value": "2"
+								},
+								{
+									"key": "requestedservices",
+									"value": "pick_up,homework_help"
+								},
+								{
+									"key": "starttime",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search for a babysitter (not available)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9090/babysitters?date=Sunday&city=Milan&numofchildren=2&numofhours=2&requestedservices=pick_up,homework_help,play,keep_company&starttime=9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"babysitters"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "Sunday"
+								},
+								{
+									"key": "city",
+									"value": "Milan"
+								},
+								{
+									"key": "numofchildren",
+									"value": "2"
+								},
+								{
+									"key": "numofhours",
+									"value": "2"
+								},
+								{
+									"key": "requestedservices",
+									"value": "pick_up,homework_help,play,keep_company"
+								},
+								{
+									"key": "starttime",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update existing babysitter availabilities",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"true\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"true\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"true\"\r\n            }\r\n        ],\r\n        \"email\": \"bianca@mail.it\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9090/babysitters/update-availabilities",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"babysitters",
+								"update-availabilities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update nonexistent babysitter availabilities",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"true\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"true\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"true\"\r\n            }\r\n        ],\r\n        \"email\": \"prova@mail.it\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9090/babysitters/update-availabilities",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"babysitters",
+								"update-availabilities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a babysitter profile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9090/babysitters/bianca@mail.it",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"babysitters",
+								"bianca@mail.it"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a nonexisting babysitter profile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9090/babysitters/prova@mail.it",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"babysitters",
+								"prova@mail.it"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Babysitter registration",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"phone\": \"+4930664040801\",\r\n        \"city\": \"Milan\",\r\n        \"surname\": \"Giandomenico\",\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"false\"\r\n            }\r\n        ],\r\n        \"hourly_salary\": 13,\r\n        \"name\": \"Roberto\",\r\n        \"services\": [\r\n            \"homework_help\"\r\n        ],\r\n        \"postal_code\": 20133,\r\n        \"email\": \"rob@mail.it\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:9090/babysitters/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "9090",
+							"path": [
+								"babysitters",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Babysitter registration with existing email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"phone\": \"+4930664040801\",\r\n        \"city\": \"Rome\",\r\n        \"surname\": \"Fiore\",\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"false\"\r\n            }\r\n        ],\r\n        \"hourly_salary\": 13,\r\n        \"name\": \"Bianca\",\r\n        \"services\": [\r\n            \"homework_help\"\r\n        ],\r\n        \"postal_code\": 20162,\r\n        \"email\": \"bianca@mail.it\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:9090/babysitters/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "9090",
+							"path": [
+								"babysitters",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Collection of all possible requests towards the **Babysitter** service API"
+		},
+		{
+			"name": "Consultant",
+			"item": [
+				{
+					"name": "Retrieve all consultants in Rome",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9091/consultants?zone=Rome",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9091",
+							"path": [
+								"consultants"
+							],
+							"query": [
+								{
+									"key": "zone",
+									"value": "Rome"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get consultants in a not supported city",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9091/consultants?zone=Paris",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9091",
+							"path": [
+								"consultants"
+							],
+							"query": [
+								{
+									"key": "zone",
+									"value": "Paris"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a consultant's profile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9091/consultants/b.rossi@mail.it",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9091",
+							"path": [
+								"consultants",
+								"b.rossi@mail.it"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a nonexisting consultant's profile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9091/consultants/prova@mail.it",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9091",
+							"path": [
+								"consultants",
+								"prova@mail.it"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Collection of all possible requests towards the **Pedagogical Consultant** service API"
+		},
+		{
+			"name": "Party organizer",
+			"item": [
+				{
+					"name": "Get available options for a party",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9092/party-plan?date=1&location=Milan&requestedservices=decorations,dj&budget=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9092",
+							"path": [
+								"party-plan"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "1"
+								},
+								{
+									"key": "location",
+									"value": "Milan"
+								},
+								{
+									"key": "requestedservices",
+									"value": "decorations,dj"
+								},
+								{
+									"key": "budget",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Select options & organize party",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"decorations_vendor_chosen\": \"Party decorations\",\r\n  \"dj_vendor_chosen\": \"DJ 102.5\",\r\n  \"city\": \"Milan\",\r\n  \"day\": \"4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9092/proposal-selection",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9092",
+							"path": [
+								"proposal-selection"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Collection of all possible requests towards the **Party Organizer** service API"
+		}
+	]
+}
