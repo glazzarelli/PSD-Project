@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="17.16.0" expressionLanguage="http://www.w3.org/TR/XPath" id="sid-eeb06c5d-5dac-4c1a-aff7-5260c3628622" targetNamespace="http://www.signavio.com" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
-   <collaboration id="sid-8a4257f1-df37-441b-a3f6-ae60ab60e700">
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="18.1.3" expressionLanguage="http://www.w3.org/TR/XPath" id="sid-f62f7a69-d767-4db1-9688-a475662ce35c" targetNamespace="http://www.signavio.com" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+   <collaboration id="sid-05995079-c040-443c-9b3f-65feca00e4ab">
       <extensionElements>
          <signavio:signavioDiagramMetaData metaKey="iso9000ff" metaValue=""/>
          <signavio:signavioDiagramMetaData metaKey="processgoal" metaValue=""/>
-         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="24bf473019ab4073a09c7b076f0f2c63"/>
+         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="75eaf3251df240758ba047bc53e17760"/>
       </extensionElements>
       <textAnnotation id="sid-E4E22952-F443-448F-9A78-76ECE6755716" signavio:alignment="left" textFormat="text/plain">
          <extensionElements>
@@ -92,8 +92,8 @@ We also assume that the party planner has an already curated list of contacts</t
          <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
       </extensionElements>
    </message>
-   <message id="sid-a77771c1-9543-4fe2-b888-7ce8b1c23d77"/>
-   <message id="sid-2eefbc23-710b-41a6-92af-f3fd109ef72a"/>
+   <message id="sid-62230972-f48d-4cf4-8bb5-1b2be71b2fb4"/>
+   <message id="sid-812f4157-68a4-465f-baae-6e648febbda2"/>
    <message id="sid-23BC4CED-9CB7-42F2-B21B-914788339B15" name="">
       <extensionElements>
          <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
@@ -112,7 +112,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
       </extensionElements>
    </message>
-   <message id="sid-046c3cc4-e57f-4c7e-b056-3c5adfad74b1"/>
+   <message id="sid-d9e657f9-e05c-4976-81b0-42fe731b0b61"/>
    <message id="sid-286AB88A-18B8-4DBD-A7B8-1F6061C56BD3" name="">
       <extensionElements>
          <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
@@ -143,8 +143,14 @@ We also assume that the party planner has an already curated list of contacts</t
          <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
       </extensionElements>
    </message>
-   <message id="sid-cbf35a5c-7de1-4ac3-8895-c0f9547b0917"/>
-   <choreography id="sid-d828ff12-3876-4e6b-9e2c-0765416bf0a7" isClosed="false">
+   <message id="sid-09d4d759-bb2a-43a6-914f-b3f387dbaa21"/>
+   <message id="sid-0C413060-B046-4CA5-9A61-E787EB10ECEC" name="">
+      <extensionElements>
+         <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+         <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+      </extensionElements>
+   </message>
+   <choreography id="sid-67acb58b-08db-497d-82be-6762416aa81b" isClosed="false">
       <participant id="sid-06DE137B-37EE-472F-9EDC-355EBD8F541C" name="Parents">
          <extensionElements>
             <signavio:signavioDictionaryLink propertyId="name">
@@ -256,7 +262,7 @@ We also assume that the party planner has an already curated list of contacts</t
             </signavio:signavioDictionaryLink>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
-         <participantMultiplicity id="sid-d5499943-e6d8-4f8f-becc-911cddf610db" maximum="2" minimum="2"/>
+         <participantMultiplicity id="sid-66029f89-c908-46b8-9cd2-7009375302c5" maximum="2" minimum="2"/>
       </participant>
       <participant id="sid-AED03DA8-ADD0-4501-A5B2-3BE466B28821" name="Party organizer">
          <extensionElements>
@@ -273,7 +279,7 @@ We also assume that the party planner has an already curated list of contacts</t
             </signavio:signavioDictionaryLink>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
-         <participantMultiplicity id="sid-3bd76c5b-c9fa-4212-b1dc-5c16e570d3cf" maximum="2" minimum="2"/>
+         <participantMultiplicity id="sid-1218fe29-6a2c-4215-b01a-b9257d54feeb" maximum="2" minimum="2"/>
       </participant>
       <participant id="sid-6B94A588-C4DE-474F-B799-D62F36DF4B75" name="Parents">
          <extensionElements>
@@ -434,7 +440,7 @@ We also assume that the party planner has an already curated list of contacts</t
             </signavio:signavioDictionaryLink>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
-         <participantMultiplicity id="sid-fa3b5e98-45b1-4fcc-8a15-9af785754344" maximum="2" minimum="2"/>
+         <participantMultiplicity id="sid-06120c8c-5e9a-4797-b00c-d727a6c4fa72" maximum="2" minimum="2"/>
       </participant>
       <participant id="sid-956F8EBA-B106-4359-8C9A-DE30700B06F3" name="Parents">
          <extensionElements>
@@ -516,31 +522,48 @@ We also assume that the party planner has an already curated list of contacts</t
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
       </participant>
-      <messageFlow id="sid-5d193f90-46bb-43a4-87a8-a7a6ab6ad6ba" messageRef="sid-C7EF459B-386C-43BA-8E3A-D2C46A3B6DD7" sourceRef="sid-06DE137B-37EE-472F-9EDC-355EBD8F541C" targetRef="sid-1C08FAAF-1077-477F-9635-2090FC5B0A4F"/>
-      <messageFlow id="sid-f47feed9-754d-454d-b9f7-5684efae0899" messageRef="sid-9B03138E-CB90-44B1-B6B2-5936ABE77D9E" sourceRef="sid-8DBB5615-547D-49D4-ACA1-51BB18CA01F4" targetRef="sid-46D34E60-2CF2-4314-AEA5-4BA11B1C4817"/>
-      <messageFlow id="sid-fe76fb5b-b96a-4901-b2fb-25655afcf4ed" messageRef="sid-13BA93E7-34D9-4D7B-8286-9AF4F6538FA2" sourceRef="sid-37BF2685-8A6A-45A2-AF93-DFE4CB1E4527" targetRef="sid-6D047F51-B0AE-4477-B4CD-40BA16DC2DD4"/>
-      <messageFlow id="sid-a9e78502-e125-400d-bf9e-e5802b0ef311" messageRef="sid-A155064A-C8D7-4A3A-8F73-EB89F1ABE1E6" sourceRef="sid-38CC4A2C-F7D7-4290-AD44-AB4E98EF1D88" targetRef="sid-DF9CE36F-1419-4910-BB8E-1D93AC3B4B8F"/>
-      <messageFlow id="sid-616c6e89-08fd-4683-8dc3-54c0c0c1064e" messageRef="sid-ABA10F25-253A-4E6F-BD1A-C43AA7D15DB1" sourceRef="sid-A3D328B5-DCC0-4B9D-AD9B-6F9BDDCDC4AB" targetRef="sid-5E63CFF2-4011-4CA5-A10C-3298ED723F4F"/>
-      <messageFlow id="sid-279d6d9f-7a69-4f0d-8636-c56ee364cd9a" messageRef="sid-61F12253-404F-4494-80FD-5D13F8E79949" sourceRef="sid-60BC38E8-A82A-4873-A01A-C4B7D84C7E45" targetRef="sid-7231FC15-2EB9-450D-9441-34E823CE461B"/>
-      <messageFlow id="sid-ab01ba61-9d87-4d90-8d87-5d1a252d94f8" messageRef="sid-9CFFF53E-2748-4FFA-B02E-CCD8B32B8C0B" sourceRef="sid-7231FC15-2EB9-450D-9441-34E823CE461B" targetRef="sid-60BC38E8-A82A-4873-A01A-C4B7D84C7E45"/>
-      <messageFlow id="sid-875cf4c0-09d2-42ad-9f0f-02f5f6e6458d" sourceRef="sid-AED03DA8-ADD0-4501-A5B2-3BE466B28821" targetRef="sid-AB839E81-108D-409E-BAF1-06EB2818422E"/>
-      <messageFlow id="sid-2999de0d-ee35-4c72-a100-0f1a0a5111f4" messageRef="sid-0E05820E-E4D8-4839-AA1C-61B20629B38D" sourceRef="sid-6B94A588-C4DE-474F-B799-D62F36DF4B75" targetRef="sid-082334CF-683E-46A5-86A4-FE1A4755464B"/>
-      <messageFlow id="sid-83448cce-afef-4c36-ac29-e06d6048252c" messageRef="sid-006FB249-B20A-421C-802A-C50F6E3403AE" sourceRef="sid-78DD8637-F709-44CC-8435-3FF5F9D5BC40" targetRef="sid-983D7EC5-A8F1-4A2A-B9D6-FC65D82FF485"/>
-      <messageFlow id="sid-ce00cce6-9ae3-4f3d-9bcf-c53f3e99c3d2" messageRef="sid-3B69BEEE-870B-46FE-AE58-966CEE0570AA" sourceRef="sid-1B6C08F0-BE5F-42A4-B99B-90AFC530F0B3" targetRef="sid-222EA272-8085-41C6-99CC-AF29DA411659"/>
-      <messageFlow id="sid-73b40633-7254-486f-a96f-4cab90a7bad1" messageRef="sid-36BC9F22-29A6-4926-A58A-BA3A8082FEF8" sourceRef="sid-88C42BA3-6723-480D-9A6F-C005E695A4AA" targetRef="sid-3C77B834-99C1-4342-A867-29CC9E05047A"/>
-      <messageFlow id="sid-4ff05354-31b9-448c-ae46-6082065d96ed" messageRef="sid-D6340E32-4356-439A-AF32-0E60C6703539" sourceRef="sid-AF062F05-53B3-4730-9CEF-47920AC38AD9" targetRef="sid-A25F0B32-8F18-4F3F-9853-0FC240816BAF"/>
-      <messageFlow id="sid-059e20c3-6370-4d15-a8fd-3ed0dde2691b" messageRef="sid-a77771c1-9543-4fe2-b888-7ce8b1c23d77" sourceRef="sid-1BDF39DA-89FC-47F9-AD1C-E3CCF18F9E71" targetRef="sid-1319CFD7-A5F7-486F-A675-A1402105A9E1"/>
-      <messageFlow id="sid-8715e1cb-a690-4657-9578-47b6c48b46af" messageRef="sid-2eefbc23-710b-41a6-92af-f3fd109ef72a" sourceRef="sid-3BAC59BB-A7C6-4C3E-84CE-1F157CE84930" targetRef="sid-C09A7541-D27E-4623-A3D1-9F1B238E402D"/>
-      <messageFlow id="sid-6656b12e-b4b0-407b-a542-9112ae55f0cb" messageRef="sid-23BC4CED-9CB7-42F2-B21B-914788339B15" sourceRef="sid-AC62396D-23AB-4BCF-B1E2-B9751CED026F" targetRef="sid-2C12BEB1-A0EE-4C25-99BF-87BB7E2232E5"/>
-      <messageFlow id="sid-dd92289b-43d4-49ad-971b-89eb621b8a4a" messageRef="sid-1957AE04-00ED-4BF1-815E-5622F3C1C51B" sourceRef="sid-FD25D819-8370-4C5C-B3D5-9495067C4E32" targetRef="sid-F97FBEE0-2BA1-4A6C-9141-1EE01BFC5036"/>
-      <messageFlow id="sid-8a750b2c-34b0-46ad-b2a6-e288c065079c" messageRef="sid-101BAE44-EEB6-41AB-8288-8F6B909E2815" sourceRef="sid-ECDD26E7-E510-4A0E-A6DA-DE0B2AB7ECA3" targetRef="sid-37064763-FE64-4E0E-A047-4045F5DC4CB9"/>
-      <messageFlow id="sid-ff4c5a2c-30f3-41ba-ab5d-8ac3d617b379" messageRef="sid-046c3cc4-e57f-4c7e-b056-3c5adfad74b1" sourceRef="sid-37064763-FE64-4E0E-A047-4045F5DC4CB9" targetRef="sid-ECDD26E7-E510-4A0E-A6DA-DE0B2AB7ECA3"/>
-      <messageFlow id="sid-e8c14e2f-142e-4bea-9734-d558210f7120" messageRef="sid-286AB88A-18B8-4DBD-A7B8-1F6061C56BD3" sourceRef="sid-956F8EBA-B106-4359-8C9A-DE30700B06F3" targetRef="sid-C5D38D0F-6BA6-44B9-9925-34F083B9BCB7"/>
-      <messageFlow id="sid-0d827390-62e2-4542-ac53-3995701f721d" messageRef="sid-58E970CB-D160-4575-A390-662DF35469EC" sourceRef="sid-C5D38D0F-6BA6-44B9-9925-34F083B9BCB7" targetRef="sid-956F8EBA-B106-4359-8C9A-DE30700B06F3"/>
-      <messageFlow id="sid-48b79cfc-6347-4e2e-8aad-80c9f19bdffd" messageRef="sid-FD288F5B-8722-49EC-A4C4-6E77B48F8A99" sourceRef="sid-361373CA-9EC5-4FFC-A88C-CDC33D7F6F74" targetRef="sid-C4FABF17-4B67-4AF1-BD20-910F7B31011E"/>
-      <messageFlow id="sid-a35313f6-7fdb-47fa-b4bb-7de72fd1bfaa" messageRef="sid-28E38C21-9AF9-4000-968D-C4AA8354B677" sourceRef="sid-6D8DBF30-AC4A-4C98-BEAD-2B351D923444" targetRef="sid-354184E1-F3A8-45E4-8366-64BE19E9A69A"/>
-      <messageFlow id="sid-eeaa54f8-8d05-4605-be7a-9a63639dc766" messageRef="sid-D135CD65-B90E-4FDD-A6A5-13A6A5CCF3F2" sourceRef="sid-6ED05F64-46E4-4A4D-AEDE-0D2E487BC304" targetRef="sid-1F3D65E8-3B24-40F2-A432-C3B9F118130C"/>
-      <messageFlow id="sid-09c601ae-8c8a-4867-8459-534eed229c88" messageRef="sid-cbf35a5c-7de1-4ac3-8895-c0f9547b0917" sourceRef="sid-52C3991B-4515-4D77-BFC2-98E47748134E" targetRef="sid-82E93F10-DD41-4CC8-855A-BADA8CCADF53"/>
+      <participant id="sid-E5ED1293-9574-4461-B6E6-A8569E03260D" name="Parents">
+         <extensionElements>
+            <signavio:signavioDictionaryLink propertyId="name">
+               <signavio:dictionaryLink>/glossary/e8576f268fca4ef9b80b76250b2d68cf</signavio:dictionaryLink>
+            </signavio:signavioDictionaryLink>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </participant>
+      <participant id="sid-0F2528F9-1CED-40A5-8657-2AA51CDDBDF4" name="Babies360">
+         <extensionElements>
+            <signavio:signavioDictionaryLink propertyId="name">
+               <signavio:dictionaryLink>/glossary/10431af311ac4b0db264069be6705226</signavio:dictionaryLink>
+            </signavio:signavioDictionaryLink>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </participant>
+      <messageFlow id="sid-9832ea27-03dc-4009-a8b8-1f8ec47e1754" messageRef="sid-C7EF459B-386C-43BA-8E3A-D2C46A3B6DD7" sourceRef="sid-06DE137B-37EE-472F-9EDC-355EBD8F541C" targetRef="sid-1C08FAAF-1077-477F-9635-2090FC5B0A4F"/>
+      <messageFlow id="sid-fa3bc5f6-2d95-43ca-8cbc-04773669eaaf" messageRef="sid-9B03138E-CB90-44B1-B6B2-5936ABE77D9E" sourceRef="sid-8DBB5615-547D-49D4-ACA1-51BB18CA01F4" targetRef="sid-46D34E60-2CF2-4314-AEA5-4BA11B1C4817"/>
+      <messageFlow id="sid-d795677f-45d1-44a6-a141-25eb86d2ed1c" messageRef="sid-13BA93E7-34D9-4D7B-8286-9AF4F6538FA2" sourceRef="sid-37BF2685-8A6A-45A2-AF93-DFE4CB1E4527" targetRef="sid-6D047F51-B0AE-4477-B4CD-40BA16DC2DD4"/>
+      <messageFlow id="sid-60810938-7906-4093-a0f8-6798708080fc" messageRef="sid-A155064A-C8D7-4A3A-8F73-EB89F1ABE1E6" sourceRef="sid-38CC4A2C-F7D7-4290-AD44-AB4E98EF1D88" targetRef="sid-DF9CE36F-1419-4910-BB8E-1D93AC3B4B8F"/>
+      <messageFlow id="sid-c2854c15-ccfa-4784-9a98-5852ac846ebc" messageRef="sid-ABA10F25-253A-4E6F-BD1A-C43AA7D15DB1" sourceRef="sid-A3D328B5-DCC0-4B9D-AD9B-6F9BDDCDC4AB" targetRef="sid-5E63CFF2-4011-4CA5-A10C-3298ED723F4F"/>
+      <messageFlow id="sid-66600b96-0b4d-42ba-a736-e52a1cd4ad17" messageRef="sid-61F12253-404F-4494-80FD-5D13F8E79949" sourceRef="sid-60BC38E8-A82A-4873-A01A-C4B7D84C7E45" targetRef="sid-7231FC15-2EB9-450D-9441-34E823CE461B"/>
+      <messageFlow id="sid-0d0191e8-64dd-4222-b6c1-5b1fcfea9e11" messageRef="sid-9CFFF53E-2748-4FFA-B02E-CCD8B32B8C0B" sourceRef="sid-7231FC15-2EB9-450D-9441-34E823CE461B" targetRef="sid-60BC38E8-A82A-4873-A01A-C4B7D84C7E45"/>
+      <messageFlow id="sid-25ba19cc-16b9-4678-ad37-278a2089571e" sourceRef="sid-AED03DA8-ADD0-4501-A5B2-3BE466B28821" targetRef="sid-AB839E81-108D-409E-BAF1-06EB2818422E"/>
+      <messageFlow id="sid-d3dd9562-0cf7-44ea-88c7-b1e66e3c445b" messageRef="sid-0E05820E-E4D8-4839-AA1C-61B20629B38D" sourceRef="sid-6B94A588-C4DE-474F-B799-D62F36DF4B75" targetRef="sid-082334CF-683E-46A5-86A4-FE1A4755464B"/>
+      <messageFlow id="sid-e1bda191-7a4c-4625-b2fe-db3165a0d4c9" messageRef="sid-006FB249-B20A-421C-802A-C50F6E3403AE" sourceRef="sid-78DD8637-F709-44CC-8435-3FF5F9D5BC40" targetRef="sid-983D7EC5-A8F1-4A2A-B9D6-FC65D82FF485"/>
+      <messageFlow id="sid-d0e3517d-f773-4855-9489-81db073b5a74" messageRef="sid-3B69BEEE-870B-46FE-AE58-966CEE0570AA" sourceRef="sid-1B6C08F0-BE5F-42A4-B99B-90AFC530F0B3" targetRef="sid-222EA272-8085-41C6-99CC-AF29DA411659"/>
+      <messageFlow id="sid-6556b81d-9c2a-497d-a83c-900edd0c99fa" messageRef="sid-36BC9F22-29A6-4926-A58A-BA3A8082FEF8" sourceRef="sid-88C42BA3-6723-480D-9A6F-C005E695A4AA" targetRef="sid-3C77B834-99C1-4342-A867-29CC9E05047A"/>
+      <messageFlow id="sid-b53a6150-0e54-498f-8cd1-c699cbf6eafa" messageRef="sid-D6340E32-4356-439A-AF32-0E60C6703539" sourceRef="sid-AF062F05-53B3-4730-9CEF-47920AC38AD9" targetRef="sid-A25F0B32-8F18-4F3F-9853-0FC240816BAF"/>
+      <messageFlow id="sid-80a3fc9b-65b9-4f21-ba1e-d8619928ee24" messageRef="sid-62230972-f48d-4cf4-8bb5-1b2be71b2fb4" sourceRef="sid-1BDF39DA-89FC-47F9-AD1C-E3CCF18F9E71" targetRef="sid-1319CFD7-A5F7-486F-A675-A1402105A9E1"/>
+      <messageFlow id="sid-0c00381f-f083-43b2-9bf1-b613133836fd" messageRef="sid-812f4157-68a4-465f-baae-6e648febbda2" sourceRef="sid-3BAC59BB-A7C6-4C3E-84CE-1F157CE84930" targetRef="sid-C09A7541-D27E-4623-A3D1-9F1B238E402D"/>
+      <messageFlow id="sid-f62f15de-dc19-4f80-8457-f017edcc017a" messageRef="sid-23BC4CED-9CB7-42F2-B21B-914788339B15" sourceRef="sid-AC62396D-23AB-4BCF-B1E2-B9751CED026F" targetRef="sid-2C12BEB1-A0EE-4C25-99BF-87BB7E2232E5"/>
+      <messageFlow id="sid-35ac4fdd-6d79-4f2f-a381-e612bd7bc00d" messageRef="sid-1957AE04-00ED-4BF1-815E-5622F3C1C51B" sourceRef="sid-FD25D819-8370-4C5C-B3D5-9495067C4E32" targetRef="sid-F97FBEE0-2BA1-4A6C-9141-1EE01BFC5036"/>
+      <messageFlow id="sid-a2fa8ef7-b7cf-486d-a5e1-8b228587f39c" messageRef="sid-101BAE44-EEB6-41AB-8288-8F6B909E2815" sourceRef="sid-ECDD26E7-E510-4A0E-A6DA-DE0B2AB7ECA3" targetRef="sid-37064763-FE64-4E0E-A047-4045F5DC4CB9"/>
+      <messageFlow id="sid-f63ed680-0418-43a9-b6b4-426cf0aa37ee" messageRef="sid-d9e657f9-e05c-4976-81b0-42fe731b0b61" sourceRef="sid-37064763-FE64-4E0E-A047-4045F5DC4CB9" targetRef="sid-ECDD26E7-E510-4A0E-A6DA-DE0B2AB7ECA3"/>
+      <messageFlow id="sid-ad698576-59d9-44f1-a186-da75d9d5451d" messageRef="sid-286AB88A-18B8-4DBD-A7B8-1F6061C56BD3" sourceRef="sid-956F8EBA-B106-4359-8C9A-DE30700B06F3" targetRef="sid-C5D38D0F-6BA6-44B9-9925-34F083B9BCB7"/>
+      <messageFlow id="sid-d0e48061-15c6-4689-a0c7-3528000453eb" messageRef="sid-58E970CB-D160-4575-A390-662DF35469EC" sourceRef="sid-C5D38D0F-6BA6-44B9-9925-34F083B9BCB7" targetRef="sid-956F8EBA-B106-4359-8C9A-DE30700B06F3"/>
+      <messageFlow id="sid-926466d7-1ac5-403b-ba0b-78df63db7f3c" messageRef="sid-FD288F5B-8722-49EC-A4C4-6E77B48F8A99" sourceRef="sid-361373CA-9EC5-4FFC-A88C-CDC33D7F6F74" targetRef="sid-C4FABF17-4B67-4AF1-BD20-910F7B31011E"/>
+      <messageFlow id="sid-42110438-9e62-4241-a427-d4a6f9fdff2c" messageRef="sid-28E38C21-9AF9-4000-968D-C4AA8354B677" sourceRef="sid-6D8DBF30-AC4A-4C98-BEAD-2B351D923444" targetRef="sid-354184E1-F3A8-45E4-8366-64BE19E9A69A"/>
+      <messageFlow id="sid-a1ad05ca-f6ab-4a57-820e-1325edaeb793" messageRef="sid-D135CD65-B90E-4FDD-A6A5-13A6A5CCF3F2" sourceRef="sid-6ED05F64-46E4-4A4D-AEDE-0D2E487BC304" targetRef="sid-1F3D65E8-3B24-40F2-A432-C3B9F118130C"/>
+      <messageFlow id="sid-cebc6e34-d163-482f-bc26-456854efc78c" messageRef="sid-09d4d759-bb2a-43a6-914f-b3f387dbaa21" sourceRef="sid-52C3991B-4515-4D77-BFC2-98E47748134E" targetRef="sid-82E93F10-DD41-4CC8-855A-BADA8CCADF53"/>
+      <messageFlow id="sid-8d6d5dfe-51d5-465e-b935-00cd4780ef00" messageRef="sid-0C413060-B046-4CA5-9A61-E787EB10ECEC" sourceRef="sid-E5ED1293-9574-4461-B6E6-A8569E03260D" targetRef="sid-0F2528F9-1CED-40A5-8657-2AA51CDDBDF4"/>
       <textAnnotation id="sid-1A91F92E-1B5A-417F-9473-EB1DC548C0ED" signavio:alignment="left" textFormat="text/plain">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
@@ -601,7 +624,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <extensionElements>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
-         <text>The party organizer gathers the data about the vendors, after 24h is ready to choose the best vendor(s) for each type requested.</text>
+         <text>The party organizer gathers the data about the vendors and, after 24h, returns a list to the parents</text>
       </textAnnotation>
       <textAnnotation id="sid-D4AD2758-CB96-4015-9750-BB5196C746F6" signavio:alignment="left" textFormat="text/plain">
          <extensionElements>
@@ -645,7 +668,7 @@ We also assume that the party planner has an already curated list of contacts</t
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
       </association>
-      <association associationDirection="None" id="sid-B7BC1E32-FB0B-4508-8014-B5EAA1506C65" targetRef="sid-D91B925C-1B68-4209-A6A8-1FDA664CCC84">
+      <association associationDirection="None" id="sid-B7BC1E32-FB0B-4508-8014-B5EAA1506C65" sourceRef="sid-554DACF7-AC48-44F5-84F5-15EC3C340BDD" targetRef="sid-D91B925C-1B68-4209-A6A8-1FDA664CCC84">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
@@ -696,7 +719,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-13027E71-4C0C-4582-99EF-849F1C484396</outgoing>
          <participantRef>sid-06DE137B-37EE-472F-9EDC-355EBD8F541C</participantRef>
          <participantRef>sid-1C08FAAF-1077-477F-9635-2090FC5B0A4F</participantRef>
-         <messageFlowRef>sid-5d193f90-46bb-43a4-87a8-a7a6ab6ad6ba</messageFlowRef>
+         <messageFlowRef>sid-9832ea27-03dc-4009-a8b8-1f8ec47e1754</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-A7FA4762-D307-4373-AF64-1F4CECA69CB6" initiatingParticipantRef="sid-8DBB5615-547D-49D4-ACA1-51BB18CA01F4" loopType="None" name="Inform of unavailability">
          <extensionElements>
@@ -707,7 +730,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-AF32869E-6128-443F-A75D-D13F1EB70E8C</outgoing>
          <participantRef>sid-8DBB5615-547D-49D4-ACA1-51BB18CA01F4</participantRef>
          <participantRef>sid-46D34E60-2CF2-4314-AEA5-4BA11B1C4817</participantRef>
-         <messageFlowRef>sid-f47feed9-754d-454d-b9f7-5684efae0899</messageFlowRef>
+         <messageFlowRef>sid-fa3bc5f6-2d95-43ca-8cbc-04773669eaaf</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-7DB75AAF-4BFA-4A5E-B83C-3E28984EA410" initiatingParticipantRef="sid-37BF2685-8A6A-45A2-AF93-DFE4CB1E4527" loopType="None" name="Confirm appointment&#10;and request payment&#10;">
          <extensionElements>
@@ -718,7 +741,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-C97E969E-9188-40C4-8C47-93D425FE9DDB</outgoing>
          <participantRef>sid-37BF2685-8A6A-45A2-AF93-DFE4CB1E4527</participantRef>
          <participantRef>sid-6D047F51-B0AE-4477-B4CD-40BA16DC2DD4</participantRef>
-         <messageFlowRef>sid-fe76fb5b-b96a-4901-b2fb-25655afcf4ed</messageFlowRef>
+         <messageFlowRef>sid-d795677f-45d1-44a6-a141-25eb86d2ed1c</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-732690FA-6E44-449D-88E8-713CAE258351" initiatingParticipantRef="sid-38CC4A2C-F7D7-4290-AD44-AB4E98EF1D88" loopType="None" name="Payment">
          <extensionElements>
@@ -729,7 +752,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-470AF0BC-1ABA-4652-A794-FF24FB71A398</outgoing>
          <participantRef>sid-38CC4A2C-F7D7-4290-AD44-AB4E98EF1D88</participantRef>
          <participantRef>sid-DF9CE36F-1419-4910-BB8E-1D93AC3B4B8F</participantRef>
-         <messageFlowRef>sid-a9e78502-e125-400d-bf9e-e5802b0ef311</messageFlowRef>
+         <messageFlowRef>sid-60810938-7906-4093-a0f8-6798708080fc</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-2A3D2860-B8D5-460E-AA08-07CC0470E03A" initiatingParticipantRef="sid-A3D328B5-DCC0-4B9D-AD9B-6F9BDDCDC4AB" loopType="None" name="Confirm appointment">
          <extensionElements>
@@ -740,26 +763,12 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-73B9B1BA-13CA-4475-A0F6-7E2A92CD0D7A</outgoing>
          <participantRef>sid-A3D328B5-DCC0-4B9D-AD9B-6F9BDDCDC4AB</participantRef>
          <participantRef>sid-5E63CFF2-4011-4CA5-A10C-3298ED723F4F</participantRef>
-         <messageFlowRef>sid-616c6e89-08fd-4683-8dc3-54c0c0c1064e</messageFlowRef>
+         <messageFlowRef>sid-c2854c15-ccfa-4784-9a98-5852ac846ebc</messageFlowRef>
       </choreographyTask>
       <boundaryEvent attachedToRef="sid-732690FA-6E44-449D-88E8-713CAE258351" cancelActivity="true" id="sid-78AA0870-D76D-4FEF-A57B-84E3A5F82D0B" name="24h&#10;" parallelMultiple="false">
          <outgoing>sid-5AA4A63F-2C28-427B-A924-3EEAB5DBAE1C</outgoing>
-         <timerEventDefinition id="sid-651ebd4a-7606-4ae1-bdbb-5c35523ec5e2"/>
+         <timerEventDefinition id="sid-41918c6a-a769-49f6-9f27-317aefd12640"/>
       </boundaryEvent>
-      <endEvent id="sid-9789761F-A808-457F-8651-4073C705029D" name="">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </extensionElements>
-         <incoming>sid-5AA4A63F-2C28-427B-A924-3EEAB5DBAE1C</incoming>
-      </endEvent>
-      <endEvent id="sid-0A2E781B-93C6-463F-BB0C-9E75FB059623" name="">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-         </extensionElements>
-         <incoming>sid-C2ECD088-B870-4EE8-A9E6-B48D63535648</incoming>
-      </endEvent>
       <exclusiveGateway gatewayDirection="Diverging" id="sid-27E532F8-5912-4781-90B3-593A183716B4" name="">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
@@ -767,8 +776,8 @@ We also assume that the party planner has an already curated list of contacts</t
          </extensionElements>
          <incoming>sid-13027E71-4C0C-4582-99EF-849F1C484396</incoming>
          <outgoing>sid-8C234367-9E58-4A10-948A-C3120C77424E</outgoing>
-         <outgoing>sid-BBBA9DA7-3B64-4057-BDC1-080C9EF6DE55</outgoing>
          <outgoing>sid-B63F6807-5E81-4BC6-85EE-8E648E0FF150</outgoing>
+         <outgoing>sid-BBBA9DA7-3B64-4057-BDC1-080C9EF6DE55</outgoing>
       </exclusiveGateway>
       <choreographyTask id="sid-44991773-DA47-4B50-98C6-121DEFEF7357" initiatingParticipantRef="sid-60BC38E8-A82A-4873-A01A-C4B7D84C7E45" loopType="None" name="Ask the parents if they are in need of other services">
          <extensionElements>
@@ -779,8 +788,8 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-26F66B04-EDB3-4578-AA30-484F3B3367E1</outgoing>
          <participantRef>sid-60BC38E8-A82A-4873-A01A-C4B7D84C7E45</participantRef>
          <participantRef>sid-7231FC15-2EB9-450D-9441-34E823CE461B</participantRef>
-         <messageFlowRef>sid-279d6d9f-7a69-4f0d-8636-c56ee364cd9a</messageFlowRef>
-         <messageFlowRef>sid-ab01ba61-9d87-4d90-8d87-5d1a252d94f8</messageFlowRef>
+         <messageFlowRef>sid-66600b96-0b4d-42ba-a736-e52a1cd4ad17</messageFlowRef>
+         <messageFlowRef>sid-0d0191e8-64dd-4222-b6c1-5b1fcfea9e11</messageFlowRef>
       </choreographyTask>
       <exclusiveGateway gatewayDirection="Diverging" id="sid-8FA62950-3A5B-4BF1-A543-25F0E56269D5" name="">
          <extensionElements>
@@ -802,7 +811,6 @@ We also assume that the party planner has an already curated list of contacts</t
          <incoming>sid-F2D007AC-836F-482E-BCA1-CB8948588DB4</incoming>
          <incoming>sid-8ED1F9E2-ACC3-4DDF-8440-16AC43B3B206</incoming>
          <incoming>sid-238EA389-1AAA-40D6-B870-F444595C061D</incoming>
-         <incoming>sid-781CBF02-CE41-4CE6-A0F6-E70F8B602477</incoming>
          <incoming>sid-26116D84-11F8-4CFD-AD43-934B674D7FEB</incoming>
          <outgoing>sid-FD02DCFD-5BD9-4AFA-B6FC-BD8BA93EE52C</outgoing>
       </exclusiveGateway>
@@ -839,14 +847,14 @@ We also assume that the party planner has an already curated list of contacts</t
             <incoming>sid-860149D9-2928-4B6A-8060-4BE43822EA54</incoming>
             <participantRef>sid-AED03DA8-ADD0-4501-A5B2-3BE466B28821</participantRef>
             <participantRef>sid-AB839E81-108D-409E-BAF1-06EB2818422E</participantRef>
-            <messageFlowRef>sid-875cf4c0-09d2-42ad-9f0f-02f5f6e6458d</messageFlowRef>
+            <messageFlowRef>sid-25ba19cc-16b9-4678-ad37-278a2089571e</messageFlowRef>
          </choreographyTask>
          <intermediateCatchEvent id="sid-4497F543-DD02-4DD3-9846-90523E26FB1F" name="24h">
             <extensionElements>
                <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
                <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
             </extensionElements>
-            <timerEventDefinition id="sid-a37144d8-af21-43f5-904c-99231fa15c0a"/>
+            <timerEventDefinition id="sid-d5b61b08-d406-4234-a285-dc7711af4931"/>
          </intermediateCatchEvent>
          <endEvent id="sid-4946C57E-9156-4C8A-BEDF-C6BA97A208F0" name="">
             <extensionElements>
@@ -882,7 +890,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-A2C87479-4139-46FE-A7EC-21BC939AF93A</outgoing>
          <participantRef>sid-6B94A588-C4DE-474F-B799-D62F36DF4B75</participantRef>
          <participantRef>sid-082334CF-683E-46A5-86A4-FE1A4755464B</participantRef>
-         <messageFlowRef>sid-2999de0d-ee35-4c72-a100-0f1a0a5111f4</messageFlowRef>
+         <messageFlowRef>sid-d3dd9562-0cf7-44ea-88c7-b1e66e3c445b</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-965FE378-2A31-4731-BC59-988036094F2E" initiatingParticipantRef="sid-78DD8637-F709-44CC-8435-3FF5F9D5BC40" loopType="None" name="Send job details (e.g. date, how many hours, entertainment required, etc...) ">
          <extensionElements>
@@ -893,7 +901,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-2EEA404D-954C-483F-A5A3-71545CB39DD2</outgoing>
          <participantRef>sid-78DD8637-F709-44CC-8435-3FF5F9D5BC40</participantRef>
          <participantRef>sid-983D7EC5-A8F1-4A2A-B9D6-FC65D82FF485</participantRef>
-         <messageFlowRef>sid-83448cce-afef-4c36-ac29-e06d6048252c</messageFlowRef>
+         <messageFlowRef>sid-e1bda191-7a4c-4625-b2fe-db3165a0d4c9</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-164ECE7B-E817-4762-A096-D3A29749F4A9" initiatingParticipantRef="sid-1B6C08F0-BE5F-42A4-B99B-90AFC530F0B3" loopType="None" name="Send request + details">
          <extensionElements>
@@ -904,7 +912,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-C1CD207E-E674-4B27-8F83-2494B1CC204D</outgoing>
          <participantRef>sid-1B6C08F0-BE5F-42A4-B99B-90AFC530F0B3</participantRef>
          <participantRef>sid-222EA272-8085-41C6-99CC-AF29DA411659</participantRef>
-         <messageFlowRef>sid-ce00cce6-9ae3-4f3d-9bcf-c53f3e99c3d2</messageFlowRef>
+         <messageFlowRef>sid-d0e3517d-f773-4855-9489-81db073b5a74</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-3B611DD7-C96D-4748-8556-C26EDA6ACF65" initiatingParticipantRef="sid-88C42BA3-6723-480D-9A6F-C005E695A4AA" loopType="None" name="Send  party &#10;proposal ">
          <extensionElements>
@@ -915,7 +923,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-BBD3A58D-A33D-4637-8437-143F1BC89CA1</outgoing>
          <participantRef>sid-88C42BA3-6723-480D-9A6F-C005E695A4AA</participantRef>
          <participantRef>sid-3C77B834-99C1-4342-A867-29CC9E05047A</participantRef>
-         <messageFlowRef>sid-73b40633-7254-486f-a96f-4cab90a7bad1</messageFlowRef>
+         <messageFlowRef>sid-6556b81d-9c2a-497d-a83c-900edd0c99fa</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-430A95F8-57CB-41C0-9B0A-60CD4F6D9B46" initiatingParticipantRef="sid-AF062F05-53B3-4730-9CEF-47920AC38AD9" loopType="None" name="Send accept message">
          <extensionElements>
@@ -926,7 +934,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-DCA325BD-2B17-49C0-B453-CE7B1CB41BE7</outgoing>
          <participantRef>sid-AF062F05-53B3-4730-9CEF-47920AC38AD9</participantRef>
          <participantRef>sid-A25F0B32-8F18-4F3F-9853-0FC240816BAF</participantRef>
-         <messageFlowRef>sid-4ff05354-31b9-448c-ae46-6082065d96ed</messageFlowRef>
+         <messageFlowRef>sid-b53a6150-0e54-498f-8cd1-c699cbf6eafa</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-C8FAAC67-05F1-4E8E-B07E-5E81597226E1" initiatingParticipantRef="sid-1BDF39DA-89FC-47F9-AD1C-E3CCF18F9E71" loopType="None" name="Send refuse message">
          <extensionElements>
@@ -937,7 +945,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-1728E16B-754B-44E0-8780-F893ACCE0202</outgoing>
          <participantRef>sid-1BDF39DA-89FC-47F9-AD1C-E3CCF18F9E71</participantRef>
          <participantRef>sid-1319CFD7-A5F7-486F-A675-A1402105A9E1</participantRef>
-         <messageFlowRef>sid-059e20c3-6370-4d15-a8fd-3ed0dde2691b</messageFlowRef>
+         <messageFlowRef>sid-80a3fc9b-65b9-4f21-ba1e-d8619928ee24</messageFlowRef>
       </choreographyTask>
       <eventBasedGateway eventGatewayType="Exclusive" gatewayDirection="Diverging" id="sid-65F53453-CCCE-4420-BB3B-04CD396820DB" instantiate="false" name="">
          <extensionElements>
@@ -954,11 +962,11 @@ We also assume that the party planner has an already curated list of contacts</t
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
-         <incoming>sid-BBBA9DA7-3B64-4057-BDC1-080C9EF6DE55</incoming>
+         <incoming>sid-5CBA1216-65C9-484D-B1D1-E48D3FE8E11F</incoming>
          <outgoing>sid-A7A13F01-FE51-43F5-9253-F6A85DD88C85</outgoing>
          <participantRef>sid-3BAC59BB-A7C6-4C3E-84CE-1F157CE84930</participantRef>
          <participantRef>sid-C09A7541-D27E-4623-A3D1-9F1B238E402D</participantRef>
-         <messageFlowRef>sid-8715e1cb-a690-4657-9578-47b6c48b46af</messageFlowRef>
+         <messageFlowRef>sid-0c00381f-f083-43b2-9bf1-b613133836fd</messageFlowRef>
       </choreographyTask>
       <exclusiveGateway gatewayDirection="Diverging" id="sid-F56788E9-1343-44DD-B560-67DFAD9B1032" name="">
          <extensionElements>
@@ -978,7 +986,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-74D2165B-45F3-4235-AF62-49679B24631E</outgoing>
          <participantRef>sid-AC62396D-23AB-4BCF-B1E2-B9751CED026F</participantRef>
          <participantRef>sid-2C12BEB1-A0EE-4C25-99BF-87BB7E2232E5</participantRef>
-         <messageFlowRef>sid-6656b12e-b4b0-407b-a542-9112ae55f0cb</messageFlowRef>
+         <messageFlowRef>sid-f62f15de-dc19-4f80-8457-f017edcc017a</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-18C2ED7A-286C-4973-A55C-E73DC2CB4248" initiatingParticipantRef="sid-FD25D819-8370-4C5C-B3D5-9495067C4E32" loopType="None" name="Send decision">
          <extensionElements>
@@ -989,7 +997,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-E5501095-52B4-4A36-955E-0707AF279BBA</outgoing>
          <participantRef>sid-FD25D819-8370-4C5C-B3D5-9495067C4E32</participantRef>
          <participantRef>sid-F97FBEE0-2BA1-4A6C-9141-1EE01BFC5036</participantRef>
-         <messageFlowRef>sid-dd92289b-43d4-49ad-971b-89eb621b8a4a</messageFlowRef>
+         <messageFlowRef>sid-35ac4fdd-6d79-4f2f-a381-e612bd7bc00d</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-554DACF7-AC48-44F5-84F5-15EC3C340BDD" initiatingParticipantRef="sid-ECDD26E7-E510-4A0E-A6DA-DE0B2AB7ECA3" loopType="None" name="Contact and describe the needs of the child">
          <extensionElements>
@@ -1000,8 +1008,8 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-53D87CCB-FAFE-4FAB-BECA-03FBF190D744</outgoing>
          <participantRef>sid-ECDD26E7-E510-4A0E-A6DA-DE0B2AB7ECA3</participantRef>
          <participantRef>sid-37064763-FE64-4E0E-A047-4045F5DC4CB9</participantRef>
-         <messageFlowRef>sid-8a750b2c-34b0-46ad-b2a6-e288c065079c</messageFlowRef>
-         <messageFlowRef>sid-ff4c5a2c-30f3-41ba-ab5d-8ac3d617b379</messageFlowRef>
+         <messageFlowRef>sid-a2fa8ef7-b7cf-486d-a5e1-8b228587f39c</messageFlowRef>
+         <messageFlowRef>sid-f63ed680-0418-43a9-b6b4-426cf0aa37ee</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-33F72EB2-C500-4BBD-A81D-90BFA7E99647" initiatingParticipantRef="sid-956F8EBA-B106-4359-8C9A-DE30700B06F3" loopType="None" name="Request reserve appointment">
          <extensionElements>
@@ -1012,8 +1020,8 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-27642939-0AEC-4A94-B92B-169F5E142107</outgoing>
          <participantRef>sid-956F8EBA-B106-4359-8C9A-DE30700B06F3</participantRef>
          <participantRef>sid-C5D38D0F-6BA6-44B9-9925-34F083B9BCB7</participantRef>
-         <messageFlowRef>sid-e8c14e2f-142e-4bea-9734-d558210f7120</messageFlowRef>
-         <messageFlowRef>sid-0d827390-62e2-4542-ac53-3995701f721d</messageFlowRef>
+         <messageFlowRef>sid-ad698576-59d9-44f1-a186-da75d9d5451d</messageFlowRef>
+         <messageFlowRef>sid-d0e48061-15c6-4689-a0c7-3528000453eb</messageFlowRef>
       </choreographyTask>
       <exclusiveGateway gatewayDirection="Diverging" id="sid-65BDC833-70F1-4602-8A67-E615DFD47899" name="">
          <extensionElements>
@@ -1033,7 +1041,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-889F5894-7268-42EA-9B96-FB5FFB4E515F</outgoing>
          <participantRef>sid-361373CA-9EC5-4FFC-A88C-CDC33D7F6F74</participantRef>
          <participantRef>sid-C4FABF17-4B67-4AF1-BD20-910F7B31011E</participantRef>
-         <messageFlowRef>sid-48b79cfc-6347-4e2e-8aad-80c9f19bdffd</messageFlowRef>
+         <messageFlowRef>sid-926466d7-1ac5-403b-ba0b-78df63db7f3c</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-33AB12EE-A7B6-45F1-9D23-20B7D49FD813" initiatingParticipantRef="sid-6D8DBF30-AC4A-4C98-BEAD-2B351D923444" loopType="None" name="Payment fee">
          <extensionElements>
@@ -1044,7 +1052,7 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-F2D007AC-836F-482E-BCA1-CB8948588DB4</outgoing>
          <participantRef>sid-6D8DBF30-AC4A-4C98-BEAD-2B351D923444</participantRef>
          <participantRef>sid-354184E1-F3A8-45E4-8366-64BE19E9A69A</participantRef>
-         <messageFlowRef>sid-a35313f6-7fdb-47fa-b4bb-7de72fd1bfaa</messageFlowRef>
+         <messageFlowRef>sid-42110438-9e62-4241-a427-d4a6f9fdff2c</messageFlowRef>
       </choreographyTask>
       <choreographyTask id="sid-D8E6428D-84D5-41F3-8DDB-6666CC4AD7AE" initiatingParticipantRef="sid-6ED05F64-46E4-4A4D-AEDE-0D2E487BC304" loopType="None" name="Confirm party">
          <extensionElements>
@@ -1055,16 +1063,16 @@ We also assume that the party planner has an already curated list of contacts</t
          <outgoing>sid-238EA389-1AAA-40D6-B870-F444595C061D</outgoing>
          <participantRef>sid-6ED05F64-46E4-4A4D-AEDE-0D2E487BC304</participantRef>
          <participantRef>sid-1F3D65E8-3B24-40F2-A432-C3B9F118130C</participantRef>
-         <messageFlowRef>sid-eeaa54f8-8d05-4605-be7a-9a63639dc766</messageFlowRef>
+         <messageFlowRef>sid-a1ad05ca-f6ab-4a57-820e-1325edaeb793</messageFlowRef>
       </choreographyTask>
-      <choreographyTask id="sid-AAF62AE0-1E64-4838-90AE-D0B8554E3C44" initiatingParticipantRef="sid-52C3991B-4515-4D77-BFC2-98E47748134E" loopType="None" name="Send best vendors for each category or inform of unavailability">
+      <choreographyTask id="sid-AAF62AE0-1E64-4838-90AE-D0B8554E3C44" initiatingParticipantRef="sid-52C3991B-4515-4D77-BFC2-98E47748134E" loopType="None" name="Send suitable vendors for each category or inform of unavailability">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
          <participantRef>sid-52C3991B-4515-4D77-BFC2-98E47748134E</participantRef>
          <participantRef>sid-82E93F10-DD41-4CC8-855A-BADA8CCADF53</participantRef>
-         <messageFlowRef>sid-09c601ae-8c8a-4867-8459-534eed229c88</messageFlowRef>
+         <messageFlowRef>sid-cebc6e34-d163-482f-bc26-456854efc78c</messageFlowRef>
       </choreographyTask>
       <intermediateCatchEvent id="sid-650452F0-34D1-47A4-8DC5-FEF5B991596B" name="">
          <extensionElements>
@@ -1072,9 +1080,42 @@ We also assume that the party planner has an already curated list of contacts</t
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
          <incoming>sid-2D2520BC-C1D0-4B20-B95D-FBC6ED84128A</incoming>
-         <outgoing>sid-781CBF02-CE41-4CE6-A0F6-E70F8B602477</outgoing>
-         <timerEventDefinition id="sid-3eda8140-06e3-455d-8c23-c631df2db14a"/>
+         <outgoing>sid-88E1C745-4044-46B3-AEFC-3B6CA78F9C6A</outgoing>
+         <timerEventDefinition id="sid-b7e353cf-58cc-47cf-a5af-9705964bf097"/>
       </intermediateCatchEvent>
+      <endEvent id="sid-D8EB8D92-5601-4FB5-970B-0E3DA039B29C" name="">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+         <incoming>sid-88E1C745-4044-46B3-AEFC-3B6CA78F9C6A</incoming>
+         <terminateEventDefinition id="sid-79d28dfc-07ff-4ea6-8113-d37180d8c64d"/>
+      </endEvent>
+      <endEvent id="sid-9789761F-A808-457F-8651-4073C705029D" name="">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+         <incoming>sid-5AA4A63F-2C28-427B-A924-3EEAB5DBAE1C</incoming>
+         <terminateEventDefinition id="sid-231b8b08-6a18-4ac2-a023-ad50ce7947a4"/>
+      </endEvent>
+      <choreographyTask id="sid-E33FAA41-1F17-4D2E-8114-6B72BB0BF4B9" initiatingParticipantRef="sid-E5ED1293-9574-4461-B6E6-A8569E03260D" loopType="None" name="Insert zone of interest">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+         <outgoing>sid-5CBA1216-65C9-484D-B1D1-E48D3FE8E11F</outgoing>
+         <participantRef>sid-E5ED1293-9574-4461-B6E6-A8569E03260D</participantRef>
+         <participantRef>sid-0F2528F9-1CED-40A5-8657-2AA51CDDBDF4</participantRef>
+         <messageFlowRef>sid-8d6d5dfe-51d5-465e-b935-00cd4780ef00</messageFlowRef>
+      </choreographyTask>
+      <endEvent id="sid-0A2E781B-93C6-463F-BB0C-9E75FB059623" name="">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+         <incoming>sid-C2ECD088-B870-4EE8-A9E6-B48D63535648</incoming>
+      </endEvent>
       <sequenceFlow id="sid-AEECE3CB-E1C5-4614-B442-3E29828C9F9E" name="" sourceRef="sid-380BABF4-0F34-4DC7-A8CD-69747D779042" targetRef="sid-D4EA2B3F-C724-416A-A1B7-9831F122FC07">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
@@ -1211,12 +1252,6 @@ We also assume that the party planner has an already curated list of contacts</t
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
       </sequenceFlow>
-      <sequenceFlow id="sid-BBBA9DA7-3B64-4057-BDC1-080C9EF6DE55" name="pedagogical consultant service chosen" sourceRef="sid-27E532F8-5912-4781-90B3-593A183716B4" targetRef="sid-F500E687-E580-4252-8015-7B020A86BD4A">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <signavio:signavioLabel align="left" distance="7.5000143" from="0" orientation="ul" ref="text_name" to="1" valign="top" x="360.49998554587415" y="1612.4510498046875"/>
-         </extensionElements>
-      </sequenceFlow>
       <sequenceFlow id="sid-AD7B9288-1159-478C-92F9-50D4E3E877A3" name="choose a consultant" sourceRef="sid-65BDC833-70F1-4602-8A67-E615DFD47899" targetRef="sid-33F72EB2-C500-4BBD-A81D-90BFA7E99647">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
@@ -1264,7 +1299,13 @@ We also assume that the party planner has an already curated list of contacts</t
             <signavio:signavioLabel align="left" distance="-7.3722034" from="0" orientation="ul" ref="text_name" to="1" valign="top" x="2934.3415277982795" y="898.2652298943087"/>
          </extensionElements>
       </sequenceFlow>
-      <sequenceFlow id="sid-781CBF02-CE41-4CE6-A0F6-E70F8B602477" name="" sourceRef="sid-650452F0-34D1-47A4-8DC5-FEF5B991596B" targetRef="sid-41753757-B4BD-4C8E-B006-377C91158027">
+      <sequenceFlow id="sid-4D4A575C-DD32-4231-8D08-23F5DC099ABB" name="no babysitter available for the selected date/time" sourceRef="sid-F3E2FEF5-601E-4AE4-8538-97DC9607CE99" targetRef="sid-A7FA4762-D307-4373-AF64-1F4CECA69CB6">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioLabel align="left" distance="7.6710954" from="0" orientation="ul" ref="text_name" to="1" valign="top" x="901.3289044204105" y="710.179443359375"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-88E1C745-4044-46B3-AEFC-3B6CA78F9C6A" name="" sourceRef="sid-650452F0-34D1-47A4-8DC5-FEF5B991596B" targetRef="sid-D8EB8D92-5601-4FB5-970B-0E3DA039B29C">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
@@ -1272,18 +1313,23 @@ We also assume that the party planner has an already curated list of contacts</t
       <sequenceFlow id="sid-26116D84-11F8-4CFD-AD43-934B674D7FEB" name="not satisfied with any consultant" sourceRef="sid-65BDC833-70F1-4602-8A67-E615DFD47899" targetRef="sid-41753757-B4BD-4C8E-B006-377C91158027">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <signavio:signavioLabel align="left" distance="7.269604" from="1" orientation="ll" ref="text_name" to="2" valign="bottom" x="1191.0" y="1947.4746881951105"/>
+            <signavio:signavioLabel align="left" distance="7.9783454" from="0" orientation="ul" ref="text_name" to="1" valign="top" x="1321.0216546669064" y="1924.0665283203125"/>
          </extensionElements>
       </sequenceFlow>
-      <sequenceFlow id="sid-4D4A575C-DD32-4231-8D08-23F5DC099ABB" name="no babysitter available for the selected date/time" sourceRef="sid-F3E2FEF5-601E-4AE4-8538-97DC9607CE99" targetRef="sid-A7FA4762-D307-4373-AF64-1F4CECA69CB6">
+      <sequenceFlow id="sid-BBBA9DA7-3B64-4057-BDC1-080C9EF6DE55" name="pedagogical consultant service chosen" sourceRef="sid-27E532F8-5912-4781-90B3-593A183716B4">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
-            <signavio:signavioLabel align="left" distance="7.6710954" from="0" orientation="ul" ref="text_name" to="1" valign="top" x="901.3289044204105" y="710.179443359375"/>
+            <signavio:signavioLabel align="left" distance="7.5000143" from="0" orientation="ul" ref="text_name" to="1" valign="top" x="360.49998554587415" y="1614.2550816224662"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-5CBA1216-65C9-484D-B1D1-E48D3FE8E11F" name="" sourceRef="sid-E33FAA41-1F17-4D2E-8114-6B72BB0BF4B9" targetRef="sid-F500E687-E580-4252-8015-7B020A86BD4A">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
          </extensionElements>
       </sequenceFlow>
    </choreography>
-   <bpmndi:BPMNDiagram id="sid-94db1102-bbf0-445b-b99a-8311a3077940">
-      <bpmndi:BPMNPlane bpmnElement="sid-d828ff12-3876-4e6b-9e2c-0765416bf0a7" id="sid-f487ce13-3369-475c-96f9-029050d56314">
+   <bpmndi:BPMNDiagram id="sid-b4ce19b4-04dc-4661-8916-84f2f46a5e82">
+      <bpmndi:BPMNPlane bpmnElement="sid-67acb58b-08db-497d-82be-6762416aa81b" id="sid-94aff71f-ed19-461e-92e9-e8138a4cfb8d">
          <bpmndi:BPMNShape bpmnElement="sid-E4E22952-F443-448F-9A78-76ECE6755716" id="sid-E4E22952-F443-448F-9A78-76ECE6755716_gui">
             <omgdc:Bounds height="133.00016264111605" width="197.0" x="1175.9134506451103" y="1279.659188080781"/>
          </bpmndi:BPMNShape>
@@ -1295,124 +1341,118 @@ We also assume that the party planner has an already curated list of contacts</t
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-D4EA2B3F-C724-416A-A1B7-9831F122FC07" id="sid-D4EA2B3F-C724-416A-A1B7-9831F122FC07_gui">
             <omgdc:Bounds height="100.0" width="149.99999999999997" x="144.9999956786634" y="394.9999971687795"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="91.80000305175778" x="174.0999941527845" y="436.9999971687795"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-06DE137B-37EE-472F-9EDC-355EBD8F541C" choreographyActivityShape="sid-D4EA2B3F-C724-416A-A1B7-9831F122FC07_gui" id="sid-06DE137B-37EE-472F-9EDC-355EBD8F541C_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="149.99999999999997" x="144.9999956786634" y="394.9999971687795"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="199.55713984370246" y="396.9999971687795"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-1C08FAAF-1077-477F-9635-2090FC5B0A4F" choreographyActivityShape="sid-D4EA2B3F-C724-416A-A1B7-9831F122FC07_gui" id="sid-1C08FAAF-1077-477F-9635-2090FC5B0A4F_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="149.99999999999997" x="144.9999956786634" y="474.9999971687795"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="191.84285303950324" y="476.9999971687795"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-A7FA4762-D307-4373-AF64-1F4CECA69CB6" id="sid-A7FA4762-D307-4373-AF64-1F4CECA69CB6_gui">
             <omgdc:Bounds height="99.99999999999989" width="150.0" x="1218.9133709588625" y="683.6958003850806"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="122.65713500976562" x="1232.5848034539797" y="725.6958003850806"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-8DBB5615-547D-49D4-ACA1-51BB18CA01F4" choreographyActivityShape="sid-A7FA4762-D307-4373-AF64-1F4CECA69CB6_gui" id="sid-8DBB5615-547D-49D4-ACA1-51BB18CA01F4_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="1218.9133709588625" y="683.6958003850806"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="1265.7562283197024" y="685.6958003850806"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-46D34E60-2CF2-4314-AEA5-4BA11B1C4817" choreographyActivityShape="sid-A7FA4762-D307-4373-AF64-1F4CECA69CB6_gui" id="sid-46D34E60-2CF2-4314-AEA5-4BA11B1C4817_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="1218.9133709588625" y="763.6958003850805"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="1273.4705151239016" y="765.6958003850805"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-7DB75AAF-4BFA-4A5E-B83C-3E28984EA410" id="sid-7DB75AAF-4BFA-4A5E-B83C-3E28984EA410_gui">
             <omgdc:Bounds height="100.0" width="149.99999999999977" x="1652.2777483048444" y="395.99999695060023"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="24.0" width="116.4857177734375" x="1669.0348894181257" y="431.99999695060023"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-37BF2685-8A6A-45A2-AF93-DFE4CB1E4527" choreographyActivityShape="sid-7DB75AAF-4BFA-4A5E-B83C-3E28984EA410_gui" id="sid-37BF2685-8A6A-45A2-AF93-DFE4CB1E4527_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="149.99999999999977" x="1652.2777483048444" y="395.99999695060023"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="1699.1206056656843" y="397.99999695060023"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-6D047F51-B0AE-4477-B4CD-40BA16DC2DD4" choreographyActivityShape="sid-7DB75AAF-4BFA-4A5E-B83C-3E28984EA410_gui" id="sid-6D047F51-B0AE-4477-B4CD-40BA16DC2DD4_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="149.99999999999977" x="1652.2777483048444" y="475.99999695060023"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="1706.8348924698835" y="477.99999695060023"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-732690FA-6E44-449D-88E8-713CAE258351" id="sid-732690FA-6E44-449D-88E8-713CAE258351_gui">
             <omgdc:Bounds height="100.0" width="150.00000000000023" x="1951.184643037838" y="395.99999695060023"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="46.28571319580101" x="2003.0417864399376" y="437.99999695060023"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-38CC4A2C-F7D7-4290-AD44-AB4E98EF1D88" choreographyActivityShape="sid-732690FA-6E44-449D-88E8-713CAE258351_gui" id="sid-38CC4A2C-F7D7-4290-AD44-AB4E98EF1D88_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.00000000000023" x="1951.184643037838" y="395.99999695060023"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="2005.741787202877" y="397.99999695060023"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-DF9CE36F-1419-4910-BB8E-1D93AC3B4B8F" choreographyActivityShape="sid-732690FA-6E44-449D-88E8-713CAE258351_gui" id="sid-DF9CE36F-1419-4910-BB8E-1D93AC3B4B8F_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.00000000000023" x="1951.184643037838" y="475.99999695060023"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832054" x="1998.0275003986778" y="477.99999695060023"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-2A3D2860-B8D5-460E-AA08-07CC0470E03A" id="sid-2A3D2860-B8D5-460E-AA08-07CC0470E03A_gui">
             <omgdc:Bounds height="100.0" width="150.0" x="2401.772855104707" y="395.5000098448853"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="114.94285583496094" x="2419.3014271872266" y="437.5000098448853"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-A3D328B5-DCC0-4B9D-AD9B-6F9BDDCDC4AB" choreographyActivityShape="sid-2A3D2860-B8D5-460E-AA08-07CC0470E03A_gui" id="sid-A3D328B5-DCC0-4B9D-AD9B-6F9BDDCDC4AB_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2401.772855104707" y="395.5000098448853"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="2448.615712465547" y="397.5000098448853"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-5E63CFF2-4011-4CA5-A10C-3298ED723F4F" choreographyActivityShape="sid-2A3D2860-B8D5-460E-AA08-07CC0470E03A_gui" id="sid-5E63CFF2-4011-4CA5-A10C-3298ED723F4F_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2401.772855104707" y="475.5000098448853"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="55.54286193847656" x="2449.001424135469" y="477.5000098448853"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-78AA0870-D76D-4FEF-A57B-84E3A5F82D0B" id="sid-78AA0870-D76D-4FEF-A57B-84E3A5F82D0B_gui">
             <omgdc:Bounds height="30.0" width="30.0" x="2086.184643037838" y="470.9999969506002"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
                <omgdc:Bounds height="11.000000000000057" width="19.092857360839844" x="2091.6382143574183" y="502.9999969506002"/>
             </bpmndi:BPMNLabel>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="sid-9789761F-A808-457F-8651-4073C705029D" id="sid-9789761F-A808-457F-8651-4073C705029D_gui">
-            <omgdc:Bounds height="28.0" width="28.0" x="2237.4786922592857" y="471.4999781054139"/>
-         </bpmndi:BPMNShape>
-         <bpmndi:BPMNShape bpmnElement="sid-0A2E781B-93C6-463F-BB0C-9E75FB059623" id="sid-0A2E781B-93C6-463F-BB0C-9E75FB059623_gui">
-            <omgdc:Bounds height="28.0" width="28.0" x="3074.2960469392556" y="1010.8883619250905"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-27E532F8-5912-4781-90B3-593A183716B4" id="sid-27E532F8-5912-4781-90B3-593A183716B4_gui" isMarkerVisible="true">
             <omgdc:Bounds height="40.0" width="40.0" x="339.99998554587415" y="425.49997947632073"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-44991773-DA47-4B50-98C6-121DEFEF7357" id="sid-44991773-DA47-4B50-98C6-121DEFEF7357_gui">
             <omgdc:Bounds height="140.0" width="150.0" x="2715.335569280209" y="954.8884026615383"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="24.0" width="145.8000030517578" x="2717.43556775433" y="1010.8884026615383"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-60BC38E8-A82A-4873-A01A-C4B7D84C7E45" choreographyActivityShape="sid-44991773-DA47-4B50-98C6-121DEFEF7357_gui" id="sid-60BC38E8-A82A-4873-A01A-C4B7D84C7E45_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2715.335569280209" y="954.8884026615383"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="2762.1784266410486" y="956.8884026615383"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-7231FC15-2EB9-450D-9441-34E823CE461B" choreographyActivityShape="sid-44991773-DA47-4B50-98C6-121DEFEF7357_gui" id="sid-7231FC15-2EB9-450D-9441-34E823CE461B_gui" isMessageVisible="true" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2715.335569280209" y="1074.8884026615383"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="2769.892713445248" y="1076.8884026615383"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
@@ -1430,13 +1470,13 @@ We also assume that the party planner has an already curated list of contacts</t
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-87DF9EE5-14D9-4ACC-B4D0-AA119B90BF1C" choreographyActivityShape="sid-D543A525-A681-4BF2-A66C-80EBF53040EA_gui" id="sid-87DF9EE5-14D9-4ACC-B4D0-AA119B90BF1C_gui" isMessageVisible="false" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="386.95616369643017" x="1181.7634102946568" y="808.8884490306255"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="82.5428466796875" x="1333.9699837809849" y="810.8884490306255"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-0D10B6A8-37BE-4F42-BDAC-E32F80B9FBE3" choreographyActivityShape="sid-D543A525-A681-4BF2-A66C-80EBF53040EA_gui" id="sid-0D10B6A8-37BE-4F42-BDAC-E32F80B9FBE3_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="30.0" width="386.95616369643017" x="1181.7634102946568" y="1209.659188080781"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="39.342864990234375" x="1355.5699746257114" y="1211.659188080781"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
@@ -1445,25 +1485,25 @@ We also assume that the party planner has an already curated list of contacts</t
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-36DEC0F5-3017-4E64-A7AB-D22DC2149B5A" id="sid-36DEC0F5-3017-4E64-A7AB-D22DC2149B5A_gui">
             <omgdc:Bounds height="150.0" width="150.0" x="1282.2037805807577" y="941.888392681083"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="131.14285278320312" x="1291.632354189156" y="1003.888392681083"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-AED03DA8-ADD0-4501-A5B2-3BE466B28821" choreographyActivityShape="sid-36DEC0F5-3017-4E64-A7AB-D22DC2149B5A_gui" id="sid-AED03DA8-ADD0-4501-A5B2-3BE466B28821_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="1282.2037805807577" y="941.888392681083"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="82.5428466796875" x="1315.932357240914" y="943.888392681083"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-AB839E81-108D-409E-BAF1-06EB2818422E" choreographyActivityShape="sid-36DEC0F5-3017-4E64-A7AB-D22DC2149B5A_gui" id="sid-AB839E81-108D-409E-BAF1-06EB2818422E_gui" isMessageVisible="true" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="30.0" width="150.0" x="1282.2037805807577" y="1061.8883926810831"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="39.342857360839844" x="1337.5323519003377" y="1063.8883926810831"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-4497F543-DD02-4DD3-9846-90523E26FB1F" id="sid-4497F543-DD02-4DD3-9846-90523E26FB1F_gui">
             <omgdc:Bounds height="29.99999999999997" width="30.0" x="1417.2037805807577" y="1047.4798104066354"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
                <omgdc:Bounds height="11.0" width="19.092857360839844" x="1422.6573519003377" y="1079.4798104066354"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
@@ -1475,131 +1515,131 @@ We also assume that the party planner has an already curated list of contacts</t
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-FEC069A5-C547-4BA1-901E-6D6FA5882937" id="sid-FEC069A5-C547-4BA1-901E-6D6FA5882937_gui">
             <omgdc:Bounds height="100.0" width="150.0" x="647.7780735945375" y="394.9999666214004"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="36.0" width="145.8000030517578" x="649.8780720686586" y="424.9999666214004"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-6B94A588-C4DE-474F-B799-D62F36DF4B75" choreographyActivityShape="sid-FEC069A5-C547-4BA1-901E-6D6FA5882937_gui" id="sid-6B94A588-C4DE-474F-B799-D62F36DF4B75_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="647.7780735945375" y="394.9999666214004"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="702.3352177595766" y="396.9999666214004"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-082334CF-683E-46A5-86A4-FE1A4755464B" choreographyActivityShape="sid-FEC069A5-C547-4BA1-901E-6D6FA5882937_gui" id="sid-082334CF-683E-46A5-86A4-FE1A4755464B_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="647.7780735945375" y="474.9999666214004"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="694.6209309553774" y="476.9999666214004"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-965FE378-2A31-4731-BC59-988036094F2E" id="sid-965FE378-2A31-4731-BC59-988036094F2E_gui">
             <omgdc:Bounds height="125.00002881551882" width="182.05128043478533" x="560.8974076087434" y="946.763366046089"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="36.0" width="175.11428833007812" x="564.3662644202668" y="989.263366046089"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-78DD8637-F709-44CC-8435-3FF5F9D5BC40" choreographyActivityShape="sid-965FE378-2A31-4731-BC59-988036094F2E_gui" id="sid-78DD8637-F709-44CC-8435-3FF5F9D5BC40_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="182.05128043478533" x="560.8974076087434" y="946.763366046089"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="631.4805527503449" y="948.763366046089"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-983D7EC5-A8F1-4A2A-B9D6-FC65D82FF485" choreographyActivityShape="sid-965FE378-2A31-4731-BC59-988036094F2E_gui" id="sid-983D7EC5-A8F1-4A2A-B9D6-FC65D82FF485_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="182.05128043478533" x="560.8974076087434" y="1051.7633948616078"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="623.7662659461457" y="1053.7633948616078"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-164ECE7B-E817-4762-A096-D3A29749F4A9" id="sid-164ECE7B-E817-4762-A096-D3A29749F4A9_gui">
             <omgdc:Bounds height="100.0" width="150.0000000000001" x="878.8289044204106" y="974.8884020654918"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="124.19999694824219" x="891.7289059462895" y="1016.8884020654918"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-1B6C08F0-BE5F-42A4-B99B-90AFC530F0B3" choreographyActivityShape="sid-164ECE7B-E817-4762-A096-D3A29749F4A9_gui" id="sid-1B6C08F0-BE5F-42A4-B99B-90AFC530F0B3_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0000000000001" x="878.8289044204106" y="974.8884020654918"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="925.6717617812504" y="976.8884020654918"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-222EA272-8085-41C6-99CC-AF29DA411659" choreographyActivityShape="sid-164ECE7B-E817-4762-A096-D3A29749F4A9_gui" id="sid-222EA272-8085-41C6-99CC-AF29DA411659_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0000000000001" x="878.8289044204106" y="1054.8884020654918"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="82.5428466796875" x="912.5574810805668" y="1056.8884020654918"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-3B611DD7-C96D-4748-8556-C26EDA6ACF65" id="sid-3B611DD7-C96D-4748-8556-C26EDA6ACF65_gui">
             <omgdc:Bounds height="140.0" width="149.99999999999955" x="1951.1845848880062" y="954.8884400601269"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="24.0" width="64.028564453125" x="1994.1703026614437" y="1010.8884400601269"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-88C42BA3-6723-480D-9A6F-C005E695A4AA" choreographyActivityShape="sid-3B611DD7-C96D-4748-8556-C26EDA6ACF65_gui" id="sid-88C42BA3-6723-480D-9A6F-C005E695A4AA_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="149.99999999999955" x="1951.1845848880062" y="954.8884400601269"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="1998.027442248846" y="956.8884400601269"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-3C77B834-99C1-4342-A867-29CC9E05047A" choreographyActivityShape="sid-3B611DD7-C96D-4748-8556-C26EDA6ACF65_gui" id="sid-3C77B834-99C1-4342-A867-29CC9E05047A_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="149.99999999999955" x="1951.1845848880062" y="1074.8884400601269"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="2005.7417290530452" y="1076.8884400601269"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-430A95F8-57CB-41C0-9B0A-60CD4F6D9B46" id="sid-430A95F8-57CB-41C0-9B0A-60CD4F6D9B46_gui">
             <omgdc:Bounds height="140.0" width="150.0" x="2219.999933838846" y="815.8885011813593"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="118.028564453125" x="2235.9856516122836" y="877.8885011813593"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-AF062F05-53B3-4730-9CEF-47920AC38AD9" choreographyActivityShape="sid-430A95F8-57CB-41C0-9B0A-60CD4F6D9B46_gui" id="sid-AF062F05-53B3-4730-9CEF-47920AC38AD9_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2219.999933838846" y="815.8885011813593"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="2274.557078003885" y="817.8885011813593"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-A25F0B32-8F18-4F3F-9853-0FC240816BAF" choreographyActivityShape="sid-430A95F8-57CB-41C0-9B0A-60CD4F6D9B46_gui" id="sid-A25F0B32-8F18-4F3F-9853-0FC240816BAF_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2219.999933838846" y="935.8885011813593"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="2266.842791199686" y="937.8885011813593"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-C8FAAC67-05F1-4E8E-B07E-5E81597226E1" id="sid-C8FAAC67-05F1-4E8E-B07E-5E81597226E1_gui">
             <omgdc:Bounds height="140.0" width="150.0" x="2321.3531551458163" y="1154.6591447285602"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="117.25714111328125" x="2337.7245845891757" y="1216.6591447285602"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-1BDF39DA-89FC-47F9-AD1C-E3CCF18F9E71" choreographyActivityShape="sid-C8FAAC67-05F1-4E8E-B07E-5E81597226E1_gui" id="sid-1BDF39DA-89FC-47F9-AD1C-E3CCF18F9E71_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2321.3531551458163" y="1154.6591447285602"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="2375.9102993108554" y="1156.6591447285602"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-1319CFD7-A5F7-486F-A675-A1402105A9E1" choreographyActivityShape="sid-C8FAAC67-05F1-4E8E-B07E-5E81597226E1_gui" id="sid-1319CFD7-A5F7-486F-A675-A1402105A9E1_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2321.3531551458163" y="1274.6591447285602"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="2368.196012506656" y="1276.6591447285602"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-65F53453-CCCE-4420-BB3B-04CD396820DB" id="sid-65F53453-CCCE-4420-BB3B-04CD396820DB_gui">
-            <omgdc:Bounds height="40.888391965828305" width="40.31917262756451" x="2166.917238633223" y="1004.8884400601269"/>
+            <omgdc:Bounds height="39.111608034171695" width="39.68082737243549" x="2166.917238633223" y="1004.8884400601269"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-F500E687-E580-4252-8015-7B020A86BD4A" id="sid-F500E687-E580-4252-8015-7B020A86BD4A_gui">
-            <omgdc:Bounds height="140.0" width="150.0" x="621.35922204247" y="1565.365953915612"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
-               <omgdc:Bounds height="36.0" width="126.5142822265625" x="633.1020809291888" y="1615.365953915612"/>
+            <omgdc:Bounds height="140.0" width="150.0" x="825.828879808792" y="1565.3655822043504"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="36.0" width="126.5142822265625" x="837.5717386955107" y="1615.3655822043504"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-3BAC59BB-A7C6-4C3E-84CE-1F157CE84930" choreographyActivityShape="sid-F500E687-E580-4252-8015-7B020A86BD4A_gui" id="sid-3BAC59BB-A7C6-4C3E-84CE-1F157CE84930_gui" isMessageVisible="true" participantBandKind="top_initiating">
-            <omgdc:Bounds height="20.0" width="150.0" x="621.35922204247" y="1565.365953915612"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
-               <omgdc:Bounds height="12.0" width="56.31428527832031" x="668.2020794033099" y="1567.365953915612"/>
+            <omgdc:Bounds height="20.0" width="150.0" x="825.828879808792" y="1565.3655822043504"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="12.0" width="56.31428527832031" x="872.6717371696318" y="1567.3655822043504"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-C09A7541-D27E-4623-A3D1-9F1B238E402D" choreographyActivityShape="sid-F500E687-E580-4252-8015-7B020A86BD4A_gui" id="sid-C09A7541-D27E-4623-A3D1-9F1B238E402D_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
-            <omgdc:Bounds height="20.0" width="150.0" x="621.35922204247" y="1685.365953915612"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
-               <omgdc:Bounds height="12.0" width="40.885711669921875" x="675.9163662075091" y="1687.365953915612"/>
+            <omgdc:Bounds height="20.0" width="150.0" x="825.828879808792" y="1685.3655822043504"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="12.0" width="40.885711669921875" x="880.386023973831" y="1687.3655822043504"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-F56788E9-1343-44DD-B560-67DFAD9B1032" id="sid-F56788E9-1343-44DD-B560-67DFAD9B1032_gui" isMarkerVisible="true">
@@ -1607,153 +1647,180 @@ We also assume that the party planner has an already curated list of contacts</t
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-94FECE8B-5769-4C8B-A298-8ABC9A5C474F" id="sid-94FECE8B-5769-4C8B-A298-8ABC9A5C474F_gui">
             <omgdc:Bounds height="100.0" width="149.9999999999999" x="999.3348366496831" y="395.4999804030141"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="24.0" width="110.3142852783202" x="1019.1776940105229" y="431.4999804030141"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-AC62396D-23AB-4BCF-B1E2-B9751CED026F" choreographyActivityShape="sid-94FECE8B-5769-4C8B-A298-8ABC9A5C474F_gui" id="sid-AC62396D-23AB-4BCF-B1E2-B9751CED026F_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="149.9999999999999" x="999.3348366496831" y="395.4999804030141"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="1046.1776940105228" y="397.4999804030141"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-2C12BEB1-A0EE-4C25-99BF-87BB7E2232E5" choreographyActivityShape="sid-94FECE8B-5769-4C8B-A298-8ABC9A5C474F_gui" id="sid-2C12BEB1-A0EE-4C25-99BF-87BB7E2232E5_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="149.9999999999999" x="999.3348366496831" y="475.4999804030141"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="1053.891980814722" y="477.4999804030141"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-18C2ED7A-286C-4973-A55C-E73DC2CB4248" id="sid-18C2ED7A-286C-4973-A55C-E73DC2CB4248_gui">
             <omgdc:Bounds height="100.0" width="150.0" x="1217.913407285312" y="395.99999695060023"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="74.82858276367188" x="1255.499115903476" y="437.99999695060023"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-FD25D819-8370-4C5C-B3D5-9495067C4E32" choreographyActivityShape="sid-18C2ED7A-286C-4973-A55C-E73DC2CB4248_gui" id="sid-FD25D819-8370-4C5C-B3D5-9495067C4E32_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="1217.913407285312" y="395.99999695060023"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="1272.470551450351" y="397.99999695060023"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-F97FBEE0-2BA1-4A6C-9141-1EE01BFC5036" choreographyActivityShape="sid-18C2ED7A-286C-4973-A55C-E73DC2CB4248_gui" id="sid-F97FBEE0-2BA1-4A6C-9141-1EE01BFC5036_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="1217.913407285312" y="475.99999695060023"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="1264.7562646461517" y="477.99999695060023"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-554DACF7-AC48-44F5-84F5-15EC3C340BDD" id="sid-554DACF7-AC48-44F5-84F5-15EC3C340BDD_gui">
-            <omgdc:Bounds height="150.0" width="150.0" x="879.8288781994665" y="1560.3657316956867"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
-               <omgdc:Bounds height="24.0" width="136.54286193847656" x="886.5574472302283" y="1616.3657316956867"/>
+            <omgdc:Bounds height="150.0" width="150.0" x="1058.2008697421074" y="1561.1157946937979"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="24.0" width="136.54286193847656" x="1064.9294387728692" y="1617.1157946937979"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-ECDD26E7-E510-4A0E-A6DA-DE0B2AB7ECA3" choreographyActivityShape="sid-554DACF7-AC48-44F5-84F5-15EC3C340BDD_gui" id="sid-ECDD26E7-E510-4A0E-A6DA-DE0B2AB7ECA3_gui" isMessageVisible="true" participantBandKind="top_initiating">
-            <omgdc:Bounds height="20.0" width="150.0" x="879.8288781994665" y="1560.3657316956867"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
-               <omgdc:Bounds height="12.0" width="40.885711669921875" x="934.3860223645056" y="1562.3657316956867"/>
+            <omgdc:Bounds height="20.0" width="150.0" x="1058.2008697421074" y="1561.1157946937979"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="12.0" width="40.885711669921875" x="1112.7580139071465" y="1563.1157946937979"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-37064763-FE64-4E0E-A047-4045F5DC4CB9" choreographyActivityShape="sid-554DACF7-AC48-44F5-84F5-15EC3C340BDD_gui" id="sid-37064763-FE64-4E0E-A047-4045F5DC4CB9_gui" isMessageVisible="true" participantBandKind="bottom_non_initiating">
-            <omgdc:Bounds height="30.0" width="150.0" x="879.8288781994665" y="1680.3657316956867"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
-               <omgdc:Bounds height="12.0" width="123.42857360839844" x="893.1145913952673" y="1682.3657316956867"/>
+            <omgdc:Bounds height="30.0" width="150.0" x="1058.2008697421074" y="1681.1157946937979"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="12.0" width="123.42857360839844" x="1071.4865829379082" y="1683.1157946937979"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-33F72EB2-C500-4BBD-A81D-90BFA7E99647" id="sid-33F72EB2-C500-4BBD-A81D-90BFA7E99647_gui">
             <omgdc:Bounds height="140.0" width="150.0" x="1515.6528193424124" y="1565.3656761034574"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="24.0" width="88.71429443359375" x="1546.2956721256155" y="1621.3656761034574"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-956F8EBA-B106-4359-8C9A-DE30700B06F3" choreographyActivityShape="sid-33F72EB2-C500-4BBD-A81D-90BFA7E99647_gui" id="sid-956F8EBA-B106-4359-8C9A-DE30700B06F3_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="1515.6528193424124" y="1565.3656761034574"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="1570.2099635074514" y="1567.3656761034574"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-C5D38D0F-6BA6-44B9-9925-34F083B9BCB7" choreographyActivityShape="sid-33F72EB2-C500-4BBD-A81D-90BFA7E99647_gui" id="sid-C5D38D0F-6BA6-44B9-9925-34F083B9BCB7_gui" isMessageVisible="true" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="1515.6528193424124" y="1685.3656761034574"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="123.42857360839844" x="1528.9385325382132" y="1687.3656761034574"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-65BDC833-70F1-4602-8A67-E615DFD47899" id="sid-65BDC833-70F1-4602-8A67-E615DFD47899_gui" isMarkerVisible="true">
-            <omgdc:Bounds height="40.0" width="40.0" x="1147.3905944447308" y="1615.3657131106997"/>
+            <omgdc:Bounds height="40.0" width="40.0" x="1300.5216546669064" y="1616.1157930546703"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-7DB9888D-4538-4CB3-8C57-4BBCF6155809" id="sid-7DB9888D-4538-4CB3-8C57-4BBCF6155809_gui">
             <omgdc:Bounds height="100.0" width="150.0" x="1876.184643037838" y="1586.1157850080435"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="46.28571319580078" x="1928.0417864399376" y="1628.1157850080435"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-361373CA-9EC5-4FFC-A88C-CDC33D7F6F74" choreographyActivityShape="sid-7DB9888D-4538-4CB3-8C57-4BBCF6155809_gui" id="sid-361373CA-9EC5-4FFC-A88C-CDC33D7F6F74_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="1876.184643037838" y="1586.1157850080435"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="40.885711669921875" x="1930.741787202877" y="1588.1157850080435"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-C4FABF17-4B67-4AF1-BD20-910F7B31011E" choreographyActivityShape="sid-7DB9888D-4538-4CB3-8C57-4BBCF6155809_gui" id="sid-C4FABF17-4B67-4AF1-BD20-910F7B31011E_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="1876.184643037838" y="1666.1157850080435"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="123.42857360839844" x="1889.4703562336388" y="1668.1157850080435"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-33AB12EE-A7B6-45F1-9D23-20B7D49FD813" id="sid-33AB12EE-A7B6-45F1-9D23-20B7D49FD813_gui">
             <omgdc:Bounds height="140.0" width="150.0" x="2213.346974455327" y="1566.1158412186742"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="66.34286499023438" x="2255.17554196021" y="1628.1158412186742"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-6D8DBF30-AC4A-4C98-BEAD-2B351D923444" choreographyActivityShape="sid-33AB12EE-A7B6-45F1-9D23-20B7D49FD813_gui" id="sid-6D8DBF30-AC4A-4C98-BEAD-2B351D923444_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2213.346974455327" y="1566.1158412186742"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="123.42857360839844" x="2226.632687651128" y="1568.1158412186742"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-354184E1-F3A8-45E4-8366-64BE19E9A69A" choreographyActivityShape="sid-33AB12EE-A7B6-45F1-9D23-20B7D49FD813_gui" id="sid-354184E1-F3A8-45E4-8366-64BE19E9A69A_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2213.346974455327" y="1686.1158412186742"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="2260.189831816167" y="1688.1158412186742"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-D8E6428D-84D5-41F3-8DDB-6666CC4AD7AE" id="sid-D8E6428D-84D5-41F3-8DDB-6666CC4AD7AE_gui">
             <omgdc:Bounds height="140.0" width="150.0" x="2415.0" y="815.8884676570749"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="74.82858276367188" x="2452.585708618164" y="877.8884676570749"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-6ED05F64-46E4-4A4D-AEDE-0D2E487BC304" choreographyActivityShape="sid-D8E6428D-84D5-41F3-8DDB-6666CC4AD7AE_gui" id="sid-6ED05F64-46E4-4A4D-AEDE-0D2E487BC304_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2415.0" y="815.8884676570749"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="2461.84285736084" y="817.8884676570749"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-1F3D65E8-3B24-40F2-A432-C3B9F118130C" choreographyActivityShape="sid-D8E6428D-84D5-41F3-8DDB-6666CC4AD7AE_gui" id="sid-1F3D65E8-3B24-40F2-A432-C3B9F118130C_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="150.0" x="2415.0" y="935.8884676570749"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="82.5428466796875" x="2448.7285766601562" y="937.8884676570749"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-AAF62AE0-1E64-4838-90AE-D0B8554E3C44" id="sid-AAF62AE0-1E64-4838-90AE-D0B8554E3C44_gui">
             <omgdc:Bounds height="134.88533792645694" width="164.5695360816519" x="1692.9720684516822" y="956.8884115724318"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
-               <omgdc:Bounds height="36.0" width="151.1999969482422" x="1699.6570736396704" y="1004.3314123658888"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="36.0" width="144.25714111328125" x="1703.128501557151" y="1004.3314123658888"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-52C3991B-4515-4D77-BFC2-98E47748134E" choreographyActivityShape="sid-AAF62AE0-1E64-4838-90AE-D0B8554E3C44_gui" id="sid-52C3991B-4515-4D77-BFC2-98E47748134E_gui" isMessageVisible="true" participantBandKind="top_initiating">
             <omgdc:Bounds height="20.0" width="164.5695360816519" x="1692.9720684516822" y="956.8884115724318"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="82.5428466796875" x="1733.9856487739478" y="958.8884115724318"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-82E93F10-DD41-4CC8-855A-BADA8CCADF53" choreographyActivityShape="sid-AAF62AE0-1E64-4838-90AE-D0B8554E3C44_gui" id="sid-82E93F10-DD41-4CC8-855A-BADA8CCADF53_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
             <omgdc:Bounds height="20.0" width="164.5695360816519" x="1692.9720684516822" y="1071.7737494988887"/>
-            <bpmndi:BPMNLabel labelStyle="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
                <omgdc:Bounds height="12.0" width="56.31428527832031" x="1747.0999294746314" y="1073.7737494988887"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-650452F0-34D1-47A4-8DC5-FEF5B991596B" id="sid-650452F0-34D1-47A4-8DC5-FEF5B991596B_gui">
             <omgdc:Bounds height="30.0" width="30.0" x="2274.3469066745074" y="1009.8884010224106"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-D8EB8D92-5601-4FB5-970B-0E3DA039B29C" id="sid-D8EB8D92-5601-4FB5-970B-0E3DA039B29C_gui">
+            <omgdc:Bounds height="28.888401022410562" width="28.34690667450741" x="2349.520360011761" y="1011.3326015336158"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-9789761F-A808-457F-8651-4073C705029D" id="sid-9789761F-A808-457F-8651-4073C705029D_gui">
+            <omgdc:Bounds height="28.499978105413902" width="28.478692259285708" x="2237.7180383889286" y="471.74996715812085"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-E33FAA41-1F17-4D2E-8114-6B72BB0BF4B9" id="sid-E33FAA41-1F17-4D2E-8114-6B72BB0BF4B9_gui">
+            <omgdc:Bounds height="134.88533792645694" width="150.00000000000023" x="621.3591492399253" y="1568.3655354634152"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="12.0" width="122.65713500976562" x="635.0305817350425" y="1627.8085362568722"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-E5ED1293-9574-4461-B6E6-A8569E03260D" choreographyActivityShape="sid-E33FAA41-1F17-4D2E-8114-6B72BB0BF4B9_gui" id="sid-E5ED1293-9574-4461-B6E6-A8569E03260D_gui" isMessageVisible="true" participantBandKind="top_initiating">
+            <omgdc:Bounds height="20.0" width="150.00000000000023" x="621.3591492399253" y="1568.3655354634152"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="12.0" width="40.885711669921875" x="675.9162934049643" y="1570.3655354634152"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-0F2528F9-1CED-40A5-8657-2AA51CDDBDF4" choreographyActivityShape="sid-E33FAA41-1F17-4D2E-8114-6B72BB0BF4B9_gui" id="sid-0F2528F9-1CED-40A5-8657-2AA51CDDBDF4_gui" isMessageVisible="false" participantBandKind="bottom_non_initiating">
+            <omgdc:Bounds height="20.0" width="150.00000000000023" x="621.3591492399253" y="1683.2508733898721"/>
+            <bpmndi:BPMNLabel labelStyle="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
+               <omgdc:Bounds height="12.0" width="56.31428527832031" x="668.2020066007651" y="1685.2508733898721"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-0A2E781B-93C6-463F-BB0C-9E75FB059623" id="sid-0A2E781B-93C6-463F-BB0C-9E75FB059623_gui">
+            <omgdc:Bounds height="28.0" width="28.0" x="3074.2960469392556" y="1010.8883619250905"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-1A91F92E-1B5A-417F-9473-EB1DC548C0ED" id="sid-1A91F92E-1B5A-417F-9473-EB1DC548C0ED_gui">
             <omgdc:Bounds height="68.50003722309748" width="100.0" x="1597.763327588688" y="91.9999755471959"/>
@@ -1771,10 +1838,10 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdc:Bounds height="50.0" width="100.0" x="2087.559579035575" y="314.99994453310205"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-E3CFEBB4-330A-4113-855C-45ECA4786420" id="sid-E3CFEBB4-330A-4113-855C-45ECA4786420_gui">
-            <omgdc:Bounds height="97.0" width="137.0740389999262" x="816.2245477984245" y="1817.8655974293288"/>
+            <omgdc:Bounds height="97.0" width="137.07403899992607" x="910.7444382303346" y="1793.8655439679694"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-D91B925C-1B68-4209-A6A8-1FDA664CCC84" id="sid-D91B925C-1B68-4209-A6A8-1FDA664CCC84_gui">
-            <omgdc:Bounds height="50.0" width="122.99997306380044" x="1002.3905944447312" y="1817.8655974293288"/>
+            <omgdc:Bounds height="50.0" width="122.99997306380033" x="1187.203747702724" y="1817.8655974293285"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-4B8326D5-D3B4-4AF8-B293-CC52513F1FE3" id="sid-4B8326D5-D3B4-4AF8-B293-CC52513F1FE3_gui">
             <omgdc:Bounds height="50.0" width="100.0" x="1636.0277723843005" y="1737.3657264206759"/>
@@ -1804,8 +1871,8 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="2401.772855104707" y="445.5832322460143"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-5AA4A63F-2C28-427B-A924-3EEAB5DBAE1C" id="sid-5AA4A63F-2C28-427B-A924-3EEAB5DBAE1C_gui">
-            <omgdi:waypoint x="2116.184643037838" y="485.95009289440736"/>
-            <omgdi:waypoint x="2237.4786922592857" y="485.5465552245272"/>
+            <omgdi:waypoint x="2116.184643037838" y="486.02572576555355"/>
+            <omgdi:waypoint x="2237.7180383889286" y="486.2341864481965"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-26F66B04-EDB3-4578-AA30-484F3B3367E1" id="sid-26F66B04-EDB3-4578-AA30-484F3B3367E1_gui">
             <omgdi:waypoint x="2865.335569280209" y="1025.1487873369524"/>
@@ -1839,7 +1906,7 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="360.49998554587415" y="465.49997947632073"/>
             <omgdi:waypoint x="360.49998554587415" y="1024.8884020654918"/>
             <omgdi:waypoint x="560.8974076087434" y="1024.8884020654918"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
                <omgdc:Bounds height="12.0" width="155.82855224609375" x="368.0" y="1003.8319702148438"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
@@ -1861,25 +1928,25 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="2605.9700373942756" y="1003.8883727135301"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-C2ECD088-B870-4EE8-A9E6-B48D63535648" id="sid-C2ECD088-B870-4EE8-A9E6-B48D63535648_gui">
-            <omgdi:waypoint x="2953.8415277982795" y="1025.3250315333983"/>
-            <omgdi:waypoint x="3074.2960469392556" y="1024.933829898613"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
-               <omgdc:Bounds height="12.045030018216949" width="13.924638403235804" x="2961.7160139232597" y="1005.2540462649491"/>
+            <omgdi:waypoint x="2953.8415277982795" y="1025.3831403870174"/>
+            <omgdi:waypoint x="3074.2960469392556" y="1025.3508861379005"/>
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
+               <omgdc:Bounds height="12.003719754099052" width="13.888956657184735" x="2961.8315554561814" y="1005.3771327322072"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-BBD3A58D-A33D-4637-8437-143F1BC89CA1" id="sid-BBD3A58D-A33D-4637-8437-143F1BC89CA1_gui">
             <omgdi:waypoint x="2101.1845848880057" y="1024.8884400601269"/>
             <omgdi:waypoint x="2134.0509117606143" y="1024.8884400601269"/>
             <omgdi:waypoint x="2134.0509117606143" y="1026.3197254873876"/>
-            <omgdi:waypoint x="2166.917238633223" y="1026.3197254873876"/>
+            <omgdi:waypoint x="2166.917238633223" y="1025.7461815869967"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-7150D3AA-8230-48E0-BB14-F96078D4710E" id="sid-7150D3AA-8230-48E0-BB14-F96078D4710E_gui">
-            <omgdi:waypoint x="2187.696693600101" y="1004.8884400601269"/>
+            <omgdi:waypoint x="2187.417238633223" y="1004.8884400601269"/>
             <omgdi:waypoint x="2187.417238633223" y="885.8885011813593"/>
             <omgdi:waypoint x="2219.999933838846" y="885.8885011813593"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-587C8FF9-FCCA-40EE-A481-31896C09F039" id="sid-587C8FF9-FCCA-40EE-A481-31896C09F039_gui">
-            <omgdi:waypoint x="2187.5480145835295" y="1045.7768320259552"/>
+            <omgdi:waypoint x="2187.253662661596" y="1044.0000480942986"/>
             <omgdi:waypoint x="2187.2536626615965" y="1224.6591447285602"/>
             <omgdi:waypoint x="2321.3531551458163" y="1224.6591447285602"/>
          </bpmndi:BPMNEdge>
@@ -1910,16 +1977,16 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="2605.9700373942756" y="1003.8883727135301"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-11154C87-BD81-4F2F-8D9D-F97C2C5B4E36" id="sid-11154C87-BD81-4F2F-8D9D-F97C2C5B4E36_gui">
-            <omgdi:waypoint x="464.0" y="212.8399985347769"/>
-            <omgdi:waypoint x="1597.763327588688" y="154.80751423496193"/>
+            <omgdi:waypoint x="454.0" y="212.8399985347769"/>
+            <omgdi:waypoint x="1597.763327588688" y="154.80411354722267"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-A7A13F01-FE51-43F5-9253-F6A85DD88C85" id="sid-A7A13F01-FE51-43F5-9253-F6A85DD88C85_gui">
-            <omgdi:waypoint x="771.35922204247" y="1635.3658894341768"/>
-            <omgdi:waypoint x="879.8288781994665" y="1635.3657961771219"/>
+            <omgdi:waypoint x="975.828879808792" y="1635.6077195494095"/>
+            <omgdi:waypoint x="1058.2008697421074" y="1635.8736573487388"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-53D87CCB-FAFE-4FAB-BECA-03FBF190D744" id="sid-53D87CCB-FAFE-4FAB-BECA-03FBF190D744_gui">
-            <omgdi:waypoint x="1029.8288781994665" y="1635.5417304944706"/>
-            <omgdi:waypoint x="1147.3905944447308" y="1635.8176067723655"/>
+            <omgdi:waypoint x="1208.2008697421074" y="1636.315452453084"/>
+            <omgdi:waypoint x="1300.5216546669064" y="1636.5612199337988"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-FE2EB613-8A01-4AB3-99D8-9D2120AEFAE2" id="sid-FE2EB613-8A01-4AB3-99D8-9D2120AEFAE2_gui">
             <omgdi:waypoint x="1589.750433354454" y="1773.8657264206759"/>
@@ -1930,12 +1997,12 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="2087.559579035575" y="340.71537799537253"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-41183088-E7E3-4547-A98B-A9190F94240A" id="sid-41183088-E7E3-4547-A98B-A9190F94240A_gui">
-            <omgdi:waypoint x="907.9234116579405" y="1710.3657316956867"/>
-            <omgdi:waypoint x="844.8942697155919" y="1817.8655974293288"/>
+            <omgdi:waypoint x="1058.2008697421074" y="1702.120983296964"/>
+            <omgdi:waypoint x="961.2946832269068" y="1793.8655439679694"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-B7BC1E32-FB0B-4508-8014-B5EAA1506C65" id="sid-B7BC1E32-FB0B-4508-8014-B5EAA1506C65_gui">
-            <omgdi:waypoint x="992.3541601991103" y="1715.495756434505"/>
-            <omgdi:waypoint x="1002.3905944447312" y="1828.0693180820265"/>
+            <omgdi:waypoint x="1201.8241986270443" y="1711.1157946937979"/>
+            <omgdi:waypoint x="1190.8916542288193" y="1817.8655974293285"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-889F5894-7268-42EA-9B96-FB5FFB4E515F" id="sid-889F5894-7268-42EA-9B96-FB5FFB4E515F_gui">
             <omgdi:waypoint x="2026.184643037838" y="1636.1157975118049"/>
@@ -1946,19 +2013,13 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="2605.9700373942756" y="1636.1158412186742"/>
             <omgdi:waypoint x="2605.9700373942756" y="1043.88837271353"/>
          </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-BBBA9DA7-3B64-4057-BDC1-080C9EF6DE55" id="sid-BBBA9DA7-3B64-4057-BDC1-080C9EF6DE55_gui">
-            <omgdi:waypoint x="360.49998554587415" y="465.49997947632073"/>
-            <omgdi:waypoint x="360.49998554587415" y="1635.365953915612"/>
-            <omgdi:waypoint x="621.35922204247" y="1635.365953915612"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
-               <omgdc:Bounds height="12.0" width="207.5142822265625" x="368.0" y="1612.4510498046875"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-AD7B9288-1159-478C-92F9-50D4E3E877A3" id="sid-AD7B9288-1159-478C-92F9-50D4E3E877A3_gui">
-            <omgdi:waypoint x="1187.3905944447308" y="1635.842648794479"/>
-            <omgdi:waypoint x="1515.6528193424124" y="1635.4543850119987"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
-               <omgdc:Bounds height="12.129578148886594" width="109.55696574134527" x="1195.345353844714" y="1615.7039808190334"/>
+            <omgdi:waypoint x="1340.5216546669064" y="1636.6157930546703"/>
+            <omgdi:waypoint x="1428.0872370046595" y="1636.6157930546703"/>
+            <omgdi:waypoint x="1428.0872370046595" y="1635.3656761034574"/>
+            <omgdi:waypoint x="1515.6528193424124" y="1635.3656761034574"/>
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
+               <omgdc:Bounds height="12.0" width="109.5428466796875" x="1348.52197265625" y="1616.615966796875"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-EF2B20E0-04C7-49E7-93A6-99B39C9AD3A2" id="sid-EF2B20E0-04C7-49E7-93A6-99B39C9AD3A2_gui">
@@ -1974,7 +2035,7 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="513.8890295702058" y="445.99997947632073"/>
             <omgdi:waypoint x="513.8890295702058" y="444.9999666214004"/>
             <omgdi:waypoint x="647.7780735945375" y="444.9999666214004"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
                <omgdc:Bounds height="12.000000000000057" width="138.085693359375" x="388.0" y="425.99999999999994"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
@@ -1983,14 +2044,14 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="1433.4134435819599" y="618.8234861573537"/>
             <omgdi:waypoint x="2605.9700373942756" y="618.8234861573537"/>
             <omgdi:waypoint x="2605.9700373942756" y="1003.8883727135301"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
                <omgdc:Bounds height="12.0" width="227.5714111328125" x="1461.0" y="599.1370239257812"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-4E4F8D99-76E7-4681-9ED9-BBDC7087209D" id="sid-4E4F8D99-76E7-4681-9ED9-BBDC7087209D_gui">
             <omgdi:waypoint x="1452.9134435819599" y="446.4668183717688"/>
             <omgdi:waypoint x="1652.2777483048444" y="446.1276068691828"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
                <omgdc:Bounds height="12.20340068627479" width="119.59165282040385" x="1460.847922137054" y="426.25001153634787"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
@@ -2018,8 +2079,8 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="1951.1845848880062" y="1024.8884400601269"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-2D2520BC-C1D0-4B20-B95D-FBC6ED84128A" id="sid-2D2520BC-C1D0-4B20-B95D-FBC6ED84128A_gui">
-            <omgdi:waypoint x="2207.2364112607875" y="1025.6592219563884"/>
-            <omgdi:waypoint x="2274.3469066745074" y="1025.0292151041112"/>
+            <omgdi:waypoint x="2206.5980660056584" y="1024.9246622903786"/>
+            <omgdi:waypoint x="2274.3469066745074" y="1024.8949741540112"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-BC0A54DB-FF2E-42D6-BE0F-B48E459FA28A" id="sid-BC0A54DB-FF2E-42D6-BE0F-B48E459FA28A_gui">
             <omgdi:waypoint x="2298.0928798607183" y="1039.8884010224106"/>
@@ -2030,7 +2091,7 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="2934.3415277982795" y="212.8399985347769"/>
             <omgdi:waypoint x="264.0" y="227.0655517578125"/>
             <omgdi:waypoint x="264.0" y="394.9749715569809"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
                <omgdc:Bounds height="12.0" width="18.514404296875" x="2941.714111328125" y="898.2650146484375"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
@@ -2038,36 +2099,48 @@ We also assume that the party planner has an already curated list of contacts</t
             <omgdi:waypoint x="898.5209194586723" y="424.99998733401344"/>
             <omgdi:waypoint x="891.4667112731312" y="373.49997227906283"/>
          </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-781CBF02-CE41-4CE6-A0F6-E70F8B602477" id="sid-781CBF02-CE41-4CE6-A0F6-E70F8B602477_gui">
-            <omgdi:waypoint x="2304.3469066745074" y="1024.864712214154"/>
-            <omgdi:waypoint x="2585.4700373942756" y="1024.4207474181474"/>
-         </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-067DCBC7-8270-4ACF-90CD-E7F88747E496" id="sid-067DCBC7-8270-4ACF-90CD-E7F88747E496_gui">
             <omgdi:waypoint x="2288.346974455327" y="1706.1158412186742"/>
             <omgdi:waypoint x="2288.346974455327" y="1751.1157800906603"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-26116D84-11F8-4CFD-AD43-934B674D7FEB" id="sid-26116D84-11F8-4CFD-AD43-934B674D7FEB_gui">
-            <omgdi:waypoint x="1167.8905944447308" y="1655.3657131106997"/>
-            <omgdi:waypoint x="1167.8905944447308" y="1947.4746881951105"/>
-            <omgdi:waypoint x="2605.9700373942756" y="1947.4746881951105"/>
-            <omgdi:waypoint x="2605.9700373942756" y="1043.88837271353"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
-               <omgdc:Bounds height="12.0" width="177.4285888671875" x="1191.0" y="1928.2049560546875"/>
-            </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-4D4A575C-DD32-4231-8D08-23F5DC099ABB" id="sid-4D4A575C-DD32-4231-8D08-23F5DC099ABB_gui">
             <omgdi:waypoint x="901.3289044204105" y="464.99998733401344"/>
             <omgdi:waypoint x="901.3289044204105" y="733.6958003850805"/>
             <omgdi:waypoint x="1218.9133709588625" y="733.6958003850805"/>
-            <bpmndi:BPMNLabel labelStyle="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
                <omgdc:Bounds height="12.0" width="265.3714599609375" x="909.0" y="710.1790161132812"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-88E1C745-4044-46B3-AEFC-3B6CA78F9C6A" id="sid-88E1C745-4044-46B3-AEFC-3B6CA78F9C6A_gui">
+            <omgdi:waypoint x="2304.3469066745074" y="1025.1624804968283"/>
+            <omgdi:waypoint x="2349.520360011761" y="1025.987888253382"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-26116D84-11F8-4CFD-AD43-934B674D7FEB" id="sid-26116D84-11F8-4CFD-AD43-934B674D7FEB_gui">
+            <omgdi:waypoint x="1321.0216546669064" y="1656.1157930546703"/>
+            <omgdi:waypoint x="1321.0216546669064" y="1947.4746881951105"/>
+            <omgdi:waypoint x="2605.9700373942756" y="1947.4746881951105"/>
+            <omgdi:waypoint x="2605.9700373942756" y="1043.88837271353"/>
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
+               <omgdc:Bounds height="12.0" width="177.4285888671875" x="1329.0" y="1924.0670166015625"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-BBBA9DA7-3B64-4057-BDC1-080C9EF6DE55" id="sid-BBBA9DA7-3B64-4057-BDC1-080C9EF6DE55_gui">
+            <omgdi:waypoint x="360.49998554587415" y="465.49997947632073"/>
+            <omgdi:waypoint x="360.49998554587415" y="1638.1717880425092"/>
+            <omgdi:waypoint x="620.5780073236718" y="1638.1717880425092"/>
+            <bpmndi:BPMNLabel labelStyle="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
+               <omgdc:Bounds height="12.0" width="207.5142822265625" x="368.0" y="1614.2550048828125"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-5CBA1216-65C9-484D-B1D1-E48D3FE8E11F" id="sid-5CBA1216-65C9-484D-B1D1-E48D3FE8E11F_gui">
+            <omgdi:waypoint x="771.3591492399255" y="1635.804811898581"/>
+            <omgdi:waypoint x="825.828879808792" y="1635.620021809056"/>
+         </bpmndi:BPMNEdge>
       </bpmndi:BPMNPlane>
-      <bpmndi:BPMNLabelStyle id="sid-27cbda10-aa7a-4e61-a3b9-58ff9b8fcb5d">
+      <bpmndi:BPMNLabelStyle id="sid-57b5f87e-47dc-4e89-93f6-9a76ba3eb760">
          <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="11.0"/>
       </bpmndi:BPMNLabelStyle>
-      <bpmndi:BPMNLabelStyle id="sid-04778b99-15be-4e0c-82e9-6eed21498aaa">
+      <bpmndi:BPMNLabelStyle id="sid-b30d167b-6a08-40e1-847a-d3e982285c0f">
          <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="12.0"/>
       </bpmndi:BPMNLabelStyle>
    </bpmndi:BPMNDiagram>
