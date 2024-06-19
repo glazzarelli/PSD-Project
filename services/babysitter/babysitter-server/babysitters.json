@@ -5,31 +5,31 @@
         "surname": "Bianchi",
         "availabilities": [
             {
-                "day": "1",
+                "day": "Monday",
                 "is_available": "true"
             },
             {
-                "day": "2",
+                "day": "Tuesday",
                 "is_available": "false"
             },
             {
-                "day": "3",
+                "day": "Wednesday",
                 "is_available": "true"
             },
             {
-                "day": "4",
+                "day": "Thursday",
                 "is_available": "false"
             },
             {
-                "day": "5",
+                "day": "Friday",
                 "is_available": "true"
             },
             {
-                "day": "6",
+                "day": "Saturday",
                 "is_available": "false"
             },
             {
-                "day": "7",
+                "day": "Sunday",
                 "is_available": "true"
             }
         ],
@@ -37,7 +37,8 @@
         "name": "Marco",
         "services": [
             "pick_up",
-            "homework_help"
+            "homework_help",
+            "play"
         ],
         "postal_code": 80133,
         "email": "marco@mail.it"
@@ -48,38 +49,38 @@
         "surname": "Verdi",
         "availabilities": [
             {
-                "day": "1",
+                "day": "Monday",
                 "is_available": "false"
             },
             {
-                "day": "2",
+                "day": "Tuesday",
                 "is_available": "true"
             },
             {
-                "day": "3",
+                "day": "Wednesday",
                 "is_available": "false"
             },
             {
-                "day": "4",
+                "day": "Thursday",
                 "is_available": "true"
             },
             {
-                "day": "5",
+                "day": "Friday",
                 "is_available": "false"
             },
             {
-                "day": "6",
+                "day": "Saturday",
                 "is_available": "true"
             },
             {
-                "day": "7",
+                "day": "Sunday",
                 "is_available": "false"
             }
         ],
         "hourly_salary": 14,
         "name": "Giulia",
         "services": [
-            "pick_up",
+            "keep_company",
             "homework_help"
         ],
         "postal_code": 50118,
@@ -91,39 +92,39 @@
         "surname": "Russo",
         "availabilities": [
             {
-                "day": "1",
+                "day": "Monday",
                 "is_available": "true"
             },
             {
-                "day": "2",
+                "day": "Tuesday",
                 "is_available": "false"
             },
             {
-                "day": "3",
+                "day": "Wednesday",
                 "is_available": "true"
             },
             {
-                "day": "4",
+                "day": "Thursday",
                 "is_available": "false"
             },
             {
-                "day": "5",
+                "day": "Friday",
                 "is_available": "true"
             },
             {
-                "day": "6",
+                "day": "Saturday",
                 "is_available": "false"
             },
             {
-                "day": "7",
+                "day": "Sunday",
                 "is_available": "true"
             }
         ],
-        "hourly_salary": 16,
+        "hourly_salary": 13,
         "name": "Luca",
         "services": [
             "pick_up",
-            "homework_help"
+            "play"
         ],
         "postal_code": 30123,
         "email": "luca@mail.it"
@@ -134,39 +135,41 @@
         "surname": "Romano",
         "availabilities": [
             {
-                "day": "1",
+                "day": "Monday",
                 "is_available": "false"
             },
             {
-                "day": "2",
+                "day": "Tuesday",
                 "is_available": "true"
             },
             {
-                "day": "3",
+                "day": "Wednesday",
                 "is_available": "false"
             },
             {
-                "day": "4",
+                "day": "Thursday",
                 "is_available": "true"
             },
             {
-                "day": "5",
+                "day": "Friday",
                 "is_available": "false"
             },
             {
-                "day": "6",
+                "day": "Saturday",
                 "is_available": "true"
             },
             {
-                "day": "7",
+                "day": "Sunday",
                 "is_available": "false"
             }
         ],
-        "hourly_salary": 18,
+        "hourly_salary": 9,
         "name": "Sofia",
         "services": [
             "pick_up",
-            "homework_help"
+            "homework_help",
+            "play",
+            "keep_company"
         ],
         "postal_code": 50123,
         "email": "sofia@mail.it"
@@ -177,39 +180,38 @@
         "surname": "Ferrari",
         "availabilities": [
             {
-                "day": "1",
+                "day": "Monday",
                 "is_available": "true"
             },
             {
-                "day": "2",
+                "day": "Tuesday",
                 "is_available": "false"
             },
             {
-                "day": "3",
+                "day": "Wednesday",
                 "is_available": "true"
             },
             {
-                "day": "4",
+                "day": "Thursday",
                 "is_available": "false"
             },
             {
-                "day": "5",
+                "day": "Friday",
                 "is_available": "true"
             },
             {
-                "day": "6",
+                "day": "Saturday",
                 "is_available": "false"
             },
             {
-                "day": "7",
+                "day": "Sunday",
                 "is_available": "true"
             }
         ],
-        "hourly_salary": 20,
+        "hourly_salary": 10,
         "name": "Matteo",
         "services": [
-            "pick_up",
-            "homework_help"
+            "pick_up"
         ],
         "postal_code": 20133,
         "email": "matteo@mail.it"
@@ -220,39 +222,40 @@
         "surname": "Esposito",
         "availabilities": [
             {
-                "day": "1",
+                "day": "Monday",
                 "is_available": "false"
             },
             {
-                "day": "2",
+                "day": "Tuesday",
                 "is_available": "true"
             },
             {
-                "day": "3",
+                "day": "Wednesday",
                 "is_available": "false"
             },
             {
-                "day": "4",
+                "day": "Thursday",
                 "is_available": "true"
             },
             {
-                "day": "5",
+                "day": "Friday",
                 "is_available": "false"
             },
             {
-                "day": "6",
+                "day": "Saturday",
                 "is_available": "true"
             },
             {
-                "day": "7",
+                "day": "Sunday",
                 "is_available": "false"
             }
         ],
-        "hourly_salary": 22,
+        "hourly_salary": 12,
         "name": "Alessia",
         "services": [
-            "pick_up",
-            "homework_help"
+            "homework_help",
+            "play",
+            "keep_company"
         ],
         "postal_code": 80133,
         "email": "alessia@mail.it"
@@ -263,39 +266,39 @@
         "surname": "Ricci",
         "availabilities": [
             {
-                "day": "1",
+                "day": "Monday",
                 "is_available": "true"
             },
             {
-                "day": "2",
+                "day": "Tuesday",
                 "is_available": "false"
             },
             {
-                "day": "3",
+                "day": "Wednesday",
                 "is_available": "true"
             },
             {
-                "day": "4",
+                "day": "Thursday",
                 "is_available": "false"
             },
             {
-                "day": "5",
+                "day": "Friday",
                 "is_available": "true"
             },
             {
-                "day": "6",
+                "day": "Saturday",
                 "is_available": "false"
             },
             {
-                "day": "7",
+                "day": "Sunday",
                 "is_available": "true"
             }
         ],
-        "hourly_salary": 24,
+        "hourly_salary": 9,
         "name": "Andrea",
         "services": [
             "pick_up",
-            "homework_help"
+            "keep_company"
         ],
         "postal_code": 30118,
         "email": "andrea@mail.it"
@@ -306,39 +309,39 @@
         "surname": "Gallo",
         "availabilities": [
             {
-                "day": "1",
+                "day": "Monday",
                 "is_available": "false"
             },
             {
-                "day": "2",
+                "day": "Tuesday",
                 "is_available": "true"
             },
             {
-                "day": "3",
+                "day": "Wednesday",
                 "is_available": "false"
             },
             {
-                "day": "4",
+                "day": "Thursday",
                 "is_available": "true"
             },
             {
-                "day": "5",
+                "day": "Friday",
                 "is_available": "false"
             },
             {
-                "day": "6",
+                "day": "Saturday",
                 "is_available": "true"
             },
             {
-                "day": "7",
+                "day": "Sunday",
                 "is_available": "false"
             }
         ],
-        "hourly_salary": 26,
+        "hourly_salary": 12,
         "name": "Marta",
         "services": [
-            "pick_up",
-            "homework_help"
+            "play",
+            "keep_company"
         ],
         "postal_code": 30123,
         "email": "marta@mail.it"
@@ -349,39 +352,41 @@
         "surname": "Costa",
         "availabilities": [
             {
-                "day": "1",
+                "day": "Monday",
                 "is_available": "true"
             },
             {
-                "day": "2",
+                "day": "Tuesday",
                 "is_available": "false"
             },
             {
-                "day": "3",
+                "day": "Wednesday",
                 "is_available": "true"
             },
             {
-                "day": "4",
+                "day": "Thursday",
                 "is_available": "false"
             },
             {
-                "day": "5",
+                "day": "Friday",
                 "is_available": "true"
             },
             {
-                "day": "6",
+                "day": "Saturday",
                 "is_available": "false"
             },
             {
-                "day": "7",
+                "day": "Sunday",
                 "is_available": "true"
             }
         ],
-        "hourly_salary": 28,
+        "hourly_salary": 14,
         "name": "Simone",
         "services": [
             "pick_up",
-            "homework_help"
+            "homework_help",
+            "play",
+            "keep_company"
         ],
         "postal_code": 50123,
         "email": "simone@mail.it"
@@ -392,31 +397,31 @@
         "surname": "Rossi",
         "availabilities": [
             {
-                "day": "1",
-                "is_available": "false"
-            },
-            {
-                "day": "2",
-                "is_available": "false"
-            },
-            {
-                "day": "3",
-                "is_available": "false"
-            },
-            {
-                "day": "4",
+                "day": "Monday",
                 "is_available": "true"
             },
             {
-                "day": "5",
-                "is_available": "false"
-            },
-            {
-                "day": "6",
+                "day": "Tuesday",
                 "is_available": "true"
             },
             {
-                "day": "7",
+                "day": "Wednesday",
+                "is_available": "true"
+            },
+            {
+                "day": "Thursday",
+                "is_available": "true"
+            },
+            {
+                "day": "Friday",
+                "is_available": "true"
+            },
+            {
+                "day": "Saturday",
+                "is_available": "true"
+            },
+            {
+                "day": "Sunday",
                 "is_available": "true"
             }
         ],

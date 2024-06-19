@@ -377,7 +377,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9092/party-plan?date=1&location=Milan&requestedservices=decorations,dj&budget=2",
+							"raw": "http://localhost:9092/party-plan?date=Monday&location=Milan&requestedservices=decorations,dj&budget=2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -389,7 +389,7 @@
 							"query": [
 								{
 									"key": "date",
-									"value": "1"
+									"value": "Monday"
 								},
 								{
 									"key": "location",
@@ -415,7 +415,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"decorations_vendor_chosen\": \"Party decorations\",\r\n  \"dj_vendor_chosen\": \"DJ 102.5\",\r\n  \"city\": \"Milan\",\r\n  \"day\": \"4\"\r\n}",
+							"raw": "{\r\n  \"decorations_vendor_chosen\": \"Party decorations\",\r\n  \"dj_vendor_chosen\": \"DJ 102.5\",\r\n  \"city\": \"Milan\",\r\n  \"day\": \"Thursday\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
