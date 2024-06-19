@@ -1,11 +1,11 @@
 # Important info
 
-This folder containts the BPMN source files of the
-* choreography diagram (filename must be choreography.bpmi)
-* collaboration diagram (filename must be collaboration.bpmi)
-* executable process diagram (filename must be executable.bpmi)
-* petri net (filename must be petrinet.tpn)
+This folder contains the BPMN source files of the
+* **choreography** diagram (filename is choreography.bpmn)
+* **collaboration** diagram (filename is collaboration.bpmn)
+* **executable process** diagram (filename is executable.bpmn, in the [/executable](https://github.com/glazzarelli/PSD-Project/tree/main/processes/executable) folder)
+* **petri net** (filename is petrinet.tpn)
 
-for each of them a png|gif|pdf image must be included, too
+for each of them a png and svg image is included, too.
 
-The executable process diagram will be downloaded and deployed on Camunda. Add please add here instructions if needed
+All the details related to the executable process are available in the [/executable](https://github.com/glazzarelli/PSD-Project/tree/main/processes/executable) folder.
