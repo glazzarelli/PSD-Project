@@ -130,7 +130,7 @@ Manual editing may break compatibility.-->
       <name>
         <text>p6</text>
         <graphics>
-          <offset x="818" y="81"/>
+          <offset x="820" y="80"/>
         </graphics>
       </name>
       <graphics>
@@ -1417,7 +1417,7 @@ Manual editing may break compatibility.-->
         <position x="2" y="25"/>
         <dimension x="1266" y="400"/>
       </bounds>
-      <scale>89</scale>
+      <scale>40</scale>
       <treeWidthRight>946</treeWidthRight>
       <overviewPanelVisible>true</overviewPanelVisible>
       <treeHeightOverview>100</treeHeightOverview>
