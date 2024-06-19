@@ -1415,10 +1415,10 @@ Manual editing may break compatibility.-->
     <toolspecific tool="WoPeD" version="3.9.2">
       <bounds>
         <position x="2" y="25"/>
-        <dimension x="1266" y="400"/>
+        <dimension x="771" y="313"/>
       </bounds>
       <scale>40</scale>
-      <treeWidthRight>946</treeWidthRight>
+      <treeWidthRight>374</treeWidthRight>
       <overviewPanelVisible>true</overviewPanelVisible>
       <treeHeightOverview>100</treeHeightOverview>
       <treePanelVisible>true</treePanelVisible>
