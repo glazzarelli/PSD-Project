@@ -14,6 +14,7 @@ module.exports.funcbabysitters = function babysitters(req, res) {
         // parse the babysitters.json "database" file
         let babysitters = JSON.parse(fs.readFileSync(path.join(__dirname, '../babysitters.json'), 'utf8'));
 
+        // find the babysitters that satisfy the requested criteria
         const availableBabysitters = babysitters
             .filter(babysitter => babysitter.city === requestedCity)
             .filter(babysitter =>
