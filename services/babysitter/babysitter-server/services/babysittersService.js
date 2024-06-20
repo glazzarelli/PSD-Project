@@ -9,39 +9,21 @@ module.exports.funcbabysitters = function babysitters(req, res) {
     const requestedHours = req.query.numofhours;
     const requestedServices = req.query.requestedservices.split(',').filter(item => item != '');
 
-    let availableBabysitters = [];
 
     try {
         // parse the babysitters.json "database" file
         let babysitters = JSON.parse(fs.readFileSync(path.join(__dirname, '../babysitters.json'), 'utf8'));
 
-        for (let babysitter of babysitters) {
-            let flag = true;
-
-            if (babysitter.city === requestedCity) {
-                for (let reqService of requestedServices) {
-                    if (!babysitter.services.includes(reqService)) {
-                        // if the babysitter does not provide the requested service, set the flag to false
-                        flag = false;
-                        break;
-                    }
-                }
-
-                for (let day of babysitter.availabilities) {
-                    if (requestedDay === day.day && day.is_available !== "true") {
-                        // if the babysitter is not available on the requested day, set the flag to false
-                        flag = false;
-                        break;
-                    }
-                }
-
-                if (flag) {
-                    // if the babysitter satisfies all the criteria, calculate the price she requests and add it to the list
-                    babysitter.price = (numOfChildren * babysitter.hourly_salary * requestedHours).toString();
-                    availableBabysitters.push(babysitter);
-                }
-            }
-        }
+        const availableBabysitters = babysitters
+            .filter(babysitter => babysitter.city === requestedCity)
+            .filter(babysitter =>
+                requestedServices.every(reqService => babysitter.services.includes(reqService)) &&
+                babysitter.availabilities.some(day => requestedDay === day.day && day.is_available === "true")
+            )
+            .map(babysitter => {
+                babysitter.price = (numOfChildren * babysitter.hourly_salary * requestedHours).toString();
+                return babysitter;
+            });
 
         res.send({
             availableBbsResponse: availableBabysitters.length === 0 ? "No babysitter satisfied your criteria :(" : "Here is the list of the available babysitters",
