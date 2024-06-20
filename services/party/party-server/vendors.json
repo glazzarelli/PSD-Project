@@ -3,444 +3,329 @@
         "name": "Decorations Galore",
         "price": 1,
         "city": "Rome",
-        "category": "decorations"
+        "category": "decorations",
+        "type": " - Babies360 choice"
     },
     {
-        "name": "Party decorations",
+        "name": "Party Palace",
         "price": 2,
         "city": "Milan",
-        "category": "decorations"
+        "category": "decorations",
+        "type": ""
     },
     {
-        "name": "Celebration Supplies",
+        "name": "Celebration Central",
         "price": 3,
         "city": "Naples",
-        "category": "decorations"
+        "category": "decorations",
+        "type": ""
     },
     {
-        "name": "Catering for You",
+        "name": "Catering Cuisine",
         "price": 1,
         "city": "Rome",
-        "category": "catering"
+        "category": "catering",
+        "type": ""
     },
     {
-        "name": "Party Platters",
+        "name": "Party Provisions",
         "price": 2,
         "city": "Milan",
-        "category": "catering"
+        "category": "catering",
+        "type": ""
     },
     {
-        "name": "Entertainment Galore",
-        "price": 1,
-        "city": "Rome",
-        "category": "entertainment"
-    },
-    {
-        "name": "DJ Galore",
-        "price": 1,
-        "city": "Rome",
-        "category": "dj"
-    },
-    {
-        "name": "DJ 102.5",
-        "price": 1,
-        "city": "Milan",
-        "category": "dj"
-    },
-    {
-        "name": "Bus Galore",
-        "price": 1,
-        "city": "Rome",
-        "category": "bus_service"
-    },
-    {
-        "name": "Decorations Deluxe",
-        "price": 1,
-        "city": "Venice",
-        "category": "decorations"
-    },
-    {
-        "name": "Festive Favors",
-        "price": 2,
-        "city": "Florence",
-        "category": "decorations"
-    },
-    {
-        "name": "Catering Deluxe",
+        "name": "Feast Fest",
         "price": 3,
-        "city": "Venice",
-        "category": "catering"
-    },
-    {
-        "name": "Feast Providers",
-        "price": 1,
-        "city": "Florence",
-        "category": "catering"
-    },
-    {
-        "name": "Entertainment Deluxe",
-        "price": 2,
-        "city": "Venice",
-        "category": "entertainment"
-    },
-    {
-        "name": "Fun Providers",
-        "price": 3,
-        "city": "Florence",
-        "category": "entertainment"
-    },
-    {
-        "name": "DJ Deluxe",
-        "price": 1,
-        "city": "Venice",
-        "category": "dj"
-    },
-    {
-        "name": "DJ 103.5",
-        "price": 2,
-        "city": "Florence",
-        "category": "dj"
-    },
-    {
-        "name": "Bus Deluxe",
-        "price": 3,
-        "city": "Venice",
-        "category": "bus_service"
-    },
-    {
-        "name": "Transport Providers",
-        "price": 1,
-        "city": "Florence",
-        "category": "bus_service"
-    },
-    {
-        "name": "Decorations Supreme",
-        "price": 2,
         "city": "Naples",
-        "category": "decorations"
+        "category": "catering",
+        "type": ""
     },
     {
-        "name": "Party Favors",
-        "price": 3,
-        "city": "Milan",
-        "category": "decorations"
-    },
-    {
-        "name": "Catering Supreme",
+        "name": "Entertainment Euphoria",
         "price": 1,
+        "city": "Rome",
+        "category": "entertainment",
+        "type": ""
+    },
+    {
+        "name": "Fun Factory",
+        "price": 2,
+        "city": "Milan",
+        "category": "entertainment",
+        "type": ""
+    },
+    {
+        "name": "DJ Dynasty",
+        "price": 1,
+        "city": "Rome",
+        "category": "dj",
+        "type": ""
+    },
+    {
+        "name": "Sound Sensation",
+        "price": 2,
+        "city": "Milan",
+        "category": "dj",
+        "type": ""
+    },
+    {
+        "name": "Bus Bliss",
+        "price": 1,
+        "city": "Rome",
+        "category": "bus_service",
+        "type": ""
+    },
+    {
+        "name": "Transport Titans",
+        "price": 2,
+        "city": "Milan",
+        "category": "bus_service",
+        "type": " - Babies360 choice"
+    },
+    {
+        "name": "Decor Delights",
+        "price": 1,
+        "city": "Venice",
+        "category": "decorations",
+        "type": ""
+    },
+    {
+        "name": "Party Paradise",
+        "price": 2,
+        "city": "Florence",
+        "category": "decorations",
+        "type": ""
+    },
+    {
+        "name": "Celebration Station",
+        "price": 3,
+        "city": "Venice",
+        "category": "decorations",
+        "type": ""
+    },
+    {
+        "name": "Catering Corner",
+        "price": 1,
+        "city": "Florence",
+        "category": "catering",
+        "type": ""
+    },
+    {
+        "name": "Gourmet Gatherings",
+        "price": 2,
+        "city": "Venice",
+        "category": "catering",
+        "type": ""
+    },
+    {
+        "name": "Feast Fiesta",
+        "price": 3,
+        "city": "Florence",
+        "category": "catering",
+        "type": ""
+    },
+    {
+        "name": "Entertain Elite",
+        "price": 1,
+        "city": "Venice",
+        "category": "entertainment",
+        "type": ""
+    },
+    {
+        "name": "Fun Fest",
+        "price": 2,
+        "city": "Florence",
+        "category": "entertainment",
+        "type": " - Babies360 choice"
+    },
+    {
+        "name": "DJ Delight",
+        "price": 1,
+        "city": "Venice",
+        "category": "dj",
+        "type": ""
+    },
+    {
+        "name": "Beat Box",
+        "price": 2,
+        "city": "Florence",
+        "category": "dj",
+        "type": ""
+    },
+    {
+        "name": "Bus Bonanza",
+        "price": 1,
+        "city": "Venice",
+        "category": "bus_service",
+        "type": ""
+    },
+    {
+        "name": "Transport Triumph",
+        "price": 2,
+        "city": "Florence",
+        "category": "bus_service",
+        "type": ""
+    },
+    {
+        "name": "Decor Dreams",
+        "price": 1,
+        "city": "Rome",
+        "category": "decorations",
+        "type": ""
+    },
+    {
+        "name": "Party Pro",
+        "price": 2,
+        "city": "Milan",
+        "category": "decorations",
+        "type": ""
+    },
+    {
+        "name": "Celebration Creations",
+        "price": 3,
         "city": "Naples",
-        "category": "catering"
+        "category": "decorations",
+        "type": ""
+    },
+    {
+        "name": "Catering Creations",
+        "price": 1,
+        "city": "Rome",
+        "category": "catering",
+        "type": ""
+    },
+    {
+        "name": "Party Planners",
+        "price": 2,
+        "city": "Milan",
+        "category": "catering",
+        "type": ""
     },
     {
         "name": "Feast Masters",
-        "price": 2,
-        "city": "Milan",
-        "category": "catering"
-    },
-    {
-        "name": "Entertainment Supreme",
         "price": 3,
         "city": "Naples",
-        "category": "entertainment"
+        "category": "catering",
+        "type": ""
     },
     {
-        "name": "Fun Masters",
-        "price": 1,
-        "city": "Milan",
-        "category": "entertainment"
-    },
-    {
-        "name": "DJ Supreme",
-        "price": 2,
-        "city": "Naples",
-        "category": "dj"
-    },
-    {
-        "name": "DJ 104.5",
-        "price": 3,
-        "city": "Milan",
-        "category": "dj"
-    },
-    {
-        "name": "Bus Supreme",
-        "price": 1,
-        "city": "Naples",
-        "category": "bus_service"
-    },
-    {
-        "name": "Transport Masters",
-        "price": 2,
-        "city": "Milan",
-        "category": "bus_service"
-    },
-    {
-        "name": "Decorations Premium",
+        "name": "Entertainment Empire",
         "price": 1,
         "city": "Rome",
-        "category": "decorations"
+        "category": "entertainment",
+        "type": ""
     },
     {
-        "name": "Party Decor",
+        "name": "Fun Frenzy",
         "price": 2,
         "city": "Milan",
-        "category": "decorations"
+        "category": "entertainment",
+        "type": " - Babies360 choice"
     },
     {
-        "name": "Celebration Decors",
-        "price": 3,
-        "city": "Naples",
-        "category": "decorations"
-    },
-    {
-        "name": "Catering Premium",
+        "name": "DJ Dynamics",
         "price": 1,
         "city": "Rome",
-        "category": "catering"
+        "category": "dj",
+        "type": ""
     },
     {
-        "name": "Party Caterers",
+        "name": "Sound System",
         "price": 2,
         "city": "Milan",
-        "category": "catering"
+        "category": "dj",
+        "type": ""
     },
     {
-        "name": "Feast Caterers",
-        "price": 3,
-        "city": "Naples",
-        "category": "catering"
-    },
-    {
-        "name": "Entertainment Premium",
+        "name": "Bus Buzz",
         "price": 1,
         "city": "Rome",
-        "category": "entertainment"
+        "category": "bus_service",
+        "type": ""
     },
     {
-        "name": "Fun Entertainers",
+        "name": "Transport Team",
         "price": 2,
         "city": "Milan",
-        "category": "entertainment"
+        "category": "bus_service",
+        "type": ""
     },
     {
-        "name": "Party Entertainers",
-        "price": 3,
-        "city": "Naples",
-        "category": "entertainment"
-    },
-    {
-        "name": "DJ Premium",
-        "price": 1,
-        "city": "Rome",
-        "category": "dj"
-    },
-    {
-        "name": "DJ 105.5",
-        "price": 2,
-        "city": "Milan",
-        "category": "dj"
-    },
-    {
-        "name": "DJ 106.5",
-        "price": 3,
-        "city": "Naples",
-        "category": "dj"
-    },
-    {
-        "name": "Bus Premium",
-        "price": 1,
-        "city": "Rome",
-        "category": "bus_service"
-    },
-    {
-        "name": "Transport Premium",
-        "price": 2,
-        "city": "Milan",
-        "category": "bus_service"
-    },
-    {
-        "name": "Bus Masters",
-        "price": 3,
-        "city": "Naples",
-        "category": "bus_service"
-    },
-    {
-        "name": "Decorations Elite",
+        "name": "Decor Delight",
         "price": 1,
         "city": "Venice",
-        "category": "decorations"
+        "category": "decorations",
+        "type": ""
     },
     {
-        "name": "Party Decors",
+        "name": "Party Pizzazz",
         "price": 2,
         "city": "Florence",
-        "category": "decorations"
+        "category": "decorations",
+        "type": ""
     },
     {
-        "name": "Celebration Decorations",
+        "name": "Celebration Decor",
         "price": 3,
         "city": "Venice",
-        "category": "decorations"
+        "category": "decorations",
+        "type": ""
     },
     {
-        "name": "Catering Elite",
+        "name": "Catering Classics",
         "price": 1,
         "city": "Florence",
-        "category": "catering"
+        "category": "catering",
+        "type": ""
     },
     {
-        "name": "Party Catering",
+        "name": "Gourmet Gala",
         "price": 2,
         "city": "Venice",
-        "category": "catering"
+        "category": "catering",
+        "type": " - Babies360 choice"
     },
     {
-        "name": "Feast Catering",
+        "name": "Feast Feast",
         "price": 3,
         "city": "Florence",
-        "category": "catering"
+        "category": "catering",
+        "type": ""
     },
     {
-        "name": "Entertainment Elite",
+        "name": "Entertainment Elegance",
         "price": 1,
         "city": "Venice",
-        "category": "entertainment"
+        "category": "entertainment",
+        "type": ""
     },
     {
-        "name": "Fun Entertainment",
+        "name": "Fun Factor",
         "price": 2,
         "city": "Florence",
-        "category": "entertainment"
+        "category": "entertainment",
+        "type": ""
     },
     {
-        "name": "Party Entertainment",
-        "price": 3,
-        "city": "Venice",
-        "category": "entertainment"
-    },
-    {
-        "name": "DJ Elite",
-        "price": 1,
-        "city": "Florence",
-        "category": "dj"
-    },
-    {
-        "name": "DJ 107.5",
-        "price": 2,
-        "city": "Venice",
-        "category": "dj"
-    },
-    {
-        "name": "DJ 108.5",
-        "price": 3,
-        "city": "Florence",
-        "category": "dj"
-    },
-    {
-        "name": "Bus Elite",
+        "name": "DJ Dance",
         "price": 1,
         "city": "Venice",
-        "category": "bus_service"
+        "category": "dj",
+        "type": ""
     },
     {
-        "name": "Transport Elite",
-        "price": 2,
-        "city": "Florence",
-        "category": "bus_service"
-    },
-    {
-        "name": "Bus Services",
-        "price": 3,
-        "city": "Venice",
-        "category": "bus_service"
-    },
-    {
-        "name": "Decorations Pro",
-        "price": 1,
-        "city": "Florence",
-        "category": "decorations"
-    },
-    {
-        "name": "Party Decoration Pro",
-        "price": 2,
-        "city": "Venice",
-        "category": "decorations"
-    },
-    {
-        "name": "Celebration Decoration Pro",
-        "price": 3,
-        "city": "Florence",
-        "category": "decorations"
-    },
-    {
-        "name": "Catering Pro",
+        "name": "Bus Breeze",
         "price": 1,
         "city": "Venice",
-        "category": "catering"
+        "category": "bus_service",
+        "type": ""
     },
     {
-        "name": "Party Catering Pro",
+        "name": "Transporter",
         "price": 2,
         "city": "Florence",
-        "category": "catering"
-    },
-    {
-        "name": "Feast Catering Pro",
-        "price": 3,
-        "city": "Venice",
-        "category": "catering"
-    },
-    {
-        "name": "Entertainment Pro",
-        "price": 1,
-        "city": "Florence",
-        "category": "entertainment"
-    },
-    {
-        "name": "Fun Entertainment Pro",
-        "price": 2,
-        "city": "Venice",
-        "category": "entertainment"
-    },
-    {
-        "name": "Party Entertainment Pro",
-        "price": 3,
-        "city": "Florence",
-        "category": "entertainment"
-    },
-    {
-        "name": "DJ Pro",
-        "price": 1,
-        "city": "Venice",
-        "category": "dj"
-    },
-    {
-        "name": "DJ 109.5",
-        "price": 2,
-        "city": "Florence",
-        "category": "dj"
-    },
-    {
-        "name": "DJ 110.5",
-        "price": 3,
-        "city": "Venice",
-        "category": "dj"
-    },
-    {
-        "name": "Bus Pro",
-        "price": 1,
-        "city": "Florence",
-        "category": "bus_service"
-    },
-    {
-        "name": "Transport Pro",
-        "price": 2,
-        "city": "Venice",
-        "category": "bus_service"
-    },
-    {
-        "name": "Bus Service Pro",
-        "price": 3,
-        "city": "Florence",
-        "category": "bus_service"
+        "category": "bus_service",
+        "type": " - Babies360 choice"
     }
 ]

@@ -32,7 +32,7 @@
       "validate": {
         "required": false
       },
-      "valuesExpression": "=for bb in availableBabysitters return\n  { \"label\": bb.name + \" \" + bb.surname + \", total price: \" + bb.price +\"€\",\n    \"value\": bb.email\n  }",
+      "valuesExpression": "=for bb in availableBabysitters return\n  { \"label\": bb.name + \" \" + bb.surname + \", total price: \" + bb.price +\"€\" + \", rating: \" + bb.rating +\"★\",\n    \"value\": bb.email\n  }",
       "conditional": {
         "hide": "=availableBabysitters = null"
       }

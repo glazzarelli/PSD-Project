@@ -11,17 +11,7 @@
       "id": "Field_1b6tc18"
     },
     {
-      "text": "## Job details:\n{{\"On \" + day + \" at \" + time + \".\"}}",
-      "label": "Text view",
-      "type": "text",
-      "layout": {
-        "row": "Row_1oxqkq4",
-        "columns": null
-      },
-      "id": "Field_0vg7lvw"
-    },
-    {
-      "text": "## {{ updateResult }}",
+      "text": "### You have a new appointment on {{date}} at {{time}}. Check the updated calendar.",
       "label": "Text view",
       "type": "text",
       "layout": {

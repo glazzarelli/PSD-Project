@@ -114,7 +114,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"true\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"true\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"true\"\r\n            }\r\n        ],\r\n        \"email\": \"bianca@mail.it\"\r\n    }",
+							"raw": "{\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"true\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"true\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"true\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"true\"\r\n            }\r\n        ],\r\n        \"email\": \"martina@mail.it\"\r\n    }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -171,7 +171,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9090/babysitters/bianca@mail.it",
+							"raw": "http://localhost:9090/babysitters/martina@mail.it",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -179,7 +179,7 @@
 							"port": "9090",
 							"path": [
 								"babysitters",
-								"bianca@mail.it"
+								"martina@mail.it"
 							]
 						}
 					},
@@ -212,7 +212,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "    {\r\n        \"phone\": \"+4930664040801\",\r\n        \"city\": \"Milan\",\r\n        \"surname\": \"Giandomenico\",\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"false\"\r\n            }\r\n        ],\r\n        \"hourly_salary\": 13,\r\n        \"name\": \"Roberto\",\r\n        \"services\": [\r\n            \"homework_help\"\r\n        ],\r\n        \"postal_code\": 20133,\r\n        \"email\": \"rob@mail.it\"\r\n    }",
+							"raw": "    {\r\n        \"phone\": \"+4930664040801\",\r\n        \"city\": \"Milan\",\r\n        \"surname\": \"Giandomenico\",\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"false\"\r\n            }\r\n        ],\r\n        \"hourly_salary\": 13,\r\n        \"name\": \"Roberto\",\r\n        \"services\": [\r\n            \"homework_help\"\r\n        ],\r\n        \"postal_code\": \"20133\",\r\n        \"email\": \"rob@mail.it\"\r\n    }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -244,7 +244,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "    {\r\n        \"phone\": \"+4930664040801\",\r\n        \"city\": \"Rome\",\r\n        \"surname\": \"Fiore\",\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"false\"\r\n            }\r\n        ],\r\n        \"hourly_salary\": 13,\r\n        \"name\": \"Bianca\",\r\n        \"services\": [\r\n            \"homework_help\"\r\n        ],\r\n        \"postal_code\": 20162,\r\n        \"email\": \"bianca@mail.it\"\r\n    }",
+							"raw": "    {\r\n        \"phone\": \"+4930664040801\",\r\n        \"city\": \"Rome\",\r\n        \"surname\": \"Fiore\",\r\n        \"availabilities\": [\r\n            {\r\n                \"day\": \"Monday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Tuesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Wednesday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Thursday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Friday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Saturday\",\r\n                \"is_available\": \"false\"\r\n            },\r\n            {\r\n                \"day\": \"Sunday\",\r\n                \"is_available\": \"false\"\r\n            }\r\n        ],\r\n        \"hourly_salary\": 13,\r\n        \"name\": \"Martina\",\r\n        \"services\": [\r\n            \"homework_help\"\r\n        ],\r\n        \"postal_code\": \"20162\",\r\n        \"email\": \"martina@mail.it\"\r\n    }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -377,7 +377,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9092/party-plan?date=Monday&location=Milan&requestedservices=decorations,dj&budget=2",
+							"raw": "http://localhost:9092/party-plan?date=Monday&location=Florence&requestedservices=decorations,dj,bus_service&budget=2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -393,11 +393,11 @@
 								},
 								{
 									"key": "location",
-									"value": "Milan"
+									"value": "Florence"
 								},
 								{
 									"key": "requestedservices",
-									"value": "decorations,dj"
+									"value": "decorations,dj,bus_service"
 								},
 								{
 									"key": "budget",

@@ -252,7 +252,7 @@
           <zeebe:input source="20" target="connectionTimeoutInSeconds" />
           <zeebe:input source="20" target="readTimeoutInSeconds" />
           <zeebe:input source="0" target="writeTimeoutInSeconds" />
-          <zeebe:input source="={&#10;  &#34;availabilities&#34;: [&#10;    {&#10;      &#34;day&#34;: &#34;1&#34;,&#10;      &#34;is_available&#34;: if &#34;Monday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;2&#34;,&#10;      &#34;is_available&#34;: if &#34;Tuesday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;3&#34;,&#10;      &#34;is_available&#34;: if &#34;Wednesday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;4&#34;,&#10;      &#34;is_available&#34;: if &#34;Thursday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;5&#34;,&#10;      &#34;is_available&#34;: if &#34;Friday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;6&#34;,&#10;      &#34;is_available&#34;: if &#34;Saturday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;7&#34;,&#10;      &#34;is_available&#34;: if &#34;Sunday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    }&#10;  ],&#10;  &#34;email&#34;: email&#10;}" target="body" />
+          <zeebe:input source="={&#10;  &#34;availabilities&#34;: [&#10;    {&#10;      &#34;day&#34;: &#34;Monday&#34;,&#10;      &#34;is_available&#34;: if &#34;Monday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;Tuesday&#34;,&#10;      &#34;is_available&#34;: if &#34;Tuesday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;Wednesday&#34;,&#10;      &#34;is_available&#34;: if &#34;Wednesday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;Thursday&#34;,&#10;      &#34;is_available&#34;: if &#34;Thursday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;Friday&#34;,&#10;      &#34;is_available&#34;: if &#34;Friday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;Saturday&#34;,&#10;      &#34;is_available&#34;: if &#34;Saturday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    },&#10;    {&#10;      &#34;day&#34;: &#34;Sunday&#34;,&#10;      &#34;is_available&#34;: if &#34;Sunday&#34; in weekly_availabilities then &#34;true&#34; else &#34;false&#34;&#10;    }&#10;  ],&#10;  &#34;email&#34;: email&#10;}" target="body" />
         </zeebe:ioMapping>
         <zeebe:taskHeaders>
           <zeebe:header key="resultVariable" value="response" />
@@ -477,7 +477,7 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         </zeebe:ioMapping>
         <zeebe:taskHeaders>
           <zeebe:header key="resultVariable" value="response" />
-          <zeebe:header key="resultExpression" value="={ &#34;updateMessage&#34;: body.message }" />
+          <zeebe:header key="resultExpression" value="={ &#34;updateMessage&#34;: body.message, &#34;date&#34;: body.date, &#34;time&#34;: body.time }" />
           <zeebe:header key="retryBackoff" value="PT0S" />
         </zeebe:taskHeaders>
       </bpmn:extensionElements>
@@ -1026,10 +1026,6 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
           <dc:Bounds x="3082" y="1043" width="76" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Association_0rni3jp_di" bpmnElement="Association_0rni3jp">
-        <di:waypoint x="1679" y="910" />
-        <di:waypoint x="1679" y="940" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="TextAnnotation_1lsx87n_di" bpmnElement="TextAnnotation_1lsx87n">
         <dc:Bounds x="919" y="738" width="100" height="84" />
         <bpmndi:BPMNLabel />
@@ -1044,6 +1040,10 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="TextAnnotation_0ic5h40_di" bpmnElement="TextAnnotation_0ic5h40">
         <dc:Bounds x="690" y="280" width="99.99274099883856" height="83.62369337979094" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_013zj6u_di" bpmnElement="TextAnnotation_013zj6u">
+        <dc:Bounds x="1629" y="940" width="150" height="50" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="DataInputAssociation_05s5ban_di" bpmnElement="DataInputAssociation_05s5ban">
@@ -1070,10 +1070,6 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <di:waypoint x="869" y="805" />
         <di:waypoint x="869" y="830" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="DataInputAssociation_0h6renl_di" bpmnElement="DataInputAssociation_0h6renl">
-        <di:waypoint x="2430" y="805" />
-        <di:waypoint x="2430" y="830" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="DataInputAssociation_0vt837h_di" bpmnElement="DataInputAssociation_0vt837h">
         <di:waypoint x="1561" y="355" />
         <di:waypoint x="1561" y="380" />
@@ -1098,6 +1094,10 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <di:waypoint x="1220" y="1135" />
         <di:waypoint x="1220" y="1160" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_0h6renl_di" bpmnElement="DataInputAssociation_0h6renl">
+        <di:waypoint x="2430" y="805" />
+        <di:waypoint x="2430" y="830" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Association_00ks51x_di" bpmnElement="Association_00ks51x">
         <di:waypoint x="887" y="775" />
         <di:waypoint x="919" y="767" />
@@ -1114,10 +1114,10 @@ or bus_vendor_chosen != null</bpmn:conditionExpression>
         <di:waypoint x="658" y="324" />
         <di:waypoint x="690" y="313" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="TextAnnotation_013zj6u_di" bpmnElement="TextAnnotation_013zj6u">
-        <dc:Bounds x="1629" y="940" width="150" height="50" />
-        <bpmndi:BPMNLabel />
-      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_0rni3jp_di" bpmnElement="Association_0rni3jp">
+        <di:waypoint x="1679" y="910" />
+        <di:waypoint x="1679" y="940" />
+      </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
 </bpmn:definitions>

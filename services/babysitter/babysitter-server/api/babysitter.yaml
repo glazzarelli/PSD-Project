@@ -183,7 +183,7 @@ paths:
         "200":
           description: Availabilities updated successfully
         "400":
-          description: Bad request, parameters are missing or invalid
+          description: Bad request, parameters are missing or invalidg
         "404":
           description: Babysitter not found
         "500":
@@ -217,6 +217,8 @@ components:
           type: array
           items:
             type: object
+        rating:
+          type: string
       example:
         name: Bianca
         surname: Rossi
@@ -226,3 +228,4 @@ components:
         phone: "+4930664040900"
         services: ["homework_help", "pick_up"]
         hourly_salary: 10
+        rating: 4.9

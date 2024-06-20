@@ -24,7 +24,7 @@
           "validate": {
             "required": false
           },
-          "valuesExpression": "=for vendor in availableDecorations return\n    {\n      \"label\": vendor.name,\n      \"value\": vendor.name\n    }",
+          "valuesExpression": "=for vendor in availableDecorations return\n    {\n      \"label\": vendor.name + \" \" + vendor.type,\n      \"value\": vendor.name\n    }",
           "conditional": {
             "hide": "=not(\"decorations\" in party_options)"
           }
@@ -56,7 +56,7 @@
           "validate": {
             "required": false
           },
-          "valuesExpression": "=for vendor in availableCatering return\n    {\n      \"label\": vendor.name,\n      \"value\": vendor.name\n    }"
+          "valuesExpression": "=for vendor in availableCatering return\n    {\n      \"label\": vendor.name + \" \" + vendor.type,\n      \"value\": vendor.name\n    }"
         }
       ],
       "showOutline": true,
@@ -85,7 +85,7 @@
           "validate": {
             "required": false
           },
-          "valuesExpression": "=for vendor in availableEntertainment return\n    {\n      \"label\": vendor.name,\n      \"value\": vendor.name\n    }",
+          "valuesExpression": "=for vendor in availableEntertainment return\n    {\n      \"label\": vendor.name + \" \" + vendor.type,\n      \"value\": vendor.name\n    }",
           "conditional": {
             "hide": "=not(\"entertainment\" in party_options)"
           }
@@ -114,7 +114,7 @@
           },
           "id": "Field_1722okk",
           "key": "dj_vendor_chosen",
-          "valuesExpression": "=for vendor in availableDj return\n    {\n      \"label\": vendor.name,\n      \"value\": vendor.name\n    }",
+          "valuesExpression": "=for vendor in availableDj return\n    {\n      \"label\": vendor.name + \" \" + vendor.type,\n      \"value\": vendor.name\n    }",
           "conditional": {
             "hide": "=not(\"dj\" in party_options)"
           }
@@ -146,7 +146,7 @@
           "conditional": {
             "hide": "=not(\"bus_service\" in party_options)"
           },
-          "valuesExpression": "=for vendor in availableBus_service return\n    {\n      \"label\": vendor.name,\n      \"value\": vendor.name\n    }"
+          "valuesExpression": "=for vendor in availableBus_service return\n    {\n      \"label\": vendor.name + \" \" + vendor.type,\n      \"value\": vendor.name\n    }"
         }
       ],
       "showOutline": true,

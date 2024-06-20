@@ -1,12 +1,12 @@
 [
     {
-        "phone": "+4930664040901",
-        "city": "Naples",
-        "surname": "Bianchi",
+        "phone": "+3933664040903",
+        "city": "Milan",
+        "surname": "Rossi",
         "availabilities": [
             {
                 "day": "Monday",
-                "is_available": "true"
+                "is_available": "false"
             },
             {
                 "day": "Tuesday",
@@ -33,20 +33,21 @@
                 "is_available": "true"
             }
         ],
-        "hourly_salary": 12,
-        "name": "Marco",
+        "hourly_salary": 15,
+        "name": "Luca",
         "services": [
             "pick_up",
             "homework_help",
             "play"
         ],
-        "postal_code": 80133,
-        "email": "marco@mail.it"
+        "postal_code": "20121",
+        "email": "luca@mail.it",
+        "rating": "4.8"
     },
     {
-        "phone": "+4930664040902",
-        "city": "Rome",
-        "surname": "Verdi",
+        "phone": "+3933664040904",
+        "city": "Florence",
+        "surname": "Conti",
         "availabilities": [
             {
                 "day": "Monday",
@@ -67,6 +68,138 @@
             {
                 "day": "Friday",
                 "is_available": "false"
+            },
+            {
+                "day": "Saturday",
+                "is_available": "true"
+            },
+            {
+                "day": "Sunday",
+                "is_available": "false"
+            }
+        ],
+        "hourly_salary": 13,
+        "name": "Alice",
+        "services": [
+            "keep_company",
+            "homework_help"
+        ],
+        "postal_code": "50122",
+        "email": "alice@mail.it",
+        "rating": "3.9"
+    },
+    {
+        "phone": "+3933664040905",
+        "city": "Venice",
+        "surname": "Ferrari",
+        "availabilities": [
+            {
+                "day": "Monday",
+                "is_available": "true"
+            },
+            {
+                "day": "Tuesday",
+                "is_available": "true"
+            },
+            {
+                "day": "Wednesday",
+                "is_available": "false"
+            },
+            {
+                "day": "Thursday",
+                "is_available": "true"
+            },
+            {
+                "day": "Friday",
+                "is_available": "false"
+            },
+            {
+                "day": "Saturday",
+                "is_available": "true"
+            },
+            {
+                "day": "Sunday",
+                "is_available": "false"
+            }
+        ],
+        "hourly_salary": 16,
+        "name": "Giorgia",
+        "services": [
+            "pick_up",
+            "homework_help"
+        ],
+        "postal_code": "30124",
+        "email": "giorgia@mail.it",
+        "rating": "4.7"
+    },
+    {
+        "phone": "+3933664040906",
+        "city": "Naples",
+        "surname": "Romano",
+        "availabilities": [
+            {
+                "day": "Monday",
+                "is_available": "true"
+            },
+            {
+                "day": "Tuesday",
+                "is_available": "false"
+            },
+            {
+                "day": "Wednesday",
+                "is_available": "true"
+            },
+            {
+                "day": "Thursday",
+                "is_available": "false"
+            },
+            {
+                "day": "Friday",
+                "is_available": "true"
+            },
+            {
+                "day": "Saturday",
+                "is_available": "true"
+            },
+            {
+                "day": "Sunday",
+                "is_available": "false"
+            }
+        ],
+        "hourly_salary": 12,
+        "name": "Mario",
+        "services": [
+            "play",
+            "keep_company"
+        ],
+        "postal_code": "80134",
+        "email": "mario@mail.it",
+        "rating": "4.2"
+    },
+    {
+        "phone": "+3933664040907",
+        "city": "Rome",
+        "surname": "Ricci",
+        "availabilities": [
+            {
+                "day": "Monday",
+                "is_available": "false"
+            },
+            {
+                "day": "Tuesday",
+                "is_available": "true"
+            },
+            {
+                "day": "Wednesday",
+                "is_available": "false"
+            },
+            {
+                "day": "Thursday",
+                "is_available": "true"
+            },
+            {
+                "day": "Friday",
+                "is_available": "true"
             },
             {
                 "day": "Saturday",
@@ -78,18 +211,19 @@
             }
         ],
         "hourly_salary": 14,
-        "name": "Giulia",
+        "name": "Chiara",
         "services": [
-            "keep_company",
-            "homework_help"
+            "pick_up",
+            "keep_company"
         ],
-        "postal_code": 50118,
-        "email": "giulia@mail.it"
+        "postal_code": "10184",
+        "email": "chiara@mail.it",
+        "rating": "4"
     },
     {
-        "phone": "+4930664040903",
-        "city": "Venice",
-        "surname": "Russo",
+        "phone": "+3933664040908",
+        "city": "Milan",
+        "surname": "Marino",
         "availabilities": [
             {
                 "day": "Monday",
@@ -97,23 +231,23 @@
             },
             {
                 "day": "Tuesday",
-                "is_available": "false"
+                "is_available": "true"
             },
             {
                 "day": "Wednesday",
-                "is_available": "true"
+                "is_available": "false"
             },
             {
                 "day": "Thursday",
-                "is_available": "false"
-            },
-            {
-                "day": "Friday",
                 "is_available": "true"
             },
             {
-                "day": "Saturday",
+                "day": "Friday",
                 "is_available": "false"
+            },
+            {
+                "day": "Saturday",
+                "is_available": "true"
             },
             {
                 "day": "Sunday",
@@ -121,18 +255,19 @@
             }
         ],
         "hourly_salary": 13,
-        "name": "Luca",
+        "name": "Francesca",
         "services": [
-            "pick_up",
+            "homework_help",
             "play"
         ],
-        "postal_code": 30123,
-        "email": "luca@mail.it"
+        "postal_code": "20122",
+        "email": "francesca@mail.it",
+        "rating": "4.6"
     },
     {
-        "phone": "+4930664040904",
+        "phone": "+3933664040909",
         "city": "Florence",
-        "surname": "Romano",
+        "surname": "Colombo",
         "availabilities": [
             {
                 "day": "Monday",
@@ -144,15 +279,15 @@
             },
             {
                 "day": "Wednesday",
-                "is_available": "false"
-            },
-            {
-                "day": "Thursday",
                 "is_available": "true"
             },
             {
-                "day": "Friday",
+                "day": "Thursday",
                 "is_available": "false"
+            },
+            {
+                "day": "Friday",
+                "is_available": "true"
             },
             {
                 "day": "Saturday",
@@ -163,21 +298,21 @@
                 "is_available": "false"
             }
         ],
-        "hourly_salary": 9,
-        "name": "Sofia",
+        "hourly_salary": 15,
+        "name": "Elena",
         "services": [
             "pick_up",
             "homework_help",
-            "play",
             "keep_company"
         ],
-        "postal_code": 50123,
-        "email": "sofia@mail.it"
+        "postal_code": "50123",
+        "email": "elena@mail.it",
+        "rating": "4.1"
     },
     {
-        "phone": "+4930664040905",
-        "city": "Milan",
-        "surname": "Ferrari",
+        "phone": "+3933664040910",
+        "city": "Venice",
+        "surname": "Barbieri",
         "availabilities": [
             {
                 "day": "Monday",
@@ -201,48 +336,6 @@
             },
             {
                 "day": "Saturday",
-                "is_available": "false"
-            },
-            {
-                "day": "Sunday",
-                "is_available": "true"
-            }
-        ],
-        "hourly_salary": 10,
-        "name": "Matteo",
-        "services": [
-            "pick_up"
-        ],
-        "postal_code": 20133,
-        "email": "matteo@mail.it"
-    },
-    {
-        "phone": "+4930664040906",
-        "city": "Naples",
-        "surname": "Esposito",
-        "availabilities": [
-            {
-                "day": "Monday",
-                "is_available": "false"
-            },
-            {
-                "day": "Tuesday",
-                "is_available": "true"
-            },
-            {
-                "day": "Wednesday",
-                "is_available": "false"
-            },
-            {
-                "day": "Thursday",
-                "is_available": "true"
-            },
-            {
-                "day": "Friday",
-                "is_available": "false"
-            },
-            {
-                "day": "Saturday",
                 "is_available": "true"
             },
             {
@@ -250,62 +343,18 @@
                 "is_available": "false"
             }
         ],
-        "hourly_salary": 12,
-        "name": "Alessia",
-        "services": [
-            "homework_help",
-            "play",
-            "keep_company"
-        ],
-        "postal_code": 80133,
-        "email": "alessia@mail.it"
-    },
-    {
-        "phone": "+4930664040907",
-        "city": "Rome",
-        "surname": "Ricci",
-        "availabilities": [
-            {
-                "day": "Monday",
-                "is_available": "true"
-            },
-            {
-                "day": "Tuesday",
-                "is_available": "false"
-            },
-            {
-                "day": "Wednesday",
-                "is_available": "true"
-            },
-            {
-                "day": "Thursday",
-                "is_available": "false"
-            },
-            {
-                "day": "Friday",
-                "is_available": "true"
-            },
-            {
-                "day": "Saturday",
-                "is_available": "false"
-            },
-            {
-                "day": "Sunday",
-                "is_available": "true"
-            }
-        ],
-        "hourly_salary": 9,
+        "hourly_salary": 17,
         "name": "Andrea",
         "services": [
-            "pick_up",
-            "keep_company"
+            "play"
         ],
-        "postal_code": 30118,
-        "email": "andrea@mail.it"
+        "postal_code": "30125",
+        "email": "andrea@mail.it",
+        "rating": "4.3"
     },
     {
-        "phone": "+4930664040908",
-        "city": "Venice",
+        "phone": "+3933664040911",
+        "city": "Naples",
         "surname": "Gallo",
         "availabilities": [
             {
@@ -318,7 +367,51 @@
             },
             {
                 "day": "Wednesday",
+                "is_available": "true"
+            },
+            {
+                "day": "Thursday",
+                "is_available": "true"
+            },
+            {
+                "day": "Friday",
+                "is_available": "true"
+            },
+            {
+                "day": "Saturday",
                 "is_available": "false"
+            },
+            {
+                "day": "Sunday",
+                "is_available": "true"
+            }
+        ],
+        "hourly_salary": 12,
+        "name": "Sofia",
+        "services": [
+            "keep_company",
+            "homework_help"
+        ],
+        "postal_code": "80135",
+        "email": "sofia@mail.it",
+        "rating": "3.8"
+    },
+    {
+        "phone": "+3933664040912",
+        "city": "Rome",
+        "surname": "Greco",
+        "availabilities": [
+            {
+                "day": "Monday",
+                "is_available": "true"
+            },
+            {
+                "day": "Tuesday",
+                "is_available": "false"
+            },
+            {
+                "day": "Wednesday",
+                "is_available": "true"
             },
             {
                 "day": "Thursday",
@@ -337,19 +430,20 @@
                 "is_available": "false"
             }
         ],
-        "hourly_salary": 12,
-        "name": "Marta",
+        "hourly_salary": 14,
+        "name": "Matteo",
         "services": [
-            "play",
-            "keep_company"
+            "pick_up",
+            "homework_help"
         ],
-        "postal_code": 30123,
-        "email": "marta@mail.it"
+        "postal_code": "40185",
+        "email": "matteo@mail.it",
+        "rating": "4.5"
     },
     {
-        "phone": "+4930664040909",
-        "city": "Florence",
-        "surname": "Costa",
+        "phone": "+3933664040913",
+        "city": "Milan",
+        "surname": "Gatti",
         "availabilities": [
             {
                 "day": "Monday",
@@ -357,7 +451,51 @@
             },
             {
                 "day": "Tuesday",
+                "is_available": "true"
+            },
+            {
+                "day": "Wednesday",
                 "is_available": "false"
+            },
+            {
+                "day": "Thursday",
+                "is_available": "false"
+            },
+            {
+                "day": "Friday",
+                "is_available": "true"
+            },
+            {
+                "day": "Saturday",
+                "is_available": "true"
+            },
+            {
+                "day": "Sunday",
+                "is_available": "true"
+            }
+        ],
+        "hourly_salary": 16,
+        "name": "Sara",
+        "services": [
+            "keep_company",
+            "play"
+        ],
+        "postal_code": "20123",
+        "email": "sara@mail.it",
+        "rating": "3.95"
+    },
+    {
+        "phone": "+3933664040914",
+        "city": "Florence",
+        "surname": "Pellegrini",
+        "availabilities": [
+            {
+                "day": "Monday",
+                "is_available": "false"
+            },
+            {
+                "day": "Tuesday",
+                "is_available": "true"
             },
             {
                 "day": "Wednesday",
@@ -373,7 +511,7 @@
             },
             {
                 "day": "Saturday",
-                "is_available": "false"
+                "is_available": "true"
             },
             {
                 "day": "Sunday",
@@ -381,24 +519,111 @@
             }
         ],
         "hourly_salary": 14,
-        "name": "Simone",
+        "name": "Nicola",
         "services": [
-            "pick_up",
             "homework_help",
-            "play",
-            "keep_company"
+            "play"
         ],
-        "postal_code": 50123,
-        "email": "simone@mail.it"
+        "postal_code": "50124",
+        "email": "nicola@mail.it",
+        "rating": "4.4"
     },
     {
-        "phone": "+4930664040900",
-        "city": "Milan",
-        "surname": "Rossi",
+        "phone": "+3933664040915",
+        "city": "Venice",
+        "surname": "De Luca",
         "availabilities": [
             {
                 "day": "Monday",
                 "is_available": "true"
+            },
+            {
+                "day": "Tuesday",
+                "is_available": "false"
+            },
+            {
+                "day": "Wednesday",
+                "is_available": "false"
+            },
+            {
+                "day": "Thursday",
+                "is_available": "true"
+            },
+            {
+                "day": "Friday",
+                "is_available": "false"
+            },
+            {
+                "day": "Saturday",
+                "is_available": "true"
+            },
+            {
+                "day": "Sunday",
+                "is_available": "true"
+            }
+        ],
+        "hourly_salary": 18,
+        "name": "Martina",
+        "services": [
+            "pick_up",
+            "homework_help"
+        ],
+        "postal_code": "30126",
+        "email": "martina@mail.it",
+        "rating": "4.6"
+    },
+    {
+        "phone": "+3933664040916",
+        "city": "Naples",
+        "surname": "Mancini",
+        "availabilities": [
+            {
+                "day": "Monday",
+                "is_available": "false"
+            },
+            {
+                "day": "Tuesday",
+                "is_available": "true"
+            },
+            {
+                "day": "Wednesday",
+                "is_available": "true"
+            },
+            {
+                "day": "Thursday",
+                "is_available": "true"
+            },
+            {
+                "day": "Friday",
+                "is_available": "false"
+            },
+            {
+                "day": "Saturday",
+                "is_available": "true"
+            },
+            {
+                "day": "Sunday",
+                "is_available": "true"
+            }
+        ],
+        "hourly_salary": 13,
+        "name": "Fabio",
+        "services": [
+            "keep_company",
+            "play"
+        ],
+        "postal_code": "80137",
+        "email": "fabio@mail.it",
+        "rating": "3.6"
+    },
+    {
+        "phone": "+3933664040917",
+        "city": "Rome",
+        "surname": "Esposito",
+        "availabilities": [
+            {
+                "day": "Monday",
+                "is_available": "false"
             },
             {
                 "day": "Tuesday",
@@ -422,16 +647,17 @@
             },
             {
                 "day": "Sunday",
-                "is_available": "true"
+                "is_available": "false"
             }
         ],
-        "hourly_salary": 10,
-        "name": "Bianca",
+        "hourly_salary": 15,
+        "name": "Valeria",
         "services": [
             "pick_up",
             "homework_help"
         ],
-        "postal_code": 20133,
-        "email": "bianca@mail.it"
+        "postal_code": "20186",
+        "email": "valeria@mail.it",
+        "rating": "4.25"
     }
 ]

@@ -4,8 +4,10 @@ const path = require('path');
 module.exports.funcbabysittersregister = function funcregister(req, res) {
     // parse the babysitters.json file
     let babysitters = JSON.parse(fs.readFileSync(path.join(__dirname, '../babysitters.json'), 'utf8'));
+    // generate a random value for the babysitter's review
+    let review = Math.round((Math.random() * 5) * 100) / 100;
 
-    // Convert babysitters object to array if it's not one
+    // convert babysitters object to array if it's not one
     if (!Array.isArray(babysitters)) {
         babysitters = Object.values(babysitters);
     }
@@ -22,6 +24,7 @@ module.exports.funcbabysittersregister = function funcregister(req, res) {
             });
         } else {
             // if the babysitter does not exist, add them to the array
+            req.body.review = review;
             babysitters.push(req.body);
             // write the updated array back to the file
             fs.writeFileSync(path.join(__dirname, '../babysitters.json'), JSON.stringify(babysitters), 'utf8');
