@@ -30,6 +30,18 @@ Manual editing may break compatibility.-->
         <dimension x="40" y="40"/>
       </graphics>
     </place>
+    <place id="p3">
+      <name>
+        <text>p3</text>
+        <graphics>
+          <offset x="2200" y="330"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2200" y="290"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+    </place>
     <place id="p4">
       <name>
         <text>p4</text>
@@ -46,11 +58,11 @@ Manual editing may break compatibility.-->
       <name>
         <text>p7</text>
         <graphics>
-          <offset x="1850" y="340"/>
+          <offset x="1880" y="340"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1844" y="300"/>
+        <position x="1877" y="300"/>
         <dimension x="40" y="40"/>
       </graphics>
     </place>
@@ -319,6 +331,23 @@ Manual editing may break compatibility.-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
+    <transition id="t10">
+      <name>
+        <text>continue</text>
+        <graphics>
+          <offset x="1600" y="1090"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1600" y="1050"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
     <transition id="t32">
       <name>
         <text>t32</text>
@@ -353,23 +382,6 @@ Manual editing may break compatibility.-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
-    <transition id="t34">
-      <name>
-        <text>t34</text>
-        <graphics>
-          <offset x="1560" y="940"/>
-        </graphics>
-      </name>
-      <graphics>
-        <position x="1553" y="900"/>
-        <dimension x="40" y="40"/>
-      </graphics>
-      <toolspecific tool="WoPeD" version="1.0">
-        <time>0</time>
-        <timeUnit>1</timeUnit>
-        <orientation>1</orientation>
-      </toolspecific>
-    </transition>
     <transition id="t12">
       <name>
         <text>timer elapsed / no choice</text>
@@ -387,15 +399,15 @@ Manual editing may break compatibility.-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
-    <transition id="t33">
+    <transition id="t34">
       <name>
-        <text>t33</text>
+        <text>t34</text>
         <graphics>
-          <offset x="1560" y="860"/>
+          <offset x="1560" y="940"/>
         </graphics>
       </name>
       <graphics>
-        <position x="1563" y="820"/>
+        <position x="1553" y="900"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -413,6 +425,23 @@ Manual editing may break compatibility.-->
       </name>
       <graphics>
         <position x="935" y="278"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
+    <transition id="t33">
+      <name>
+        <text>t33</text>
+        <graphics>
+          <offset x="1560" y="860"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="1563" y="820"/>
         <dimension x="40" y="40"/>
       </graphics>
       <toolspecific tool="WoPeD" version="1.0">
@@ -642,6 +671,23 @@ Manual editing may break compatibility.-->
         <orientation>1</orientation>
       </toolspecific>
     </transition>
+    <transition id="t1">
+      <name>
+        <text>t1</text>
+        <graphics>
+          <offset x="2050" y="330"/>
+        </graphics>
+      </name>
+      <graphics>
+        <position x="2050" y="290"/>
+        <dimension x="40" y="40"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <time>0</time>
+        <timeUnit>1</timeUnit>
+        <orientation>1</orientation>
+      </toolspecific>
+    </transition>
     <transition id="t2">
       <name>
         <text>start</text>
@@ -793,6 +839,22 @@ Manual editing may break compatibility.-->
       </toolspecific>
     </arc>
     <arc id="a81" source="t32" target="p7">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics>
+        <position x="1893" y="327"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a243" source="p7" target="t10">
       <inscription>
         <text>1</text>
         <graphics>
@@ -952,14 +1014,16 @@ Manual editing may break compatibility.-->
       <inscription>
         <text>1</text>
         <graphics>
-          <offset x="500.0" y="-12.0"/>
+          <offset x="500.0" y="-8.521630771148011"/>
         </graphics>
       </inscription>
-      <graphics/>
+      <graphics>
+        <position x="567" y="667"/>
+      </graphics>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
         <displayProbabilityOn>false</displayProbabilityOn>
-        <displayProbabilityPosition x="500.0" y="12.0"/>
+        <displayProbabilityPosition x="506.38635060235237" y="-8.521630771148011"/>
       </toolspecific>
     </arc>
     <arc id="a10" source="p4" target="t7">
@@ -1251,6 +1315,37 @@ Manual editing may break compatibility.-->
           <offset x="500.0" y="-12.0"/>
         </graphics>
       </inscription>
+      <graphics>
+        <position x="197" y="153"/>
+        <position x="193" y="157"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a3" source="p7" target="t1">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics/>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
+    <arc id="a4" source="t1" target="p3">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
       <graphics/>
       <toolspecific tool="WoPeD" version="1.0">
         <probability>1.0</probability>
@@ -1384,6 +1479,22 @@ Manual editing may break compatibility.-->
         <displayProbabilityPosition x="500.0" y="12.0"/>
       </toolspecific>
     </arc>
+    <arc id="a256" source="t10" target="p2">
+      <inscription>
+        <text>1</text>
+        <graphics>
+          <offset x="500.0" y="-12.0"/>
+        </graphics>
+      </inscription>
+      <graphics>
+        <position x="333" y="1067"/>
+      </graphics>
+      <toolspecific tool="WoPeD" version="1.0">
+        <probability>1.0</probability>
+        <displayProbabilityOn>false</displayProbabilityOn>
+        <displayProbabilityPosition x="500.0" y="12.0"/>
+      </toolspecific>
+    </arc>
     <arc id="a74" source="t25" target="p7">
       <inscription>
         <text>1</text>
@@ -1415,10 +1526,10 @@ Manual editing may break compatibility.-->
     <toolspecific tool="WoPeD" version="3.9.2">
       <bounds>
         <position x="2" y="25"/>
-        <dimension x="771" y="313"/>
+        <dimension x="1266" y="400"/>
       </bounds>
       <scale>40</scale>
-      <treeWidthRight>374</treeWidthRight>
+      <treeWidthRight>946</treeWidthRight>
       <overviewPanelVisible>true</overviewPanelVisible>
       <treeHeightOverview>100</treeHeightOverview>
       <treePanelVisible>true</treePanelVisible>
