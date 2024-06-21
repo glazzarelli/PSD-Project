@@ -35,6 +35,13 @@ Each service provision differs from one another:
 
 ![BPMN collaboration of babies360](processes/executable/executable.svg)
 
+> Note about implementation details:
+> - The executable parameters have been modified to simplify testing, with shorter timeouts.
+> - For date management, we used only the days of the week instead of a real calendar.
+> - For the party organizer, the budget has been simplified into three categories: low, medium, and high.
+> - Additionally, we assume that the vendors' availability is 24/7.
+
+  
 ## Petri Net
 
 ![PetriNet of babies360](processes/petrinet/petrinet.png)
