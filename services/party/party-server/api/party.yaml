@@ -71,7 +71,7 @@ components:
           type: array
           items:
             type: string
-        decorrations:
+        decorations:
           type: array
           items:
             type: string
